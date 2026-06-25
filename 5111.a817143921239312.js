@@ -363,6 +363,10 @@ class PayPhoneBookingPage {
   openStatePopover(event) {
     var _this = this;
     return (0,_home_namansharma_Documents_TicketSimply_capacitor_ts_operator_ionic4_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      var _this$states;
+      if (!((_this$states = _this.states) !== null && _this$states !== void 0 && _this$states.length)) {
+        return;
+      }
       const triggerEl = _this.stateSelectBox.nativeElement;
       const rect = triggerEl.getBoundingClientRect();
       document.documentElement.style.setProperty('--state-popover-width', `${rect.width}px`);
@@ -392,16 +396,8 @@ class PayPhoneBookingPage {
       }
     }, err => {
       if (!this.util.isConnected()) {
-        // this.util.showAlert(
-        //   "ERROR LOADING",
-        //   "INTERNET NOT CONNECTED PLEASE CONNECT INTERNET AND TRY AFTER AGAIN"
-        // );
         console.log('No internet connection');
       } else {
-        // this.util.showAlert(
-        //   "ERROR LOADING",
-        //   "SOMETHING WENT WRONG PLEASE TRY AFTER SOMTIME"
-        // );
         console.log('SOMETHING WENT WRONG PLEASE TRY AFTER SOMTIME');
       }
     });
@@ -657,6 +653,17 @@ class PayPhoneBookingPage {
     this.showConfirmationPopup = false;
     this.confirmBooking();
   }
+  formatDuration(duration) {
+    try {
+      const parts = duration === null || duration === void 0 ? void 0 : duration.split(':');
+      if ((parts === null || parts === void 0 ? void 0 : parts.length) >= 2) {
+        return `${parts[0]}h ${parts[1]}m`;
+      }
+      return duration || '';
+    } catch {
+      return duration || '';
+    }
+  }
 }
 _PayPhoneBookingPage = PayPhoneBookingPage;
 _PayPhoneBookingPage.ɵfac = function PayPhoneBookingPage_Factory(__ngFactoryType__) {
@@ -678,8 +685,8 @@ _PayPhoneBookingPage.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE
   },
   standalone: false,
   decls: 128,
-  vars: 33,
-  consts: [["stateSelectBox", ""], ["statePopover", ""], [1, "review-toolbar", 2, "padding-top", "8px", "padding-bottom", "8px"], ["slot", "start"], ["mode", "md", "defaultHref", "/", "text", "", 2, "position", "absolute", 3, "click"], [3, "fullscreen"], [1, "main-card"], [1, "card-header"], [1, "brand"], [1, "brand-logo"], ["src", "./assets/icon/chartered.svg", "alt", "", 1, "themeone-img"], [1, "brand-info"], [1, "app-name"], [1, "service-name"], [1, "date-info"], [1, "date-num"], [1, "date-month"], [1, "route-row"], [1, "route-col", "source"], [1, "city-code"], [1, "city-name"], [1, "time"], [1, "time-label"], [1, "route-mid"], ["src", "./assets/icon/bus.svg", "alt", "", 1, "themeone-img", 2, "width", "20px", "height", "20px"], [1, "route-line-wrap"], [1, "dot", "blue"], [1, "dashed-line"], [1, "dot", "yellow"], [1, "duration"], [1, "route-col", "dest"], [1, "card-corner-design", 2, "position", "relative"], [1, "card-circular-corner", "ion-margin-top", "ion-margin-bottom"], [1, "dotted-divider"], [1, "less-details-row", 3, "click"], ["viewBox", "0 0 24 24", 1, "chevron-icon"], ["d", "M6 9l6 6 6-6", "fill", "none", "stroke", "currentColor", "stroke-width", "2", "stroke-linecap", "round", "stroke-linejoin", "round"], ["class", "pick-drop-section", 4, "ngIf"], [1, "solid-divider"], [1, "passenger-section"], [1, "section-title"], ["class", "passenger-row", 4, "ngFor", "ngForOf"], [1, "status-warning"], [1, "section-card"], [1, "field-label"], [1, "field-value-box"], ["type", "tel", "placeholder", "e.g. test@example.com", 3, "ngModelChange", "ngModel"], [1, "field-note"], [1, "field-label", 2, "margin-top", "16px"], ["id", "state-trigger", 1, "select-box", 3, "click"], ["name", "chevron-down-outline"], [1, "policy-row", 3, "click"], ["viewBox", "0 0 24 24", "xmlns", "http://www.w3.org/2000/svg"], ["d", "M10 6l6 6-6 6V6z"], [1, "tc-row"], [1, "tc-note"], [1, "tc-highlight"], [1, "bottom-spacer"], ["side", "top", "alignment", "center", "size", "cover", 1, "state-select-popover", 3, "showBackdrop", "dismissOnSelect", "arrow"], [1, "bottom-pay-bar"], [1, "pay-bar-inner"], [1, "fare-info"], [1, "fare-amount"], [1, "view-breakup", 3, "click"], ["size", "auto", 3, "click"], [1, "pay-btn"], ["cssClass", "confirmation-modal", 3, "didDismiss", "isOpen", "initialBreakpoint", "breakpoints"], [1, "pick-drop-section"], [1, "pick-drop-label"], [1, "pick-drop-value"], [1, "pick-drop-address"], [1, "pick-drop-gap"], [2, "margin-top", "16px"], [1, "passenger-row"], [1, "pax-label"], [1, "pax-name"], [4, "ngIf"], ["size", "auto", 1, "seat-col"], [1, "seat-label"], [1, "seat-badge"], ["button", "", "lines", "full", 3, "detail", "click", 4, "ngFor", "ngForOf"], ["button", "", "lines", "full", 3, "click", "detail"], [1, "confirmation-sheet"], [1, "header-row"], ["name", "close", 2, "width", "24px", "height", "24px", "color", "#AFAFAF", 3, "click"], [1, "validity-chip"], [1, "note-text"], [1, "contact-text"], [1, "button-row"], ["size", "6"], ["fill", "outline", "expand", "block", 3, "click"], ["expand", "block", 3, "click"]],
+  vars: 34,
+  consts: [["stateSelectBox", ""], ["statePopover", ""], [1, "review-toolbar", 2, "padding-top", "8px", "padding-bottom", "8px"], ["slot", "start"], ["mode", "md", "defaultHref", "/", "text", "", 2, "position", "absolute", 3, "click"], [3, "fullscreen"], [1, "main-card"], [1, "card-header"], [1, "brand"], [1, "brand-logo"], ["src", "./assets/icon/chartered.svg", "alt", "", 1, "themeone-img"], [1, "brand-info"], [1, "app-name"], [1, "service-name"], [1, "date-info"], [1, "date-num"], [1, "date-month"], [1, "route-row"], [1, "route-col", "source"], [1, "city-code"], [1, "city-name"], [1, "time"], [1, "time-label"], [1, "route-mid"], ["src", "./assets/icon/bus.svg", "alt", "", 1, "themeone-img", 2, "width", "20px", "height", "20px"], [1, "route-line-wrap"], [1, "dot", "blue"], [1, "dashed-line"], [1, "dot", "yellow"], [1, "duration"], [1, "route-col", "dest"], [1, "card-corner-design", 2, "position", "relative"], [1, "card-circular-corner", "ion-margin-top", "ion-margin-bottom"], [1, "dotted-divider"], [1, "less-details-row", 3, "click"], ["viewBox", "0 0 24 24", 1, "chevron-icon"], ["d", "M6 9l6 6 6-6", "fill", "none", "stroke", "currentColor", "stroke-width", "2", "stroke-linecap", "round", "stroke-linejoin", "round"], ["class", "pick-drop-section", 4, "ngIf"], [1, "solid-divider"], [1, "passenger-section"], [1, "section-title"], ["class", "passenger-row", 4, "ngFor", "ngForOf"], [1, "status-warning"], [1, "section-card"], [1, "field-label"], [1, "field-value-box"], ["type", "email", "placeholder", "e.g. test@example.com", 3, "ngModelChange", "ngModel"], [1, "field-note"], [1, "field-label", 2, "margin-top", "16px"], ["id", "state-trigger", 1, "select-box", 3, "click"], ["name", "chevron-down-outline"], [1, "policy-row", 3, "click"], ["viewBox", "0 0 24 24", "xmlns", "http://www.w3.org/2000/svg"], ["d", "M10 6l6 6-6 6V6z"], [1, "tc-row"], [1, "tc-note"], [1, "tc-highlight"], [1, "bottom-spacer"], ["side", "top", "alignment", "center", "size", "cover", 1, "state-select-popover", 3, "showBackdrop", "dismissOnSelect", "arrow"], [1, "bottom-pay-bar"], [1, "pay-bar-inner"], [1, "fare-info"], [1, "fare-amount"], [1, "view-breakup", 3, "click"], ["size", "auto", 3, "click"], [1, "pay-btn"], ["cssClass", "confirmation-modal", 3, "didDismiss", "isOpen", "initialBreakpoint", "breakpoints"], [1, "pick-drop-section"], [1, "pick-drop-label"], [1, "pick-drop-value"], [1, "pick-drop-address"], [1, "pick-drop-gap"], [2, "margin-top", "16px"], [1, "passenger-row"], [1, "pax-label"], [1, "pax-name"], [4, "ngIf"], ["size", "auto", 1, "seat-col"], [1, "seat-label"], [1, "seat-badge"], ["button", "", "lines", "full", 3, "detail", "click", 4, "ngFor", "ngForOf"], ["button", "", "lines", "full", 3, "click", "detail"], [1, "confirmation-sheet"], [1, "header-row"], ["name", "close", 2, "width", "24px", "height", "24px", "color", "#AFAFAF", 3, "click"], [1, "validity-chip"], [1, "note-text"], [1, "contact-text"], [1, "button-row"], ["size", "6"], ["fill", "outline", "expand", "block", 3, "click"], ["expand", "block", 3, "click"]],
   template: function PayPhoneBookingPage_Template(rf, ctx) {
     if (rf & 1) {
       const _r1 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵgetCurrentView"]();
@@ -726,7 +733,7 @@ _PayPhoneBookingPage.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](36, "span", 26)(37, "div", 27)(38, "span", 28);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](39, "span", 29);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](40, "03h 00m");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](40);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](41, "ion-col", 30)(42, "span", 19);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](43);
@@ -863,15 +870,17 @@ _PayPhoneBookingPage.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](3);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate"](ctx.ticketDetails == null ? null : ctx.ticketDetails.travel_date == null ? null : (tmp_4_0 = ctx.ticketDetails.travel_date.split("/")) == null ? null : tmp_4_0[0]);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpureFunction0"](31, _c2)[+(ctx.ticketDetails == null ? null : ctx.ticketDetails.travel_date == null ? null : (tmp_5_0 = ctx.ticketDetails.travel_date.split("/")) == null ? null : tmp_5_0[1]) - 1], " ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpureFunction0"](32, _c2)[+(ctx.ticketDetails == null ? null : ctx.ticketDetails.travel_date == null ? null : (tmp_5_0 = ctx.ticketDetails.travel_date.split("/")) == null ? null : tmp_5_0[1]) - 1], " ");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](4);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpipeBind1"](26, 27, ctx.ticketDetails == null ? null : ctx.ticketDetails.origin == null ? null : ctx.ticketDetails.origin.substring(0, 3)));
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpipeBind1"](26, 28, ctx.ticketDetails == null ? null : ctx.ticketDetails.origin == null ? null : ctx.ticketDetails.origin.substring(0, 3)));
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](3);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate"](ctx.ticketDetails == null ? null : ctx.ticketDetails.origin);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](2);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate"](ctx.ticketDetails == null ? null : ctx.ticketDetails.dep_time);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](13);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpipeBind1"](44, 29, ctx.ticketDetails == null ? null : ctx.ticketDetails.destination == null ? null : ctx.ticketDetails.destination.substring(0, 3)));
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](10);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate"](ctx.formatDuration(ctx.ticketDetails == null ? null : ctx.ticketDetails.duration));
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](3);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpipeBind1"](44, 30, ctx.ticketDetails == null ? null : ctx.ticketDetails.destination == null ? null : ctx.ticketDetails.destination.substring(0, 3)));
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](3);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate"](ctx.ticketDetails == null ? null : ctx.ticketDetails.destination);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](2);
@@ -897,7 +906,7 @@ _PayPhoneBookingPage.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](9);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate1"]("\u20B9", ctx.fareBreakup_hash == null ? null : ctx.fareBreakup_hash["Payble Amount"], "");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](6);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("isOpen", ctx.showConfirmationPopup)("initialBreakpoint", 1)("breakpoints", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpureFunction0"](32, _c3));
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("isOpen", ctx.showConfirmationPopup)("initialBreakpoint", 1)("breakpoints", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpureFunction0"](33, _c3));
     }
   },
   dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_13__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_13__.NgIf, _angular_forms__WEBPACK_IMPORTED_MODULE_14__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_14__.NgModel, _ionic_angular__WEBPACK_IMPORTED_MODULE_6__.IonButton, _ionic_angular__WEBPACK_IMPORTED_MODULE_6__.IonButtons, _ionic_angular__WEBPACK_IMPORTED_MODULE_6__.IonCol, _ionic_angular__WEBPACK_IMPORTED_MODULE_6__.IonContent, _ionic_angular__WEBPACK_IMPORTED_MODULE_6__.IonFooter, _ionic_angular__WEBPACK_IMPORTED_MODULE_6__.IonHeader, _ionic_angular__WEBPACK_IMPORTED_MODULE_6__.IonIcon, _ionic_angular__WEBPACK_IMPORTED_MODULE_6__.IonInput, _ionic_angular__WEBPACK_IMPORTED_MODULE_6__.IonItem, _ionic_angular__WEBPACK_IMPORTED_MODULE_6__.IonList, _ionic_angular__WEBPACK_IMPORTED_MODULE_6__.IonRow, _ionic_angular__WEBPACK_IMPORTED_MODULE_6__.IonTitle, _ionic_angular__WEBPACK_IMPORTED_MODULE_6__.IonToolbar, _ionic_angular__WEBPACK_IMPORTED_MODULE_6__.IonModal, _ionic_angular__WEBPACK_IMPORTED_MODULE_6__.IonPopover, _ionic_angular__WEBPACK_IMPORTED_MODULE_6__.TextValueAccessor, _ionic_angular__WEBPACK_IMPORTED_MODULE_6__.IonBackButton, _angular_common__WEBPACK_IMPORTED_MODULE_13__.UpperCasePipe],
