@@ -16039,11 +16039,11 @@ class AppData {
     this.isANDROID = false; // For making android build change <base href="./"> to <base href="/"> otherwise keep it <base href="/"> in index.html page
     this.isWEBAPP = true; // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
     //Mobile web or IOS version can change from here
-    this.mobileWebVersion = "17.07.26"; // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
-    this.iosVersion = "1.9";
-    this.androidVersion = "16.2";
+    this.mobileWebVersion = "28.07.26"; // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
+    this.iosVersion = "19.9";
+    this.androidVersion = "26.2";
     this.IsVideoSplash = false; // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
-    // this.BASE_URL = location.origin + '/';  // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
+    this.BASE_URL = location.origin + '/'; // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
     // our bus
     // this.BASE_URL = "https://np.ourbus.in/";
     // this.BASE_URL = "https://orbs-np.ticketsimply.co.in/";
@@ -16056,7 +16056,7 @@ class AppData {
     // this.BASE_URL = "https://lxmi.ticketsimply.co.in/";
     // this.BASE_URL = "https://btb-qa1.ticketsimply.co.in/";
     // this.BASE_URL = "https://mst-mob.ticketsimply.co.in/"
-    this.BASE_URL = "https://lxmi-qa5.ticketsimply.co.in/";
+    //  this.BASE_URL = "https://sppl-qa1.ticketsimply.co.in/"
     // this.BASE_URL = "https://www.tsrtconline.site/";
     // this.BASE_URL = "https://sppl-mob.ticketsimply.co.in/"; // cbus theme
     // this.BASE_URL = "https://rylr-mob.ticketsimply.co.in/"; // cbus theme
@@ -16863,7 +16863,8 @@ class CommonService {
       head_office_name: localData !== null && localData !== void 0 && localData.head_office_name ? localData.head_office_name : '',
       display_offer_coupon_discount_in_public_side: localData !== null && localData !== void 0 && localData.display_offer_coupon_discount_in_public_side ? localData.display_offer_coupon_discount_in_public_side : false,
       hideGstText: (localData === null || localData === void 0 ? void 0 : localData.hide_inclusive_of_all_tax_text_from_srp) || false,
-      isPaytmIframeEnabled: (localData === null || localData === void 0 ? void 0 : localData.is_paytm_iframe_enabled) || false
+      isPaytmIframeEnabled: (localData === null || localData === void 0 ? void 0 : localData.is_paytm_iframe_enabled) || false,
+      allow_default_selection_as_refund_to_original_payment_on_e_ticket: (localData === null || localData === void 0 ? void 0 : localData.allow_default_selection_as_refund_to_original_payment_on_e_ticket) || false
       // -----------------------------------end---------------------------------------------------------------------
     };
     let metaData = preparedData;

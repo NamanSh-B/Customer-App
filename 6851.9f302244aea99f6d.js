@@ -2374,10 +2374,11 @@ class CancelConfirmationTicketPage {
     this.showCoupon = false;
     this.isIos = false;
     this.walletText = '';
+    this.default_selection_for_refund = false;
     const platformnew = _capacitor_core__WEBPACK_IMPORTED_MODULE_2__.Capacitor.getPlatform();
     this.isIos = platformnew === 'ios' ? true : false;
     this.route.queryParams.subscribe(params => {
-      var _navigation$extras;
+      var _navigation$extras, _this$commonStorage$g;
       const navigation = this.router.getCurrentNavigation();
       if (navigation !== null && navigation !== void 0 && (_navigation$extras = navigation.extras) !== null && _navigation$extras !== void 0 && _navigation$extras.state) {
         this.data = navigation.extras.state['user'];
@@ -2388,6 +2389,7 @@ class CancelConfirmationTicketPage {
       if (this.data.mobile) {
         this.phoneNumber = this.data.mobile.indexOf('-') != -1 ? this.data.mobile.split('-')[1] : this.data.mobile;
       }
+      this.default_selection_for_refund = ((_this$commonStorage$g = this.commonStorage.getItem('metaData')) === null || _this$commonStorage$g === void 0 ? void 0 : _this$commonStorage$g.allow_default_selection_as_refund_to_original_payment_on_e_ticket) || false;
       this.defaultCall();
     });
     this.appData.newTheme = this.util.getNewTheme();
@@ -2414,6 +2416,7 @@ class CancelConfirmationTicketPage {
     }
   }
   defaultCall() {
+    var _this$commonStorage$g2, _this$ticketDetails, _this$ticketDetails2, _this$ticketDetails3;
     this.metaData = this.commonStorage.getItem("metaData");
     this.currencySym = this.commonStorage.getItem('metaData').currencySym;
     this.showCoupon = this.commonStorage.getItem('metaData').isCouponAllowed;
@@ -2446,6 +2449,12 @@ class CancelConfirmationTicketPage {
     }
     this.loader.hideLoadingDefault();
     this.refundType = this.ticketDetails.is_coupon_used ? '1' : this.ticketDetails.wallet_booking ? '3' : !this.commonStorage.getItem('metaData').isAllowCashCredit ? '1' : '2';
+    if (this.default_selection_for_refund && (_this$commonStorage$g2 = this.commonStorage.getItem('metaData')) !== null && _this$commonStorage$g2 !== void 0 && _this$commonStorage$g2.isAllowCashCredit && !((_this$ticketDetails = this.ticketDetails) !== null && _this$ticketDetails !== void 0 && _this$ticketDetails.wallet_booking)) {
+      this.refundType = '2';
+    }
+    if (!this.default_selection_for_refund && !((_this$ticketDetails2 = this.ticketDetails) !== null && _this$ticketDetails2 !== void 0 && _this$ticketDetails2.is_coupon_used) && !((_this$ticketDetails3 = this.ticketDetails) !== null && _this$ticketDetails3 !== void 0 && _this$ticketDetails3.wallet_booking)) {
+      this.refundType = '';
+    }
   }
   getFormatedDate(date) {
     return moment__WEBPACK_IMPORTED_MODULE_0___default()(date, "DD/MM/YYYY").format("DD MMM YYYY");
@@ -2468,6 +2477,10 @@ class CancelConfirmationTicketPage {
     }
     if (!this.seatNos(passengerDetails)) {
       this.util.showToast('Please select seat to cancel');
+      return false;
+    }
+    if (this.refundType == '') {
+      this.util.showToast('Please select mode of refund');
       return false;
     }
     this.loader.showLoadingDefault();
