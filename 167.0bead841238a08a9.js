@@ -301,36 +301,36 @@ _BlacklistedDialogComponent.ɵfac = function BlacklistedDialogComponent_Factory(
 _BlacklistedDialogComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({
   type: _BlacklistedDialogComponent,
   selectors: [["app-blacklisted-dialog"]],
-  decls: 14,
+  decls: 13,
   vars: 2,
-  consts: [[2, "border-bottom", "1px solid #c4c4c4"], [1, "heading", 2, "margin", "16px 16px 0px 16px"], [2, "margin-left", "16px", "margin-right", "16px"], [1, "warningMsg"], ["expand", "block", 1, "goBack", 3, "click"]],
+  consts: [[1, "dialog-content"], [1, "header"], [1, "heading"], [1, "body"], [1, "warningMsg"], ["expand", "block", 1, "goBack", 3, "click"]],
   template: function BlacklistedDialogComponent_Template(rf, ctx) {
     if (rf & 1) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "ion-content")(1, "div")(2, "div", 0)(3, "p", 1);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](4, "Booking Not Allowed");
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](5, "div", 2)(6, "div")(7, "p", 3);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "ion-content")(1, "div", 0)(2, "div")(3, "div", 1)(4, "p", 2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](5, "Booking Not Allowed");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](6, "div", 3)(7, "p", 4);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](8);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](9, "p", 3);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](9, "p", 4);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](10);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](11, "div")(12, "ion-button", 4);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("click", function BlacklistedDialogComponent_Template_ion_button_click_12_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](11, "ion-button", 5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("click", function BlacklistedDialogComponent_Template_ion_button_click_11_listener() {
         return ctx.goBack();
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](13, "OK");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](12, " OK ");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
     }
     if (rf & 2) {
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](8);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate"](ctx.message || "Entered Number is Blacklisted");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate1"]("Automatically continuing in ", ctx.countdown, " seconds");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate1"](" Automatically continuing in ", ctx.countdown, " seconds ");
     }
   },
   dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_1__.CommonModule, _ionic_angular__WEBPACK_IMPORTED_MODULE_0__.IonicModule, _ionic_angular__WEBPACK_IMPORTED_MODULE_0__.IonButton, _ionic_angular__WEBPACK_IMPORTED_MODULE_0__.IonContent],
-  styles: [".heading[_ngcontent-%COMP%] {\n  font-size: 16px;\n  font-weight: 700;\n  color: #F95959;\n  padding-bottom: 10px;\n}\n\nion-content[_ngcontent-%COMP%] {\n  --overflow: hidden;\n}\n\n.warningMsg[_ngcontent-%COMP%] {\n  font-size: 12px;\n  font-weight: 600;\n  color: #F95959;\n}\n\n.col1[_ngcontent-%COMP%] {\n  background-color: #2C3A45;\n  padding-right: 0px;\n  padding-left: 0px;\n}\n\n.goBack[_ngcontent-%COMP%] {\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  margin: 0px;\n  height: 48px;\n  --background: #2C3A45;\n  --border-radius: 0px;\n}"]
+  styles: ["ion-content[_ngcontent-%COMP%] {\n  --overflow: hidden;\n}\n\n.dialog-content[_ngcontent-%COMP%] {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n}\n\n.header[_ngcontent-%COMP%] {\n  border-bottom: 1px solid #c4c4c4;\n}\n\n.heading[_ngcontent-%COMP%] {\n  margin: 16px 16px 0;\n  padding-bottom: 10px;\n  font-size: 16px;\n  font-weight: 700;\n  color: #F95959;\n}\n\n.body[_ngcontent-%COMP%] {\n  margin: 16px;\n}\n\n.warningMsg[_ngcontent-%COMP%] {\n  font-size: 12px;\n  font-weight: 600;\n  color: #F95959;\n}\n\n.goBack[_ngcontent-%COMP%] {\n  margin: 0;\n  height: 48px;\n  --background: #2C3A45;\n  --border-radius: 0;\n}"]
 });
 
 /***/ },
