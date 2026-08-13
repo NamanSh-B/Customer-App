@@ -9398,9 +9398,9 @@ function PaymentDetailsPage_ng_container_4_ion_card_77_div_5_ion_row_1_Template(
     _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](1, "ion-col", 715);
     _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](2, "ion-radio", 404);
     _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](3, "ion-col", 716)(4, "ion-item", 717)(5, "div", 718);
-    _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](6, "ion-label", 396);
-    _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]()()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](3, "ion-col", 716)(4, "ion-item", 717)(5, "div", 718)(6, "ion-label");
+    _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]()()()()();
   }
   if (rf & 2) {
     const ctx_r220 = _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵnextContext"]();
@@ -9410,28 +9410,28 @@ function PaymentDetailsPage_ng_container_4_ion_card_77_div_5_ion_row_1_Template(
     _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵpropertyInterpolate2"]("value", "", pCoupon_r222 == null ? null : pCoupon_r222.coupon_code, ",", i_r223, "");
     _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵproperty"]("disabled", ctx_r1.payAmount < 1000);
-    _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵproperty"]("innerHTML", pCoupon_r222.coupon_code, _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵsanitizeHtml"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵadvance"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtextInterpolate"](pCoupon_r222.coupon_code);
   }
 }
 function PaymentDetailsPage_ng_container_4_ion_card_77_div_5_ion_row_2_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](0, "ion-row");
     _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](1, "ion-col", 391);
-    _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](2, "ion-col", 716);
-    _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](3, "ion-label", 396);
-    _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](2, "ion-col", 716)(3, "ion-label");
+    _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
     const pCoupon_r222 = _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵnextContext"]().$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵproperty"]("innerHTML", pCoupon_r222.description, _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵsanitizeHtml"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtextInterpolate"](pCoupon_r222.description);
   }
 }
 function PaymentDetailsPage_ng_container_4_ion_card_77_div_5_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_4_ion_card_77_div_5_ion_row_1_Template, 7, 5, "ion-row", 403)(2, PaymentDetailsPage_ng_container_4_ion_card_77_div_5_ion_row_2_Template, 4, 1, "ion-row", 3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_4_ion_card_77_div_5_ion_row_1_Template, 8, 5, "ion-row", 403)(2, PaymentDetailsPage_ng_container_4_ion_card_77_div_5_ion_row_2_Template, 5, 1, "ion-row", 3);
     _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -15181,7 +15181,7 @@ class PaymentDetailsPage {
     }
   }
   getFare() {
-    var _this$reservationData3, _this$reservationData4, _this$reservationData5;
+    var _this$reservationData3, _this$reservationData4, _this$reservationData5, _this$commonStorage$l;
     if (this.inProgress) return;
     // this.inProgress = true;
     let pathForBooking = "res_id=" + this.reservationId;
@@ -15261,16 +15261,15 @@ class PaymentDetailsPage {
     }
     let contactDetail = {};
     const matchedCoupon = this.promoCoupons.find(coupon => coupon.coupon_code === this.coupon_code_name);
-    if (matchedCoupon && this.coupon_code_name) {
-      var _this$commonStorage$l;
-      const personalInfo = ((_this$commonStorage$l = this.commonStorage.localGet('passengerDetails')) === null || _this$commonStorage$l === void 0 ? void 0 : _this$commonStorage$l.contact_detail) || {};
-      contactDetail = {
-        country_code: personalInfo.country_code || '',
-        email: personalInfo.email || '',
-        emergency_name: personalInfo.emergency_name || '',
-        mobile_number: personalInfo.mobile_number || ''
-      };
-    }
+    //  if (matchedCoupon && this.coupon_code_name) {
+    const personalInfo = ((_this$commonStorage$l = this.commonStorage.localGet('passengerDetails')) === null || _this$commonStorage$l === void 0 ? void 0 : _this$commonStorage$l.contact_detail) || {};
+    contactDetail = {
+      country_code: personalInfo.country_code || '',
+      email: personalInfo.email || '',
+      emergency_name: personalInfo.emergency_name || '',
+      mobile_number: personalInfo.mobile_number || ''
+    };
+    //  }
     // let data = {
     //   seat_numbers: seatNumbers,
     //   no_of_seats: this.onwardSeatDetails.length,
@@ -15307,13 +15306,12 @@ class PaymentDetailsPage {
       "use_e_discount": this.e_ticket_discount,
       "priv_card_number": this.privCardNumber,
       "is_cancel_protect": this.checkCancelProtect,
-      "seat_details": this.seatDetails_gender_age
+      "seat_details": this.seatDetails_gender_age,
+      "contact_detail": contactDetail
     };
-    if (promoCoupon != '') {
-      data = Object.assign(data, {
-        "contact_detail": this.passengerDetails.contact_detail
-      });
-    }
+    //  if(promoCoupon != ''){
+    //     data = Object.assign(data, { "contact_detail": this.passengerDetails.contact_detail });
+    // }
     this.inProgress = true;
     this.apiFactory.fareBreakUp(data, pathForBooking).subscribe(res => {
       this.inProgress = false;
@@ -16487,6 +16485,7 @@ class PaymentDetailsPage {
       this.util.showToast('Coupons can be applied on bookings above ₹1000 only.');
       return;
     }
+    this.promoCoupon = `${pCoupon.coupon_code},${index}`;
     this.checkpromoCoupon(`${pCoupon.coupon_code},${index}`, true);
   }
   autoApplyCoupon() {
@@ -16538,6 +16537,7 @@ class PaymentDetailsPage {
       this.smartMileCoupon = '';
       this.checkSmartMileCoupon(this.smartMileCoupon);
     }
+    this.getFare();
   }
 }
 _PaymentDetailsPage = PaymentDetailsPage;

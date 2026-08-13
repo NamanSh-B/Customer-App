@@ -1846,7 +1846,7 @@ function AvailableRoutesPage_ng_container_1_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("ngIf", ctx_r1.routes.length > 0);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("ngIf", ctx_r1.routes.length == 0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("ngIf", ctx_r1.routes.length == 0 || ctx_r1.isAvailableSeatsZeroForAll);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("ngIf", ctx_r1.subdomain == "abct" || ctx_r1.util.isInternational());
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"]();
@@ -3831,6 +3831,7 @@ class AvailableRoutesPage {
     this.backButtonSubscription = null;
     this.isModalOpen = false;
     this.currentModal = null;
+    this.isAvailableSeatsZeroForAll = false;
     const platformnew = _capacitor_core__WEBPACK_IMPORTED_MODULE_7__.Capacitor.getPlatform();
     this.isIos = platformnew === 'ios' ? true : false;
     //this.commonService.gTrack("serviceselection");
@@ -4288,10 +4289,12 @@ class AvailableRoutesPage {
         this.orderByField = "dep_time";
         this.order = 'DESC';
         this.orderBy = "dep_time,1";
+        this.isAvailableSeatsZeroForAll = this.checkAllSeatsZero(this.routes);
       } else {
         this.routes = [];
         this.copyRoutes = this.routes;
         this.noRouteFound = routes;
+        this.isAvailableSeatsZeroForAll = false;
       }
     }, error => {
       th.loader.hideLoadingDefault();
@@ -5022,9 +5025,11 @@ class AvailableRoutesPage {
             } else {
               _this3.showDepartedroutesBtn = false;
             }
+            _this3.isAvailableSeatsZeroForAll = _this3.checkAllSeatsZero(_this3.routes);
           } else {
             _this3.routes = [];
             _this3.noRouteFound = routes;
+            _this3.isAvailableSeatsZeroForAll = false;
           }
         }
       }, error => {
@@ -5473,6 +5478,17 @@ class AvailableRoutesPage {
       checkCounter += 1;
     }
     return checkCounter;
+  }
+  checkAllSeatsZero(routesArr) {
+    if (!routesArr || routesArr.length === 0) {
+      return false;
+    }
+    for (let i = 0; i < routesArr.length; i++) {
+      if (routesArr[i].available_seats > 0) {
+        return false;
+      }
+    }
+    return true;
   }
 }
 _AvailableRoutesPage = AvailableRoutesPage;
