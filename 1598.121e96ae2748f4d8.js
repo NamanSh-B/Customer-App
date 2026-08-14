@@ -1438,6 +1438,12 @@ class AddMoneyWalletPage {
             } else if (_this2.appData.isWEBAPP) {
               if (res.payment_link) _this2.openInNewTab(res.payment_link);else _this2.util.showToast("Payment link not found");
             }
+          } else if (_this2.paymentType == '63') {
+            if (res.is_cc_avenue_icici_direct_payment && res.payment_url) {
+              _this2.goToCCavenuePayment(res);
+            } else {
+              _this2.util.showToast(res.message);
+            }
           } else if (res.payment_url && _this2.paymentType != "26" && _this2.paymentType != "37") {
             // this.commonService.gTrack("addwalletsuccess")
             _this2.openBrowser(res.payment_url, res);
@@ -2083,6 +2089,75 @@ class AddMoneyWalletPage {
       this.timerInterval = null;
     }
     this.timer = 0;
+  }
+  goToCCavenuePayment(data) {
+    console.log("CC Avenue Payment Data: ", data);
+    if (this.appData.isIOS || this.appData.isANDROID) {
+      this.startIospayment(data);
+    } else if (this.appData.isWEBAPP) {
+      this.startWebPayment(data);
+    }
+  }
+  startIospayment(data) {
+    const htmlContent = `
+    <html>
+      <body onload="document.forms[0].submit();">
+        <form method="POST" action="${data.payment_url}">
+          <input type="hidden" name="encRequest" value="${data.encRequest}" />
+          <input type="hidden" name="access_code" value="${data.access_code}" />
+        </form>
+      </body>
+    </html>
+    `;
+    const browser = this.iab.create('data:text/html;base64,' + btoa(htmlContent), '_blank', {
+      location: 'no',
+      clearcache: 'yes',
+      clearsessioncache: 'yes'
+    });
+    console.log("Browser opened for CC Avenue Payment");
+    browser.on('loadstart').subscribe(event => {
+      const url = event.url;
+      if (url.includes('add-money-wallet-confirm')) {
+        browser.close();
+        this.firebaseAnalyticsService.logCustomEvent('payment_success', {
+          page: 'Add Money Wallet'
+        });
+        this.modalCtrl.dismiss('success');
+      } else if (url.includes('add-money-wallet-cancel') || url.includes('sessionTimeOut')) {
+        browser.close();
+        this.paymentFailed = true;
+        this.viewTicket = false;
+      }
+    });
+    browser.on('loadstop').subscribe(event => {
+      console.log('Page loaded: ', event.url);
+    });
+    browser.on('exit').subscribe(() => {
+      console.log('Browser closed');
+    });
+  }
+  startWebPayment(data) {
+    this.submitViaPopup(data.payment_url, data.encRequest, data.access_code);
+  }
+  submitViaPopup(url, encRequest, accessCode) {
+    const formHtml = `
+      <html>
+        <body onload="document.forms[0].submit()">
+          <form method="POST" action="${url}">
+            <input type="hidden" name="encRequest" value="${encRequest}" />
+            <input type="hidden" name="access_code" value="${accessCode}" />
+          </form>
+        </body>
+      </html>
+    `;
+    const blob = new Blob([formHtml], {
+      type: 'text/html'
+    });
+    const blobUrl = URL.createObjectURL(blob);
+    const newWindow = window.open(blobUrl);
+    if (!newWindow) {
+      alert('Popup blocked. Please allow popups for this site.');
+    }
   }
 }
 _AddMoneyWalletPage = AddMoneyWalletPage;
