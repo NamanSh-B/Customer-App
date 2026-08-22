@@ -12925,7 +12925,7 @@ class PaymentDetailsPage {
               _this7.paymentFailureEvent();
             }
           });
-        } else if (_this7.paymentType == '21' || _this7.paymentType == '63') {
+        } else if (_this7.paymentType == '21') {
           if (result.pay_gay_url && !result.code || result.html_body_contents && !result.pay_gay_url) {
             _this7.goToCCavenuePayment(result);
           } else {
@@ -13501,8 +13501,6 @@ class PaymentDetailsPage {
         browser.close();
         this.viewTicket = true;
         this.paymentFailed = false;
-        this.commonStorage.localSet('bookedTicketDetails', data);
-        localStorage.setItem('bookingDetails', JSON.stringify(data));
       } else if (url.includes('payment_failure') || url.includes('ticket-cancel') || url.includes('sessionTimeOut')) {
         browser.close();
         this.paymentFailed = true;
