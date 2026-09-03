@@ -270,7 +270,7 @@ function AddMoneyWalletPage_ng_container_0_ion_content_10_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate1"]("", ctx_r1.currencySym, " 1000");
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ctx_r1.pgLength > "1" && !ctx_r1.metaData.isPaytmIframeEnabled);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ctx_r1.pgLength > "1" && !ctx_r1.metaData.isPhonePeV2PayBitlaEnabled && !ctx_r1.metaData.isPaytmIframeEnabled);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", !ctx_r1.paymentStart);
   }
@@ -494,7 +494,7 @@ function AddMoneyWalletPage_ng_container_1_ion_content_8_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtwoWayProperty"]("ngModel", ctx_r1.amount);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ctx_r1.pgLength > "0" && !ctx_r1.metaData.isPaytmIframeEnabled);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ctx_r1.pgLength > "0" && !ctx_r1.metaData.isPhonePeV2PayBitlaEnabled && !ctx_r1.metaData.isPaytmIframeEnabled);
   }
 }
 function AddMoneyWalletPage_ng_container_1_div_9_Template(rf, ctx) {
@@ -910,7 +910,7 @@ function AddMoneyWalletPage_ng_container_3_ion_content_8_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtwoWayProperty"]("ngModel", ctx_r1.amount);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", !ctx_r1.metaData.isPaytmIframeEnabled);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", !ctx_r1.metaData.isPaytmIframeEnabled && !ctx_r1.metaData.isPhonePeV2PayBitlaEnabled);
   }
 }
 function AddMoneyWalletPage_ng_container_3_div_9_Template(rf, ctx) {
@@ -1396,6 +1396,48 @@ class AddMoneyWalletPage {
                 _this2.util.showToast('Payment failed', 'bottom');
               };
               WLCheckout.open(options, paymentCallback, errorCallback);
+            }
+          } else if (_this2.paymentType == '32-22-PHONEPE_V2') {
+            const payFlowUrl = (res === null || res === void 0 ? void 0 : res.pay_flow) || (res === null || res === void 0 ? void 0 : res[':pay_flow']);
+            if (payFlowUrl) {
+              let browser;
+              let paymentCompleted = false;
+              if (_this2.appData.isWEBAPP) {
+                browser = _this2.iab.create(payFlowUrl, '_self', {
+                  location: 'no',
+                  toolbar: 'no'
+                });
+              } else {
+                browser = _this2.iab.create(payFlowUrl, '_blank', {
+                  location: 'no',
+                  toolbar: 'no',
+                  phonepepopup: 'yes'
+                });
+              }
+              browser.on('loadstart').subscribe(event => {
+                const currentUrl = event.url;
+                if (currentUrl.indexOf('add-money-wallet-confirm') > -1) {
+                  paymentCompleted = true;
+                  _this2.viewTicket = true;
+                  _this2.paymentFailed = false;
+                  _this2.firebaseAnalyticsService.logCustomEvent('payment_success', {
+                    page: 'Add Money Wallet'
+                  });
+                  browser.close();
+                  _this2.modalCtrl.dismiss('success');
+                } else if (currentUrl.indexOf('add-money-wallet-cancel') > -1 || currentUrl.indexOf('failed') > -1) {
+                  paymentCompleted = true;
+                  _this2.viewTicket = false;
+                  _this2.paymentFailed = true;
+                  browser.close();
+                  _this2.modalCtrl.dismiss();
+                }
+              });
+              browser.on('exit').subscribe(() => {
+                if (!paymentCompleted) {
+                  _this2.modalCtrl.dismiss();
+                }
+              });
             }
           } else if (_this2.paymentType == '60' && res.is_phonepe_v2_payment) {
             if (!_this2.appData.isWEBAPP && (_this2.appData.isANDROID || _this2.appData.isIOS)) {

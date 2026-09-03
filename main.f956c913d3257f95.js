@@ -15808,7 +15808,11 @@ class ApiFactory {
     return this.getUrl(this.prepareApi('api2/customer_account_transactions.json?auth_token=' + this.authenticate.token));
   }
   addMoneyToWallet(amount, paymentType, platformNum) {
-    return this.getUrl(this.prepareApi('api2/add_money_to_wallet.json?auth_token=' + this.authenticate.token + "&amount=" + amount + "&pay_gay_type=" + paymentType + "&native_app_type=" + platformNum + "&is_mobile_app=true"));
+    if (paymentType == '32-22-PHONEPE_V2') {
+      return this.getUrl(this.prepareApi('api2/add_money_to_wallet.json?auth_token=' + this.authenticate.token + "&amount=" + amount + "&pay_gay_type=" + paymentType + "&native_app_type=" + platformNum + "&is_mobile_app=true" + "&is_required_pay_flow=true" + "&is_upi_app_present=true" + "&is_payment_intent_flow=true"));
+    } else {
+      return this.getUrl(this.prepareApi('api2/add_money_to_wallet.json?auth_token=' + this.authenticate.token + "&amount=" + amount + "&pay_gay_type=" + paymentType + "&native_app_type=" + platformNum + "&is_mobile_app=true"));
+    }
   }
   getPassengerDetails(mobile) {
     return this.getUrl(this.prepareApi('api2/get_passenger_info?search_value=' + mobile));
@@ -16042,8 +16046,8 @@ class AppData {
     this.isANDROID = false; // For making android build change <base href="./"> to <base href="/"> otherwise keep it <base href="/"> in index.html page
     this.isWEBAPP = true; // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
     //Mobile web or IOS version can change from here
-    this.mobileWebVersion = "23.08.26"; // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
-    this.iosVersion = "200.9";
+    this.mobileWebVersion = "20.07.26"; // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
+    this.iosVersion = "19.9";
     this.androidVersion = "26.2";
     this.IsVideoSplash = false; // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
     // this.BASE_URL = location.origin + '/';  // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
@@ -16055,11 +16059,11 @@ class AppData {
     //  this.BASE_URL = "https://sppl.ticketsimply.com/";
     //  this.BASE_URL = "https://hybs-qa5.ticketsimply.co.in/";
     //cbus theme paybitla
-    this.BASE_URL = "https://btb-qa1.ticketsimply.co.in/";
+    // this.BASE_URL = "https://kvt-qa2.ticketsimply.co.in/";
     // this.BASE_URL = "https://lxmi.ticketsimply.co.in/";
     // this.BASE_URL = "https://btb-qa1.ticketsimply.co.in/";
     // this.BASE_URL = "https://mst-mob.ticketsimply.co.in/"
-    //  this.BASE_URL = "https://www.shreekumartravels.com/"
+    this.BASE_URL = "https://rjto-qa1.ticketsimply.co.in/";
     // this.BASE_URL = "https://www.tsrtconline.site/";
     // this.BASE_URL = "https://sppl-mob.ticketsimply.co.in/"; // cbus theme
     // this.BASE_URL = "https://rylr-mob.ticketsimply.co.in/"; // cbus theme
@@ -16704,6 +16708,14 @@ class CommonService {
       };
       paymentTypes.push(paytmHash);
     }
+    if (localData !== null && localData !== void 0 && localData.is_phonepev2_pay_bitla_enabled) {
+      paymentTypes.length = 0; // Clear the list and add only Paytm
+      let phonePeHash = {
+        id: this.globalData.PHONEPE_V2_PAY_BITLA_ID,
+        name: 'PhonePe V2'
+      };
+      paymentTypes.push(phonePeHash);
+    }
     for (let i = 0; i < paymentTypes.length; i++) {
       if (paymentTypes[i].name && paymentTypes[i].name.toUpperCase().indexOf('EBS') < 0) {
         if (i === 1 || i === 0) {
@@ -16867,7 +16879,8 @@ class CommonService {
       display_offer_coupon_discount_in_public_side: localData !== null && localData !== void 0 && localData.display_offer_coupon_discount_in_public_side ? localData.display_offer_coupon_discount_in_public_side : false,
       hideGstText: (localData === null || localData === void 0 ? void 0 : localData.hide_inclusive_of_all_tax_text_from_srp) || false,
       isPaytmIframeEnabled: (localData === null || localData === void 0 ? void 0 : localData.is_paytm_iframe_enabled) || false,
-      allow_default_selection_as_refund_to_original_payment_on_e_ticket: (localData === null || localData === void 0 ? void 0 : localData.allow_default_selection_as_refund_to_original_payment_on_e_ticket) || false
+      allow_default_selection_as_refund_to_original_payment_on_e_ticket: (localData === null || localData === void 0 ? void 0 : localData.allow_default_selection_as_refund_to_original_payment_on_e_ticket) || false,
+      isPhonePeV2PayBitlaEnabled: (localData === null || localData === void 0 ? void 0 : localData.is_phonepev2_pay_bitla_enabled) || false
       // -----------------------------------end---------------------------------------------------------------------
     };
     let metaData = preparedData;
@@ -17891,6 +17904,7 @@ class GlobalDataService {
     this.BOARDING_DETAILS_RET = {};
     this.DROPPING_DETAILS_RET = {};
     this.PAYTM_IFRAME_ID = '32-21-PAYTM_IFRAME-PAYTM_IFRAME';
+    this.PHONEPE_V2_PAY_BITLA_ID = '32-22-PHONEPE_V2';
   }
 }
 _GlobalDataService = GlobalDataService;
