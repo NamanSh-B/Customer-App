@@ -1398,7 +1398,7 @@ class AddMoneyWalletPage {
               WLCheckout.open(options, paymentCallback, errorCallback);
             }
           } else if (_this2.paymentType == '32-22-PHONEPE_V2') {
-            const payFlowUrl = (res === null || res === void 0 ? void 0 : res.pay_flow) || (res === null || res === void 0 ? void 0 : res[':pay_flow']);
+            const payFlowUrl = res === null || res === void 0 ? void 0 : res.pay_flow;
             if (payFlowUrl) {
               let browser;
               let paymentCompleted = false;
