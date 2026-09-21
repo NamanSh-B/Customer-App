@@ -2003,6 +2003,138 @@ _CommonHeaderComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODU
 
 /***/ },
 
+/***/ 51281
+/*!*****************************************************************************!*\
+  !*** ./src/app/components/date-picker-modal/date-picker-modal.component.ts ***!
+  \*****************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   DatePickerModalComponent: () => (/* binding */ DatePickerModalComponent)
+/* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 17705);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ 16213);
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ionic/angular */ 74474);
+var _DatePickerModalComponent;
+
+
+
+
+
+function DatePickerModalComponent_ng_template_1_Template(rf, ctx) {
+  if (rf & 1) {
+    const _r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "ion-datetime", 2, 0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 3)(3, "ion-button", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function DatePickerModalComponent_ng_template_1_Template_ion_button_click_3_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r1);
+      const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+      return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵresetView"](ctx_r1.dismiss());
+    });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "ion-button", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function DatePickerModalComponent_ng_template_1_Template_ion_button_click_5_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r1);
+      const datetime_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](1);
+      const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+      return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵresetView"](ctx_r1.confirm(datetime_r3));
+    });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+  }
+  if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("showDefaultButtons", false)("value", ctx_r1.value || undefined)("max", ctx_r1.max || undefined)("min", ctx_r1.min || undefined);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx_r1.cancelText);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx_r1.doneText);
+  }
+}
+class DatePickerModalComponent {
+  constructor() {
+    this.modalClass = '';
+    this.doneText = 'Ok';
+    this.cancelText = 'Cancel';
+    this.isOpen = false;
+    this.isOpenChange = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.EventEmitter();
+    this.dateSelected = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.EventEmitter();
+  }
+  confirm(datetime) {
+    let picked = datetime === null || datetime === void 0 ? void 0 : datetime.value;
+    if (Array.isArray(picked)) {
+      picked = picked[0];
+    }
+    if (picked) {
+      this.dateSelected.emit(String(picked));
+    }
+    this.closeModal();
+  }
+  dismiss() {
+    var _this$modal;
+    (_this$modal = this.modal) === null || _this$modal === void 0 || _this$modal.dismiss();
+    this.closeModal();
+  }
+  closeModal() {
+    this.isOpen = false;
+    this.isOpenChange.emit(false);
+  }
+}
+_DatePickerModalComponent = DatePickerModalComponent;
+_DatePickerModalComponent.ɵfac = function DatePickerModalComponent_Factory(__ngFactoryType__) {
+  return new (__ngFactoryType__ || _DatePickerModalComponent)();
+};
+_DatePickerModalComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+  type: _DatePickerModalComponent,
+  selectors: [["app-date-picker-modal"]],
+  viewQuery: function DatePickerModalComponent_Query(rf, ctx) {
+    if (rf & 1) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵviewQuery"](_ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonModal, 5);
+    }
+    if (rf & 2) {
+      let _t;
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx.modal = _t.first);
+    }
+  },
+  inputs: {
+    trigger: "trigger",
+    value: "value",
+    max: "max",
+    min: "min",
+    modalClass: "modalClass",
+    doneText: "doneText",
+    cancelText: "cancelText",
+    isOpen: "isOpen"
+  },
+  outputs: {
+    isOpenChange: "isOpenChange",
+    dateSelected: "dateSelected"
+  },
+  decls: 2,
+  vars: 3,
+  consts: [["datetime", ""], [2, "--width", "350px", "--height", "fit-content", "--border-radius", "8px", 3, "didDismiss", "isOpen"], ["mode", "md", "presentation", "date", "showDefaultTitle", "true", 2, "width", "100%", "height", "430px", "--ion-color-base", "var(--iconsAndButtonsColor, var(--ion-color-primary)) !important", "--ion-color-base-rgb", "var(--iconsAndButtonsColor, var(--ion-color-primary)) !important", 3, "showDefaultButtons", "value", "max", "min"], [2, "display", "flex", "justify-content", "flex-end", "align-items", "center", "min-height", "56px", "padding", "8px 12px 12px", "background", "var(--ion-background-color, #fff)"], ["fill", "clear", 2, "--color", "var(--iconsAndButtonsColor, var(--ion-color-primary))", "height", "40px", "font-weight", "700", 3, "click"]],
+  template: function DatePickerModalComponent_Template(rf, ctx) {
+    if (rf & 1) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "ion-modal", 1);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("didDismiss", function DatePickerModalComponent_Template_ion_modal_didDismiss_0_listener() {
+        return ctx.closeModal();
+      });
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, DatePickerModalComponent_ng_template_1_Template, 7, 6, "ng-template");
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    }
+    if (rf & 2) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassMap"](ctx.modalClass);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("isOpen", ctx.isOpen);
+    }
+  },
+  dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_1__.CommonModule, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonicModule, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonButton, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonDatetime, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonModal, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.SelectValueAccessor],
+  encapsulation: 2
+});
+
+/***/ },
+
 /***/ 17914
 /*!*******************************************************!*\
   !*** ./src/app/ease-buzz-page/ease-buzz-page.page.ts ***!

@@ -3823,7 +3823,7 @@ function GridCoachUsingTableComponent_div_1_div_3_tr_5_ng_container_1_td_1_Templ
     const r_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]().index;
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵclassMap"](ctx_r1.getSeatClass(seat_r6));
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵstyleProp"]("display", ctx_r1.shouldHideCell(seat_r6, r_r8, c_r7) || ctx_r1.shouldHideEmptyCell(seat_r6, r_r8, c_r7) ? "none" : "table-cell")("width", ctx_r1.getSeatWidth(seat_r6) + "px")("height", ctx_r1.getSeatHeight(seat_r6) + "px");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵstyleProp"]("display", ctx_r1.shouldHideCell(seat_r6, r_r8, c_r7) ? "none" : "table-cell")("width", ctx_r1.getSeatWidth(seat_r6) + "px")("height", ctx_r1.getSeatHeight(seat_r6) + "px");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction1"](12, _c1, ctx_r1.shouldApplyOpacity(seat_r6)));
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵattribute"]("rowspan", ctx_r1.getSeatRowSpan(seat_r6, r_r8, c_r7))("colspan", ctx_r1.getSeatColSpan(seat_r6, r_r8, c_r7));
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"]();
@@ -3837,10 +3837,10 @@ function GridCoachUsingTableComponent_div_1_div_3_tr_5_ng_container_1_Template(r
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementContainerEnd"]();
   }
   if (rf & 2) {
-    const seat_r6 = ctx.$implicit;
+    const c_r7 = ctx.index;
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx_r1.gangwayremove(seat_r6));
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", !ctx_r1.isDeadColumn(ctx_r1.gridLayout, c_r7));
   }
 }
 function GridCoachUsingTableComponent_div_1_div_3_tr_5_Template(rf, ctx) {
@@ -3851,6 +3851,9 @@ function GridCoachUsingTableComponent_div_1_div_3_tr_5_Template(rf, ctx) {
   }
   if (rf & 2) {
     const row_r9 = ctx.$implicit;
+    const r_r8 = ctx.index;
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵstyleProp"]("display", ctx_r1.isDeadRow(ctx_r1.gridLayout, r_r8) ? "none" : "table-row");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngForOf", row_r9);
   }
@@ -3858,7 +3861,7 @@ function GridCoachUsingTableComponent_div_1_div_3_tr_5_Template(rf, ctx) {
 function GridCoachUsingTableComponent_div_1_div_3_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 11)(1, "div", 12)(2, "table", 13)(3, "tbody");
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](4, GridCoachUsingTableComponent_div_1_div_3_tr_4_Template, 6, 3, "tr", 14)(5, GridCoachUsingTableComponent_div_1_div_3_tr_5_Template, 2, 1, "tr", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](4, GridCoachUsingTableComponent_div_1_div_3_tr_4_Template, 6, 3, "tr", 14)(5, GridCoachUsingTableComponent_div_1_div_3_tr_5_Template, 2, 3, "tr", 15);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()();
   }
   if (rf & 2) {
@@ -5015,7 +5018,7 @@ function GridCoachUsingTableComponent_div_1_div_4_tr_8_ng_container_1_td_1_Templ
     const r_r14 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]().index;
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵclassMap"](ctx_r1.getSeatClass(seat_r12));
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵstyleProp"]("display", ctx_r1.shouldHideCell(seat_r12, r_r14, c_r13) || ctx_r1.shouldHideEmptyCell(seat_r12, r_r14, c_r13) ? "none" : "table-cell")("width", ctx_r1.getSeatWidth(seat_r12) + "px")("height", ctx_r1.getSeatHeight(seat_r12) + "px");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵstyleProp"]("display", ctx_r1.shouldHideCell(seat_r12, r_r14, c_r13) ? "none" : "table-cell")("width", ctx_r1.getSeatWidth(seat_r12) + "px")("height", ctx_r1.getSeatHeight(seat_r12) + "px");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction1"](12, _c1, ctx_r1.shouldApplyOpacity(seat_r12)));
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵattribute"]("rowspan", ctx_r1.getSeatRowSpan(seat_r12, r_r14, c_r13))("colspan", ctx_r1.getSeatColSpan(seat_r12, r_r14, c_r13));
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"]();
@@ -5029,10 +5032,10 @@ function GridCoachUsingTableComponent_div_1_div_4_tr_8_ng_container_1_Template(r
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementContainerEnd"]();
   }
   if (rf & 2) {
-    const seat_r12 = ctx.$implicit;
+    const c_r13 = ctx.index;
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx_r1.gangwayremove(seat_r12));
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", !ctx_r1.isDeadColumn(ctx_r1.gridLayoutLower, c_r13));
   }
 }
 function GridCoachUsingTableComponent_div_1_div_4_tr_8_Template(rf, ctx) {
@@ -5043,6 +5046,9 @@ function GridCoachUsingTableComponent_div_1_div_4_tr_8_Template(rf, ctx) {
   }
   if (rf & 2) {
     const row_r15 = ctx.$implicit;
+    const r_r14 = ctx.index;
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵstyleProp"]("display", ctx_r1.isDeadRow(ctx_r1.gridLayoutLower, r_r14) ? "none" : "table-row");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngForOf", row_r15);
   }
@@ -6185,7 +6191,7 @@ function GridCoachUsingTableComponent_div_1_div_4_div_9_tr_8_ng_container_1_td_1
     const r_r20 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]().index;
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵclassMap"](ctx_r1.getSeatClass(seat_r18));
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵstyleProp"]("display", ctx_r1.shouldHideCell(seat_r18, r_r20, c_r19) || ctx_r1.shouldHideEmptyCell(seat_r18, r_r20, c_r19) ? "none" : "table-cell")("width", ctx_r1.getSeatWidth(seat_r18) + "px")("height", ctx_r1.getSeatHeight(seat_r18) + "px");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵstyleProp"]("display", ctx_r1.shouldHideCell(seat_r18, r_r20, c_r19) ? "none" : "table-cell")("width", ctx_r1.getSeatWidth(seat_r18) + "px")("height", ctx_r1.getSeatHeight(seat_r18) + "px");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction1"](12, _c1, ctx_r1.shouldApplyOpacity(seat_r18)));
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵattribute"]("rowspan", ctx_r1.getSeatRowSpan(seat_r18, r_r20, c_r19))("colspan", ctx_r1.getSeatColSpan(seat_r18, r_r20, c_r19));
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"]();
@@ -6199,10 +6205,10 @@ function GridCoachUsingTableComponent_div_1_div_4_div_9_tr_8_ng_container_1_Temp
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementContainerEnd"]();
   }
   if (rf & 2) {
-    const seat_r18 = ctx.$implicit;
+    const c_r19 = ctx.index;
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx_r1.gangwayRemoveForUpperSingleView(seat_r18));
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", !ctx_r1.isDeadColumn(ctx_r1.gridLayoutUpperSingleView, c_r19));
   }
 }
 function GridCoachUsingTableComponent_div_1_div_4_div_9_tr_8_Template(rf, ctx) {
@@ -6213,6 +6219,9 @@ function GridCoachUsingTableComponent_div_1_div_4_div_9_tr_8_Template(rf, ctx) {
   }
   if (rf & 2) {
     const row_r21 = ctx.$implicit;
+    const r_r20 = ctx.index;
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵstyleProp"]("display", ctx_r1.isDeadRow(ctx_r1.gridLayoutUpperSingleView, r_r20) ? "none" : "table-row");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngForOf", row_r21);
   }
@@ -6223,7 +6232,7 @@ function GridCoachUsingTableComponent_div_1_div_4_div_9_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](3, "Upper");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](4, "div", 12)(5, "table", 136)(6, "tbody");
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](7, GridCoachUsingTableComponent_div_1_div_4_div_9_tr_7_Template, 6, 3, "tr", 14)(8, GridCoachUsingTableComponent_div_1_div_4_div_9_tr_8_Template, 2, 1, "tr", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](7, GridCoachUsingTableComponent_div_1_div_4_div_9_tr_7_Template, 6, 3, "tr", 14)(8, GridCoachUsingTableComponent_div_1_div_4_div_9_tr_8_Template, 2, 3, "tr", 15);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
   }
   if (rf & 2) {
@@ -6239,7 +6248,7 @@ function GridCoachUsingTableComponent_div_1_div_4_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 134)(1, "div", 135)(2, "ion-col");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](3, GridCoachUsingTableComponent_div_1_div_4_div_3_Template, 2, 0, "div", 14);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](4, "div", 12)(5, "table", 136)(6, "tbody");
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](7, GridCoachUsingTableComponent_div_1_div_4_tr_7_Template, 6, 3, "tr", 14)(8, GridCoachUsingTableComponent_div_1_div_4_tr_8_Template, 2, 1, "tr", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](7, GridCoachUsingTableComponent_div_1_div_4_tr_7_Template, 6, 3, "tr", 14)(8, GridCoachUsingTableComponent_div_1_div_4_tr_8_Template, 2, 3, "tr", 15);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](9, GridCoachUsingTableComponent_div_1_div_4_div_9_Template, 9, 2, "div", 137);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
@@ -6320,6 +6329,8 @@ class GridCoachUsingTableComponent {
     this.isInitialized = false;
     this.lastSeatDataLength = 0;
     this.legendClickedFlag = false;
+    this.deadRowsCache = new WeakMap();
+    this.deadColsCache = new WeakMap();
     this.metaData = this.commonStorage.getItem("metaData");
     this.currencySym = this.metaData && this.metaData.currencySym ? this.metaData.currencySym : "₹";
   }
@@ -6515,6 +6526,10 @@ class GridCoachUsingTableComponent {
     const gridLayout = Array(maxRows).fill(null).map(() => Array(maxCols).fill(null));
     // Fill grid with seat data
     currentData.forEach(seat => {
+      // Gangways tagged for the other deck leave their slot empty, keeping the column
+      if (!this.belongsToDeck(seat, berthType)) {
+        return;
+      }
       const startRow = (seat.gridRow || 1) - 1;
       const startCol = (seat.gridColumn || 1) - 1;
       const rowSpan = seat.gridRowSpan || 1;
@@ -6571,6 +6586,32 @@ class GridCoachUsingTableComponent {
   isColumnEmptyInGrid(gridLayout, colIndex) {
     return gridLayout.every(row => !row[colIndex]);
   }
+  isDeadRow(gridLayout, rowIndex) {
+    if (!gridLayout || gridLayout.length === 0) {
+      return false;
+    }
+    let flags = this.deadRowsCache.get(gridLayout);
+    if (!flags) {
+      flags = gridLayout.map((_, r) => this.isRowEmptyInGrid(gridLayout, r));
+      this.deadRowsCache.set(gridLayout, flags);
+    }
+    return !!flags[rowIndex];
+  }
+  isDeadColumn(gridLayout, colIndex) {
+    if (!gridLayout || gridLayout.length === 0) {
+      return false;
+    }
+    let flags = this.deadColsCache.get(gridLayout);
+    if (!flags) {
+      const cols = Math.max(...gridLayout.map(row => row.length));
+      flags = [];
+      for (let c = 0; c < cols; c++) {
+        flags.push(this.isColumnEmptyInGrid(gridLayout, c));
+      }
+      this.deadColsCache.set(gridLayout, flags);
+    }
+    return !!flags[colIndex];
+  }
   isBerthSeat(type) {
     return type.includes('berth') || type.includes('ub') || type.includes('lb') || type.includes('window single lower') || type.includes('window single upper') || type.includes('single lower') || type.includes('single upper') || type.includes('double lower') || type.includes('double upper');
   }
@@ -6599,8 +6640,13 @@ class GridCoachUsingTableComponent {
       seatDetail.gridColumnSpan = seatDetail.isUpper ? this.maxSeatsPerRowUpper : seatDetail.isLower ? this.maxSeatsPerRowLower : 2;
       seatDetail.longSeatWidth = seatDetail.isUpper ? this.upperLongSeatWidth : seatDetail.isLower ? this.lowerLongSeatWidth : 85;
     } else {
+      var _this$appData;
       seatDetail.gridColumnSpan = 1;
       if (isBerth) {
+        seatDetail.gridRowSpan = 2;
+      } else if (seatDetail.number === 'EE_SLP' && (_this$appData = this.appData) !== null && _this$appData !== void 0 && _this$appData.isIndia) {
+        // getSeatRowSpan() renders this cell two rows tall; the model has to agree,
+        // otherwise the slot underneath stays empty and the table grows a column for it
         seatDetail.gridRowSpan = 2;
       } else {
         seatDetail.gridRowSpan = 1;
@@ -6721,13 +6767,21 @@ class GridCoachUsingTableComponent {
       // }, 10);
     })();
   }
+  belongsToDeck(seat, berthType) {
+    if (!seat) {
+      return true;
+    }
+    const otherDeck = berthType === 'lower' ? 'upper' : 'lower';
+    return seat.gangway_type !== otherDeck;
+  }
   gangwayremove(seat) {
     //     if(seat?.row_id == 6 && seat?.col_id == 1 && this.currentBerthType != 'lower'){
     // console.log(seat,'checkk');
     // return true;
     //     }
     if ((seat === null || seat === void 0 ? void 0 : seat.row_id) == null || (seat === null || seat === void 0 ? void 0 : seat.col_id) == null) {
-      return false;
+      // Empty grid slot: still render the cell so this column keeps its position in the row
+      return true;
     }
     if (this.currentBerthType == 'lower' && (seat === null || seat === void 0 ? void 0 : seat.gangway_type) != 'upper') {
       return true;
@@ -6914,11 +6968,11 @@ class GridCoachUsingTableComponent {
    * Get rowspan for table cell following Android logic
    */
   getSeatRowSpan(seat, rowIndex, colIndex) {
-    var _this$appData;
+    var _this$appData2;
     if (!seat || !this.isPrimaryCell(seat, rowIndex, colIndex)) {
       return null;
     }
-    if ((seat === null || seat === void 0 ? void 0 : seat.number) === 'EE_SLP' && (_this$appData = this.appData) !== null && _this$appData !== void 0 && _this$appData.isIndia) {
+    if ((seat === null || seat === void 0 ? void 0 : seat.number) === 'EE_SLP' && (_this$appData2 = this.appData) !== null && _this$appData2 !== void 0 && _this$appData2.isIndia) {
       return 2;
     }
     return seat.gridRowSpan || 1;
@@ -7000,6 +7054,10 @@ class GridCoachUsingTableComponent {
     this.gridLayout = Array(this.maxRows).fill(null).map(() => Array(this.maxCols).fill(null));
     // Fill grid with seat data based on currentBerthType
     currentData.forEach(seat => {
+      // Gangways tagged for the other deck leave their slot empty, keeping the column
+      if (!this.belongsToDeck(seat, this.currentBerthType === 'lower' ? 'lower' : 'upper')) {
+        return;
+      }
       const startRow = (seat.gridRow || 1) - 1;
       const startCol = (seat.gridColumn || 1) - 1;
       const rowSpan = seat.gridRowSpan || 1;
@@ -7178,6 +7236,10 @@ class GridCoachUsingTableComponent {
     maxCols = Math.max(maxCols, 1);
     const gridLayout = Array(maxRows).fill(null).map(() => Array(maxCols).fill(null));
     upperData.forEach(seat => {
+      // Gangways tagged for the other deck leave their slot empty, keeping the column
+      if (!this.belongsToDeck(seat, 'upper')) {
+        return;
+      }
       const startRow = (seat.gridRow || 1) - 1;
       const startCol = (seat.gridColumn || 1) - 1;
       const rowSpan = seat.gridRowSpan || 1;
@@ -7199,7 +7261,8 @@ class GridCoachUsingTableComponent {
   }
   gangwayRemoveForUpperSingleView(seat) {
     if ((seat === null || seat === void 0 ? void 0 : seat.row_id) == null || (seat === null || seat === void 0 ? void 0 : seat.col_id) == null) {
-      return false;
+      // Empty grid slot: still render the cell so this column keeps its position in the row
+      return true;
     }
     return (seat === null || seat === void 0 ? void 0 : seat.gangway_type) !== 'lower';
   }
@@ -7264,7 +7327,7 @@ _GridCoachUsingTableComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORT
   features: [_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵNgOnChangesFeature"]],
   decls: 2,
   vars: 6,
-  consts: [[3, "ngClass", "scrollY"], ["style", "height: 90%;overflow: scroll;background-color: var(--viewBgColor)", 4, "ngIf"], [2, "height", "90%", "overflow", "scroll", "background-color", "var(--viewBgColor)"], ["class", "infoIcon", 4, "ngIf"], ["class", "shyamoli-infoIcon", 4, "ngIf"], ["class", "coach-container", 4, "ngIf"], ["style", "display: flex; padding: 12px; overflow-x: auto; margin-bottom:75px", 3, "ngClass", 4, "ngIf"], [1, "infoIcon"], ["src", "assets/icon/Info.svg", 3, "click"], [1, "shyamoli-infoIcon"], ["name", "information-circle-outline", 3, "click"], [1, "coach-container"], [1, "coach-table-wrapper"], [1, "coach-table"], [4, "ngIf"], ["class", "coach-row", 4, "ngFor", "ngForOf"], ["colspan", "1000"], [1, "stearingCenter"], ["src", "././assets/icon/stearing.svg", "alt", "", 1, "stearing-icon-position"], [1, "coach-row"], [4, "ngFor", "ngForOf"], ["class", "seat-cell", 3, "class", "ngClass", "display", "width", "height", "click", 4, "ngIf"], [1, "seat-cell", 3, "click", "ngClass"], ["class", "seat-content", 4, "ngIf"], [1, "seat-content"], ["class", "gangway-element", 4, "ngIf"], ["class", "seat-element", 4, "ngIf"], [1, "gangway-element"], [1, "gangway-line", "gangway_aminities_icons"], ["style", "margin-right: 24px;", 4, "ngIf"], [2, "margin-right", "24px"], ["src", "././assets/icon/emergency_exit.png", "alt", "Emergency Exit", 1, "seat_icons_exit"], ["src", "././assets/icon/emergency_exit.png", "alt", "Emergency Exit", 1, "seat_icons"], ["src", "././assets/icon/smoking_area.png", "alt", "Smoking Area", 1, "seat_icons"], ["src", "././assets/icon/wash_room.png", "alt", "Wash Room", 1, "seat_icons"], ["src", "././assets/icon/restaurant.png", "alt", "Restaurant", 1, "seat_icons"], ["src", "././assets/icon/television.png", "alt", "Television", 1, "seat_icons"], ["src", "././assets/icon/ic_driver_icon.SVG", "alt", "Driver", 1, "seat_icons", 2, "margin-right", "5px"], ["src", "././assets/icon/stair.png", "alt", "Stairs", 1, "seat_icons"], [1, "seat-element"], ["class", "regular-seat", 3, "ngClass", 4, "ngIf"], ["class", "berth-seat", 3, "class", 4, "ngIf"], [1, "regular-seat", 3, "ngClass"], ["class", "cur_point seat", 4, "ngIf"], ["class", "cur_point seat", "style", "width: 32px;", 4, "ngIf"], ["class", "cur_point seat selected", 4, "ngIf"], ["class", "cur_point seat selected", "style", "width: 32px;", 4, "ngIf"], ["class", "cur_point seat gents", 4, "ngIf"], ["class", "cur_point seat gents", "style", "width: 32px;", 4, "ngIf"], ["class", "cur_point seat ladies", 4, "ngIf"], ["class", "cur_point seat ladies", "style", "width: 32px;", 4, "ngIf"], ["class", "cur_point seat ladies-reserved", 4, "ngIf"], ["class", "cur_point seat ladies-reserved", "style", "width: 32px;", 4, "ngIf"], ["class", "cur_point seat reserved", 4, "ngIf"], ["class", "cur_point seat reserved", "style", "width: 32px;", 4, "ngIf"], [1, "cur_point", "seat"], ["style", "font-size: 10px;padding-top: 2px;background: transparent;", 4, "ngIf"], ["style", "font-size: 10px;padding-top: 2px;background: transparent;", "class", "shyamoli-price", 4, "ngIf"], [2, "font-size", "10px", "padding-top", "2px", "background", "transparent"], [1, "shyamoli-price", 2, "font-size", "10px", "padding-top", "2px", "background", "transparent"], [1, "cur_point", "seat", 2, "width", "32px"], ["width", "40", "height", "40", "viewBox", "0 0 46 44", "fill", "none", "xmlns", "http://www.w3.org/2000/svg"], ["x", "3.5", "y", "0.5", "width", "39", "height", "39", "rx", "3.5", "stroke", "#2D2D2D"], ["d", "M45 39V20.5C45 19.1193 43.8807 18 42.5 18C41.1193 18 40 19.1193 40 20.5V34.7639C40 36.2507 38.3937 37.3097 36.9708 36.8786C34.1582 36.0265 29.4345 35 23 35C16.5655 35 11.8418 36.0265 9.02922 36.8786C7.60632 37.3097 6 36.2507 6 34.7639V20.5C6 19.1193 4.88071 18 3.5 18C2.11929 18 1 20.5V39C1 41.2091 2.79086 43 5 43H6.5H9H12H15H17.5H23H28.5H31H34H37H39.5H41C43.2091 43 45 41.2091 45 39Z", "fill", "#fff", "stroke", "#2D2D2D"], ["class", "our-bus-svg-text", 4, "ngIf"], [1, "our-bus-svg-text"], [1, "cur_point", "seat", "selected"], ["style", "font-size: 10px;padding-top: 2px;", 4, "ngIf"], ["style", "font-size: 10px;padding-top: 2px;", "class", "shyamoli-price", 4, "ngIf"], [2, "font-size", "10px", "padding-top", "2px"], [1, "shyamoli-price", 2, "font-size", "10px", "padding-top", "2px"], [1, "cur_point", "seat", "selected", 2, "width", "32px"], ["width", "40", "height", "40", "viewBox", "0 0 46 44", "fill", "#4CAF5040", "xmlns", "http://www.w3.org/2000/svg"], ["x", "3.5", "y", "0.5", "width", "39", "height", "39", "rx", "3.5", "stroke", "#4CAF50"], ["d", "M45 39V20.5C45 19.1193 43.8807 18 42.5 18C41.1193 18 40 19.1193 40 20.5V34.7639C40 36.2507 38.3937 37.3097 36.9708 36.8786C34.1582 36.0265 29.4345 35 23 35C16.5655 35 11.8418 36.0265 9.02922 36.8786C7.60632 37.3097 6 36.2507 6 34.7639V20.5C6 19.1193 4.88071 18 3.5 18C2.11929 18 1 19.1193 1 20.5V39C1 41.2091 2.79086 43 5 43H6.5H9H12H15H17.5H23H28.5H31H34H37H39.5H41C43.2091 43 45 41.2091 45 39Z", "fill", "#4CAF50", "stroke", "#4CAF50"], [1, "cur_point", "seat", "gents"], [1, "cur_point", "seat", "gents", 2, "width", "32px"], ["d", "M45 39V20.5C45 19.1193 43.8807 18 42.5 18C41.1193 18 40 19.1193 40 20.5V34.7639C40 36.2507 38.3937 37.3097 36.9708 36.8786C34.1582 36.0265 29.4345 35 23 35C16.5655 35 11.8418 36.0265 9.02922 36.8786C7.60632 37.3097 6 36.2507 6 34.7639V20.5C6 19.1193 4.88071 18 3.5 18C2.11929 18 1 19.1193 1 20.5V39C1 41.2091 2.79086 43 5 43H6.5H9H12H15H17.5H23H28.5H31H34H37H39.5H41C43.2091 43 45 41.2091 45 39Z", "fill", "#fff", "stroke", "#2D2D2D"], [1, "cur_point", "seat", "ladies"], [1, "cur_point", "seat", "ladies", 2, "width", "32px"], ["x", "3.5", "y", "0.5", "width", "39", "height", "39", "rx", "3.5", "stroke", "#D7008F"], ["d", "M45 39V20.5C45 19.1193 43.8807 18 42.5 18C41.1193 18 40 19.1193 40 20.5V34.7639C40 36.2507 38.3937 37.3097 36.9708 36.8786C34.1582 36.0265 29.4345 35 23 35C16.5655 35 11.8418 36.0265 9.02922 36.8786C7.60632 37.3097 6 36.2507 6 34.7639V20.5C6 19.1193 4.88071 18 3.5 18C2.11929 18 1 19.1193 1 20.5V39C1 41.2091 2.79086 43 5 43H6.5H9H12H15H17.5H23H28.5H31H34H37H39.5H41C43.2091 43 45 41.2091 45 39Z", "fill", "#fff", "stroke", "#D7008F"], [1, "cur_point", "seat", "ladies-reserved"], [1, "cur_point", "seat", "ladies-reserved", 2, "width", "32px"], [2, "width", "40", "height", "40"], ["x", "3.5", "y", "0.5", "width", "39", "height", "39", "rx", "3.5", "stroke", "#D9D9D9"], ["d", "M45 39V20.5C45 19.1193 43.8807 18 42.5 18C41.1193 18 40 19.1193 40 20.5V34.7639C40 36.2507 38.3937 37.3097 36.9708 36.8786C34.1582 36.0265 29.4345 35 23 35C16.5655 35 11.8418 36.0265 9.02922 36.8786C7.60632 37.3097 6 36.2507 6 34.7639V20.5C6 19.1193 4.88071 18 3.5 18C2.11929 18 1 19.1193 1 20.5V39C1 41.2091 2.79086 43 5 43H6.5H9H12H15H17.5H23H28.5H31H34H37H39.5H41C43.2091 43 45 41.2091 45 39Z", "fill", "#fff", "stroke", "#D9D9D9"], [1, "cur_point", "seat", "reserved"], [1, "cur_point", "seat", "reserved", 2, "width", "32px"], [1, "berth-seat"], ["class", "cur_point sleeper", 3, "ngClass", "ngStyle", 4, "ngIf"], ["class", "cur_point sleeper", "style", "border: none;width: 40px;", 3, "ngClass", 4, "ngIf"], ["class", "cur_point sleeper selected", 3, "ngClass", "ngStyle", 4, "ngIf"], ["class", "cur_point sleeper selected", "style", "width: 40px;background-color: #fff; border: none;", 3, "ngClass", 4, "ngIf"], ["class", "cur_point sleeper gents", 3, "ngClass", "ngStyle", 4, "ngIf"], ["class", "cur_point sleeper gents", "style", "width: 40px;background-color: #fff; border: none;", 3, "ngClass", 4, "ngIf"], ["class", "cur_point sleeper ladies", 3, "ngClass", "ngStyle", 4, "ngIf"], ["class", "cur_point sleeper ladies", "style", "width: 40px;background-color: #fff; border: none;", 3, "ngClass", 4, "ngIf"], ["class", "cur_point sleeper ladies-reserved", 3, "ngClass", "ngStyle", 4, "ngIf"], ["class", "cur_point sleeper ladies-reserved", "style", "width: 40px;background-color: #fff; border: none;", 3, "ngClass", 4, "ngIf"], ["class", "cur_point sleeper reserved", 3, "ngClass", "ngStyle", 4, "ngIf"], ["class", "cur_point sleeper reserved", "style", "width: 40px;background-color: #fff; border: none;", 3, "ngClass", 4, "ngIf"], [1, "cur_point", "sleeper", 3, "ngClass", "ngStyle"], ["style", "font-size: 10px;border: none;position: relative;top: 30%;background: transparent;display: contents;", 4, "ngIf"], ["style", "font-size: 10px;border: none;position: relative;top: 30%;background: transparent;display: contents;", "class", "shyamoli-price", 4, "ngIf"], [3, "ngStyle"], [2, "font-size", "10px", "border", "none", "position", "relative", "top", "30%", "background", "transparent", "display", "contents"], [1, "shyamoli-price", 2, "font-size", "10px", "border", "none", "position", "relative", "top", "30%", "background", "transparent", "display", "contents"], [1, "cur_point", "sleeper", 2, "border", "none", "width", "40px", 3, "ngClass"], ["width", "40", "height", "90", "viewBox", "0 0 40 90", "fill", "none", "xmlns", "http://www.w3.org/2000/svg"], ["x", "0.5", "y", "0.5", "width", "39", "height", "87", "rx", "3.5", "stroke", "#2D2D2D"], ["x", "12.5", "y", "64.5", "width", "15", "height", "3", "rx", "1.5", "stroke", "#2D2D2D"], ["class", "our-bus-svg-text-slepper", 4, "ngIf"], ["class", "our-bus-svg-text-slepper", "style", "left: 52% !important", 4, "ngIf"], [1, "our-bus-svg-text-slepper"], [1, "our-bus-svg-text-slepper", 2, "left", "52% !important"], [1, "cur_point", "sleeper", "selected", 3, "ngClass", "ngStyle"], [1, "cur_point", "sleeper", "selected", 2, "width", "40px", "background-color", "#fff", "border", "none", 3, "ngClass"], ["width", "40", "height", "90", "viewBox", "0 0 40 90", "fill", "#4CAF5040", "xmlns", "http://www.w3.org/2000/svg"], ["x", "0.5", "y", "0.5", "width", "39", "height", "87", "rx", "3.5", "stroke", "#4CAF50"], ["x", "12.5", "y", "64.5", "width", "15", "height", "3", "rx", "1.5", "stroke", "#4CAF50"], [1, "cur_point", "sleeper", "gents", 3, "ngClass", "ngStyle"], [1, "cur_point", "sleeper", "gents", 2, "width", "40px", "background-color", "#fff", "border", "none", 3, "ngClass"], [1, "cur_point", "sleeper", "ladies", 3, "ngClass", "ngStyle"], [1, "cur_point", "sleeper", "ladies", 2, "width", "40px", "background-color", "#fff", "border", "none", 3, "ngClass"], ["width", "40", "height", "90", "viewBox", "0 0 40 90", "fill", "#fff", "xmlns", "http://www.w3.org/2000/svg"], ["x", "0.5", "y", "0.5", "width", "39", "height", "87", "rx", "3.5", "stroke", "#D7008F"], ["x", "12.5", "y", "64.5", "width", "15", "height", "3", "rx", "1.5", "stroke", "#D7008F"], [1, "cur_point", "sleeper", "ladies-reserved", 3, "ngClass", "ngStyle"], [1, "cur_point", "sleeper", "ladies-reserved", 2, "width", "40px", "background-color", "#fff", "border", "none", 3, "ngClass"], ["x", "0.5", "y", "0.5", "width", "39", "height", "87", "rx", "3.5", "stroke", "#D9D9D9"], ["x", "12.5", "y", "64.5", "width", "15", "height", "3", "rx", "1.5", "stroke", "#D9D9D9"], [1, "cur_point", "sleeper", "reserved", 3, "ngClass", "ngStyle"], [1, "cur_point", "sleeper", "reserved", 2, "width", "40px", "background-color", "#fff", "border", "none", 3, "ngClass"], [2, "display", "flex", "padding", "12px", "overflow-x", "auto", "margin-bottom", "75px", 3, "ngClass"], [1, "coach-container-single-view"], [1, "coach-table-single-view"], ["class", "coach-container-single-view", 4, "ngIf"]],
+  consts: [[3, "ngClass", "scrollY"], ["style", "height: 90%;overflow: scroll;background-color: var(--viewBgColor)", 4, "ngIf"], [2, "height", "90%", "overflow", "scroll", "background-color", "var(--viewBgColor)"], ["class", "infoIcon", 4, "ngIf"], ["class", "shyamoli-infoIcon", 4, "ngIf"], ["class", "coach-container", 4, "ngIf"], ["style", "display: flex; padding: 12px; overflow-x: auto; margin-bottom:75px", 3, "ngClass", 4, "ngIf"], [1, "infoIcon"], ["src", "assets/icon/Info.svg", 3, "click"], [1, "shyamoli-infoIcon"], ["name", "information-circle-outline", 3, "click"], [1, "coach-container"], [1, "coach-table-wrapper"], [1, "coach-table"], [4, "ngIf"], ["class", "coach-row", 3, "display", 4, "ngFor", "ngForOf"], ["colspan", "1000"], [1, "stearingCenter"], ["src", "././assets/icon/stearing.svg", "alt", "", 1, "stearing-icon-position"], [1, "coach-row"], [4, "ngFor", "ngForOf"], ["class", "seat-cell", 3, "class", "ngClass", "display", "width", "height", "click", 4, "ngIf"], [1, "seat-cell", 3, "click", "ngClass"], ["class", "seat-content", 4, "ngIf"], [1, "seat-content"], ["class", "gangway-element", 4, "ngIf"], ["class", "seat-element", 4, "ngIf"], [1, "gangway-element"], [1, "gangway-line", "gangway_aminities_icons"], ["style", "margin-right: 24px;", 4, "ngIf"], [2, "margin-right", "24px"], ["src", "././assets/icon/emergency_exit.png", "alt", "Emergency Exit", 1, "seat_icons_exit"], ["src", "././assets/icon/emergency_exit.png", "alt", "Emergency Exit", 1, "seat_icons"], ["src", "././assets/icon/smoking_area.png", "alt", "Smoking Area", 1, "seat_icons"], ["src", "././assets/icon/wash_room.png", "alt", "Wash Room", 1, "seat_icons"], ["src", "././assets/icon/restaurant.png", "alt", "Restaurant", 1, "seat_icons"], ["src", "././assets/icon/television.png", "alt", "Television", 1, "seat_icons"], ["src", "././assets/icon/ic_driver_icon.SVG", "alt", "Driver", 1, "seat_icons", 2, "margin-right", "5px"], ["src", "././assets/icon/stair.png", "alt", "Stairs", 1, "seat_icons"], [1, "seat-element"], ["class", "regular-seat", 3, "ngClass", 4, "ngIf"], ["class", "berth-seat", 3, "class", 4, "ngIf"], [1, "regular-seat", 3, "ngClass"], ["class", "cur_point seat", 4, "ngIf"], ["class", "cur_point seat", "style", "width: 32px;", 4, "ngIf"], ["class", "cur_point seat selected", 4, "ngIf"], ["class", "cur_point seat selected", "style", "width: 32px;", 4, "ngIf"], ["class", "cur_point seat gents", 4, "ngIf"], ["class", "cur_point seat gents", "style", "width: 32px;", 4, "ngIf"], ["class", "cur_point seat ladies", 4, "ngIf"], ["class", "cur_point seat ladies", "style", "width: 32px;", 4, "ngIf"], ["class", "cur_point seat ladies-reserved", 4, "ngIf"], ["class", "cur_point seat ladies-reserved", "style", "width: 32px;", 4, "ngIf"], ["class", "cur_point seat reserved", 4, "ngIf"], ["class", "cur_point seat reserved", "style", "width: 32px;", 4, "ngIf"], [1, "cur_point", "seat"], ["style", "font-size: 10px;padding-top: 2px;background: transparent;", 4, "ngIf"], ["style", "font-size: 10px;padding-top: 2px;background: transparent;", "class", "shyamoli-price", 4, "ngIf"], [2, "font-size", "10px", "padding-top", "2px", "background", "transparent"], [1, "shyamoli-price", 2, "font-size", "10px", "padding-top", "2px", "background", "transparent"], [1, "cur_point", "seat", 2, "width", "32px"], ["width", "40", "height", "40", "viewBox", "0 0 46 44", "fill", "none", "xmlns", "http://www.w3.org/2000/svg"], ["x", "3.5", "y", "0.5", "width", "39", "height", "39", "rx", "3.5", "stroke", "#2D2D2D"], ["d", "M45 39V20.5C45 19.1193 43.8807 18 42.5 18C41.1193 18 40 19.1193 40 20.5V34.7639C40 36.2507 38.3937 37.3097 36.9708 36.8786C34.1582 36.0265 29.4345 35 23 35C16.5655 35 11.8418 36.0265 9.02922 36.8786C7.60632 37.3097 6 36.2507 6 34.7639V20.5C6 19.1193 4.88071 18 3.5 18C2.11929 18 1 20.5V39C1 41.2091 2.79086 43 5 43H6.5H9H12H15H17.5H23H28.5H31H34H37H39.5H41C43.2091 43 45 41.2091 45 39Z", "fill", "#fff", "stroke", "#2D2D2D"], ["class", "our-bus-svg-text", 4, "ngIf"], [1, "our-bus-svg-text"], [1, "cur_point", "seat", "selected"], ["style", "font-size: 10px;padding-top: 2px;", 4, "ngIf"], ["style", "font-size: 10px;padding-top: 2px;", "class", "shyamoli-price", 4, "ngIf"], [2, "font-size", "10px", "padding-top", "2px"], [1, "shyamoli-price", 2, "font-size", "10px", "padding-top", "2px"], [1, "cur_point", "seat", "selected", 2, "width", "32px"], ["width", "40", "height", "40", "viewBox", "0 0 46 44", "fill", "#4CAF5040", "xmlns", "http://www.w3.org/2000/svg"], ["x", "3.5", "y", "0.5", "width", "39", "height", "39", "rx", "3.5", "stroke", "#4CAF50"], ["d", "M45 39V20.5C45 19.1193 43.8807 18 42.5 18C41.1193 18 40 19.1193 40 20.5V34.7639C40 36.2507 38.3937 37.3097 36.9708 36.8786C34.1582 36.0265 29.4345 35 23 35C16.5655 35 11.8418 36.0265 9.02922 36.8786C7.60632 37.3097 6 36.2507 6 34.7639V20.5C6 19.1193 4.88071 18 3.5 18C2.11929 18 1 19.1193 1 20.5V39C1 41.2091 2.79086 43 5 43H6.5H9H12H15H17.5H23H28.5H31H34H37H39.5H41C43.2091 43 45 41.2091 45 39Z", "fill", "#4CAF50", "stroke", "#4CAF50"], [1, "cur_point", "seat", "gents"], [1, "cur_point", "seat", "gents", 2, "width", "32px"], ["d", "M45 39V20.5C45 19.1193 43.8807 18 42.5 18C41.1193 18 40 19.1193 40 20.5V34.7639C40 36.2507 38.3937 37.3097 36.9708 36.8786C34.1582 36.0265 29.4345 35 23 35C16.5655 35 11.8418 36.0265 9.02922 36.8786C7.60632 37.3097 6 36.2507 6 34.7639V20.5C6 19.1193 4.88071 18 3.5 18C2.11929 18 1 19.1193 1 20.5V39C1 41.2091 2.79086 43 5 43H6.5H9H12H15H17.5H23H28.5H31H34H37H39.5H41C43.2091 43 45 41.2091 45 39Z", "fill", "#fff", "stroke", "#2D2D2D"], [1, "cur_point", "seat", "ladies"], [1, "cur_point", "seat", "ladies", 2, "width", "32px"], ["x", "3.5", "y", "0.5", "width", "39", "height", "39", "rx", "3.5", "stroke", "#D7008F"], ["d", "M45 39V20.5C45 19.1193 43.8807 18 42.5 18C41.1193 18 40 19.1193 40 20.5V34.7639C40 36.2507 38.3937 37.3097 36.9708 36.8786C34.1582 36.0265 29.4345 35 23 35C16.5655 35 11.8418 36.0265 9.02922 36.8786C7.60632 37.3097 6 36.2507 6 34.7639V20.5C6 19.1193 4.88071 18 3.5 18C2.11929 18 1 19.1193 1 20.5V39C1 41.2091 2.79086 43 5 43H6.5H9H12H15H17.5H23H28.5H31H34H37H39.5H41C43.2091 43 45 41.2091 45 39Z", "fill", "#fff", "stroke", "#D7008F"], [1, "cur_point", "seat", "ladies-reserved"], [1, "cur_point", "seat", "ladies-reserved", 2, "width", "32px"], [2, "width", "40", "height", "40"], ["x", "3.5", "y", "0.5", "width", "39", "height", "39", "rx", "3.5", "stroke", "#D9D9D9"], ["d", "M45 39V20.5C45 19.1193 43.8807 18 42.5 18C41.1193 18 40 19.1193 40 20.5V34.7639C40 36.2507 38.3937 37.3097 36.9708 36.8786C34.1582 36.0265 29.4345 35 23 35C16.5655 35 11.8418 36.0265 9.02922 36.8786C7.60632 37.3097 6 36.2507 6 34.7639V20.5C6 19.1193 4.88071 18 3.5 18C2.11929 18 1 19.1193 1 20.5V39C1 41.2091 2.79086 43 5 43H6.5H9H12H15H17.5H23H28.5H31H34H37H39.5H41C43.2091 43 45 41.2091 45 39Z", "fill", "#fff", "stroke", "#D9D9D9"], [1, "cur_point", "seat", "reserved"], [1, "cur_point", "seat", "reserved", 2, "width", "32px"], [1, "berth-seat"], ["class", "cur_point sleeper", 3, "ngClass", "ngStyle", 4, "ngIf"], ["class", "cur_point sleeper", "style", "border: none;width: 40px;", 3, "ngClass", 4, "ngIf"], ["class", "cur_point sleeper selected", 3, "ngClass", "ngStyle", 4, "ngIf"], ["class", "cur_point sleeper selected", "style", "width: 40px;background-color: #fff; border: none;", 3, "ngClass", 4, "ngIf"], ["class", "cur_point sleeper gents", 3, "ngClass", "ngStyle", 4, "ngIf"], ["class", "cur_point sleeper gents", "style", "width: 40px;background-color: #fff; border: none;", 3, "ngClass", 4, "ngIf"], ["class", "cur_point sleeper ladies", 3, "ngClass", "ngStyle", 4, "ngIf"], ["class", "cur_point sleeper ladies", "style", "width: 40px;background-color: #fff; border: none;", 3, "ngClass", 4, "ngIf"], ["class", "cur_point sleeper ladies-reserved", 3, "ngClass", "ngStyle", 4, "ngIf"], ["class", "cur_point sleeper ladies-reserved", "style", "width: 40px;background-color: #fff; border: none;", 3, "ngClass", 4, "ngIf"], ["class", "cur_point sleeper reserved", 3, "ngClass", "ngStyle", 4, "ngIf"], ["class", "cur_point sleeper reserved", "style", "width: 40px;background-color: #fff; border: none;", 3, "ngClass", 4, "ngIf"], [1, "cur_point", "sleeper", 3, "ngClass", "ngStyle"], ["style", "font-size: 10px;border: none;position: relative;top: 30%;background: transparent;display: contents;", 4, "ngIf"], ["style", "font-size: 10px;border: none;position: relative;top: 30%;background: transparent;display: contents;", "class", "shyamoli-price", 4, "ngIf"], [3, "ngStyle"], [2, "font-size", "10px", "border", "none", "position", "relative", "top", "30%", "background", "transparent", "display", "contents"], [1, "shyamoli-price", 2, "font-size", "10px", "border", "none", "position", "relative", "top", "30%", "background", "transparent", "display", "contents"], [1, "cur_point", "sleeper", 2, "border", "none", "width", "40px", 3, "ngClass"], ["width", "40", "height", "90", "viewBox", "0 0 40 90", "fill", "none", "xmlns", "http://www.w3.org/2000/svg"], ["x", "0.5", "y", "0.5", "width", "39", "height", "87", "rx", "3.5", "stroke", "#2D2D2D"], ["x", "12.5", "y", "64.5", "width", "15", "height", "3", "rx", "1.5", "stroke", "#2D2D2D"], ["class", "our-bus-svg-text-slepper", 4, "ngIf"], ["class", "our-bus-svg-text-slepper", "style", "left: 52% !important", 4, "ngIf"], [1, "our-bus-svg-text-slepper"], [1, "our-bus-svg-text-slepper", 2, "left", "52% !important"], [1, "cur_point", "sleeper", "selected", 3, "ngClass", "ngStyle"], [1, "cur_point", "sleeper", "selected", 2, "width", "40px", "background-color", "#fff", "border", "none", 3, "ngClass"], ["width", "40", "height", "90", "viewBox", "0 0 40 90", "fill", "#4CAF5040", "xmlns", "http://www.w3.org/2000/svg"], ["x", "0.5", "y", "0.5", "width", "39", "height", "87", "rx", "3.5", "stroke", "#4CAF50"], ["x", "12.5", "y", "64.5", "width", "15", "height", "3", "rx", "1.5", "stroke", "#4CAF50"], [1, "cur_point", "sleeper", "gents", 3, "ngClass", "ngStyle"], [1, "cur_point", "sleeper", "gents", 2, "width", "40px", "background-color", "#fff", "border", "none", 3, "ngClass"], [1, "cur_point", "sleeper", "ladies", 3, "ngClass", "ngStyle"], [1, "cur_point", "sleeper", "ladies", 2, "width", "40px", "background-color", "#fff", "border", "none", 3, "ngClass"], ["width", "40", "height", "90", "viewBox", "0 0 40 90", "fill", "#fff", "xmlns", "http://www.w3.org/2000/svg"], ["x", "0.5", "y", "0.5", "width", "39", "height", "87", "rx", "3.5", "stroke", "#D7008F"], ["x", "12.5", "y", "64.5", "width", "15", "height", "3", "rx", "1.5", "stroke", "#D7008F"], [1, "cur_point", "sleeper", "ladies-reserved", 3, "ngClass", "ngStyle"], [1, "cur_point", "sleeper", "ladies-reserved", 2, "width", "40px", "background-color", "#fff", "border", "none", 3, "ngClass"], ["x", "0.5", "y", "0.5", "width", "39", "height", "87", "rx", "3.5", "stroke", "#D9D9D9"], ["x", "12.5", "y", "64.5", "width", "15", "height", "3", "rx", "1.5", "stroke", "#D9D9D9"], [1, "cur_point", "sleeper", "reserved", 3, "ngClass", "ngStyle"], [1, "cur_point", "sleeper", "reserved", 2, "width", "40px", "background-color", "#fff", "border", "none", 3, "ngClass"], [2, "display", "flex", "padding", "12px", "overflow-x", "auto", "margin-bottom", "75px", 3, "ngClass"], [1, "coach-container-single-view"], [1, "coach-table-single-view"], ["class", "coach-container-single-view", 4, "ngIf"]],
   template: function GridCoachUsingTableComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "ion-content", 0);

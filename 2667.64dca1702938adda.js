@@ -59,8 +59,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sign_up_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./sign-up-routing.module */ 35794);
 /* harmony import */ var _sign_up_page__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./sign-up.page */ 96500);
 /* harmony import */ var _common_header_common_header_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../common-header/common-header.component */ 49028);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/core */ 17705);
+/* harmony import */ var _components_date_picker_modal_date_picker_modal_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/date-picker-modal/date-picker-modal.component */ 51281);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/core */ 17705);
 var _SignUpPageModule;
+
 
 
 
@@ -73,16 +75,16 @@ _SignUpPageModule = SignUpPageModule;
 _SignUpPageModule.ɵfac = function SignUpPageModule_Factory(__ngFactoryType__) {
   return new (__ngFactoryType__ || _SignUpPageModule)();
 };
-_SignUpPageModule.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdefineNgModule"]({
+_SignUpPageModule.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdefineNgModule"]({
   type: _SignUpPageModule
 });
-_SignUpPageModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdefineInjector"]({
-  imports: [_angular_common__WEBPACK_IMPORTED_MODULE_0__.CommonModule, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.FormsModule, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonicModule, _sign_up_routing_module__WEBPACK_IMPORTED_MODULE_3__.SignUpPageRoutingModule, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.ReactiveFormsModule, _common_header_common_header_component__WEBPACK_IMPORTED_MODULE_5__.CommonHeaderComponent]
+_SignUpPageModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdefineInjector"]({
+  imports: [_angular_common__WEBPACK_IMPORTED_MODULE_0__.CommonModule, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.FormsModule, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonicModule, _sign_up_routing_module__WEBPACK_IMPORTED_MODULE_3__.SignUpPageRoutingModule, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.ReactiveFormsModule, _common_header_common_header_component__WEBPACK_IMPORTED_MODULE_5__.CommonHeaderComponent, _components_date_picker_modal_date_picker_modal_component__WEBPACK_IMPORTED_MODULE_6__.DatePickerModalComponent]
 });
 (function () {
-  (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵsetNgModuleScope"](SignUpPageModule, {
+  (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵsetNgModuleScope"](SignUpPageModule, {
     declarations: [_sign_up_page__WEBPACK_IMPORTED_MODULE_4__.SignUpPage],
-    imports: [_angular_common__WEBPACK_IMPORTED_MODULE_0__.CommonModule, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.FormsModule, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonicModule, _sign_up_routing_module__WEBPACK_IMPORTED_MODULE_3__.SignUpPageRoutingModule, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.ReactiveFormsModule, _common_header_common_header_component__WEBPACK_IMPORTED_MODULE_5__.CommonHeaderComponent]
+    imports: [_angular_common__WEBPACK_IMPORTED_MODULE_0__.CommonModule, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.FormsModule, _ionic_angular__WEBPACK_IMPORTED_MODULE_2__.IonicModule, _sign_up_routing_module__WEBPACK_IMPORTED_MODULE_3__.SignUpPageRoutingModule, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.ReactiveFormsModule, _common_header_common_header_component__WEBPACK_IMPORTED_MODULE_5__.CommonHeaderComponent, _components_date_picker_modal_date_picker_modal_component__WEBPACK_IMPORTED_MODULE_6__.DatePickerModalComponent]
   });
 })();
 
@@ -121,8 +123,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _services_appdata__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../services/appdata */ 40172);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @angular/common */ 16213);
 /* harmony import */ var _common_header_common_header_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../common-header/common-header.component */ 49028);
+/* harmony import */ var _components_date_picker_modal_date_picker_modal_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../components/date-picker-modal/date-picker-modal.component */ 51281);
 
 var _SignUpPage;
+
 
 
 
@@ -148,7 +152,7 @@ var _SignUpPage;
 function SignUpPage_ng_container_0_div_10_Template(rf, ctx) {
   if (rf & 1) {
     const _r3 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 35);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 34);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_0_div_10_Template_div_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r3);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
@@ -162,14 +166,14 @@ function SignUpPage_ng_container_0_div_10_Template(rf, ctx) {
 function SignUpPage_ng_container_0_ion_item_24_Template(rf, ctx) {
   if (rf & 1) {
     const _r4 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 8)(1, "ion-input", 36);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 7)(1, "ion-input", 35);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_0_ion_item_24_Template_ion_input_keyup_1_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r4);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](2, "ion-icon", 37);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](2, "ion-icon", 36);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -181,14 +185,14 @@ function SignUpPage_ng_container_0_ion_item_24_Template(rf, ctx) {
 function SignUpPage_ng_container_0_ion_item_25_Template(rf, ctx) {
   if (rf & 1) {
     const _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 8)(1, "ion-input", 36);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 7)(1, "ion-input", 35);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_0_ion_item_25_Template_ion_input_keyup_1_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r5);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](2, "ion-icon", 37);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](2, "ion-icon", 36);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -200,7 +204,7 @@ function SignUpPage_ng_container_0_ion_item_25_Template(rf, ctx) {
 function SignUpPage_ng_container_0_ion_icon_31_Template(rf, ctx) {
   if (rf & 1) {
     const _r6 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-icon", 38);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-icon", 37);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_0_ion_icon_31_Template_ion_icon_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r6);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
@@ -212,7 +216,7 @@ function SignUpPage_ng_container_0_ion_icon_31_Template(rf, ctx) {
 function SignUpPage_ng_container_0_ion_icon_32_Template(rf, ctx) {
   if (rf & 1) {
     const _r7 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-icon", 38);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-icon", 37);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_0_ion_icon_32_Template_ion_icon_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r7);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
@@ -224,7 +228,7 @@ function SignUpPage_ng_container_0_ion_icon_32_Template(rf, ctx) {
 function SignUpPage_ng_container_0_ion_icon_38_Template(rf, ctx) {
   if (rf & 1) {
     const _r8 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-icon", 38);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-icon", 37);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_0_ion_icon_38_Template_ion_icon_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r8);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
@@ -236,7 +240,7 @@ function SignUpPage_ng_container_0_ion_icon_38_Template(rf, ctx) {
 function SignUpPage_ng_container_0_ion_icon_39_Template(rf, ctx) {
   if (rf & 1) {
     const _r9 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-icon", 38);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-icon", 37);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_0_ion_icon_39_Template_ion_icon_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r9);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
@@ -245,40 +249,22 @@ function SignUpPage_ng_container_0_ion_icon_39_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
 }
-function SignUpPage_ng_container_0_ng_template_44_Template(rf, ctx) {
-  if (rf & 1) {
-    const _r10 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-datetime", 39, 0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("ionChange", function SignUpPage_ng_container_0_ng_template_44_Template_ion_datetime_ionChange_0_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r10);
-      const popoverDatetime_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵreference"](1);
-      const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.displayMybookings(popoverDatetime_r11 == null ? null : popoverDatetime_r11.value, 1));
-    });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-  }
-  if (rf & 2) {
-    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpropertyInterpolate"]("value", ctx_r1.pageDate);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("max", ctx_r1.todayDate);
-  }
-}
 function SignUpPage_ng_container_0_ion_item_54_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](1, "ion-input", 40)(2, "ion-icon", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](1, "ion-input", 38)(2, "ion-icon", 18);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
 }
 function SignUpPage_ng_container_0_div_58_Template(rf, ctx) {
   if (rf & 1) {
-    const _r12 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 41)(1, "span", 42);
+    const _r10 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 39)(1, "span", 40);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](2, "Already have an account? please ");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](3, "span", 43);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](3, "span", 41);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_0_div_58_Template_span_click_3_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r12);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r10);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.gotoLogin());
     });
@@ -296,83 +282,98 @@ function SignUpPage_ng_container_0_Template(rf, ctx) {
     const _r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerStart"](0);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "ion-header");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](2, "app-common-header", 2)(3, "div", 3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](2, "app-common-header", 1)(3, "div", 2);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](4, "ion-content", 4)(5, "div", 5)(6, "div", 3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](4, "ion-content", 3)(5, "div", 4)(6, "div", 2);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](7, "Sign up");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](8, "div")(9, "form", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](8, "div")(9, "form", 5);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("ngSubmit", function SignUpPage_ng_container_0_Template_form_ngSubmit_9_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r1);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.signup("buttonType"));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](10, SignUpPage_ng_container_0_div_10_Template, 3, 0, "div", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](11, "ion-row")(12, "ion-col")(13, "ion-item", 8)(14, "ion-input", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](10, SignUpPage_ng_container_0_div_10_Template, 3, 0, "div", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](11, "ion-row")(12, "ion-col")(13, "ion-item", 7)(14, "ion-input", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_0_Template_ion_input_keyup_14_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r1);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](15, "ion-icon", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](15, "ion-icon", 9);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](16, "ion-row")(17, "ion-col")(18, "ion-item", 11)(19, "ion-input", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](16, "ion-row")(17, "ion-col")(18, "ion-item", 10)(19, "ion-input", 11);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_0_Template_ion_input_keyup_19_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r1);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](20, "ion-icon", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](20, "ion-icon", 9);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](21, "ion-item", 13)(22, "ion-input", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](21, "ion-item", 12)(22, "ion-input", 13);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_0_Template_ion_input_keyup_22_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r1);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](23, "ion-icon", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](23, "ion-icon", 14);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](24, SignUpPage_ng_container_0_ion_item_24_Template, 3, 1, "ion-item", 16)(25, SignUpPage_ng_container_0_ion_item_25_Template, 3, 1, "ion-item", 16);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](26, "ion-row")(27, "ion-col")(28, "ion-item", 17)(29, "ion-input", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](24, SignUpPage_ng_container_0_ion_item_24_Template, 3, 1, "ion-item", 15)(25, SignUpPage_ng_container_0_ion_item_25_Template, 3, 1, "ion-item", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](26, "ion-row")(27, "ion-col")(28, "ion-item", 16)(29, "ion-input", 17);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_0_Template_ion_input_keyup_29_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r1);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](30, "ion-icon", 19);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](31, SignUpPage_ng_container_0_ion_icon_31_Template, 1, 0, "ion-icon", 20)(32, SignUpPage_ng_container_0_ion_icon_32_Template, 1, 0, "ion-icon", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](30, "ion-icon", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](31, SignUpPage_ng_container_0_ion_icon_31_Template, 1, 0, "ion-icon", 19)(32, SignUpPage_ng_container_0_ion_icon_32_Template, 1, 0, "ion-icon", 19);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](33, "ion-row")(34, "ion-col")(35, "ion-item", 11)(36, "ion-input", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](33, "ion-row")(34, "ion-col")(35, "ion-item", 10)(36, "ion-input", 20);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_0_Template_ion_input_keyup_36_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r1);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](37, "ion-icon", 19);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](38, SignUpPage_ng_container_0_ion_icon_38_Template, 1, 0, "ion-icon", 22)(39, SignUpPage_ng_container_0_ion_icon_39_Template, 1, 0, "ion-icon", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](37, "ion-icon", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](38, SignUpPage_ng_container_0_ion_icon_38_Template, 1, 0, "ion-icon", 21)(39, SignUpPage_ng_container_0_ion_icon_39_Template, 1, 0, "ion-icon", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](40, "ion-item", 23);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](41, "ion-icon", 24)(42, "ion-input", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](40, "ion-item", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_0_Template_ion_item_click_40_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r1);
+      const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
+      return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.openCalendar());
+    });
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](41, "ion-icon", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](42, "div", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](43);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](44, "app-date-picker-modal", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("dateSelected", function SignUpPage_ng_container_0_Template_app_date_picker_modal_dateSelected_44_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r1);
+      const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
+      return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.displayMybookings($event, 1));
+    })("isOpenChange", function SignUpPage_ng_container_0_Template_app_date_picker_modal_isOpenChange_44_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r1);
+      const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
+      return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.isCalenderOpen = $event);
+    });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](43, "ion-modal", 26);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](44, SignUpPage_ng_container_0_ng_template_44_Template, 2, 2, "ng-template");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](45, "div", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](45, "div", 26);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](46, " Gender ");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](47, "div", 28)(48, "div", 3)(49, "ion-segment", 29)(50, "ion-segment-button", 30);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](47, "div", 27)(48, "div", 2)(49, "ion-segment", 28)(50, "ion-segment-button", 29);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](51);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](52, "ion-segment-button", 31);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](52, "ion-segment-button", 30);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](53);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](54, SignUpPage_ng_container_0_ion_item_54_Template, 3, 0, "ion-item", 32);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](55, "div")(56, "ion-button", 33);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](54, SignUpPage_ng_container_0_ion_item_54_Template, 3, 0, "ion-item", 31);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](55, "div")(56, "ion-button", 32);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_0_Template_ion_button_click_56_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r1);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
@@ -380,7 +381,7 @@ function SignUpPage_ng_container_0_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](57, "Sign up");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](58, SignUpPage_ng_container_0_div_58_Template, 5, 1, "div", 34);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](58, SignUpPage_ng_container_0_div_58_Template, 5, 1, "div", 33);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerEnd"]();
   }
@@ -410,9 +411,11 @@ function SignUpPage_ng_container_0_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", !ctx_r1.cfmshowpass);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r1.cfmshowpass);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("value", ctx_r1.showDate);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"](" ", ctx_r1.showDate || "Date Of Birth", " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("value", ctx_r1.pageDate)("max", ctx_r1.todayDate)("isOpen", ctx_r1.isCalenderOpen);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngClass", ctx_r1.metaData.msiteFolder == "cbustheme" ? "seg-btn" : "themeone-seg-btn");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngClass", ctx_r1.metaData.msiteFolder == "cbustheme" ? "segone" : "themeone_segone");
@@ -430,34 +433,34 @@ function SignUpPage_ng_container_0_Template(rf, ctx) {
 }
 function SignUpPage_ng_container_1_ion_title_5_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-title", 62);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-title", 60);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1, "Sign Up");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
 }
 function SignUpPage_ng_container_1_ion_title_6_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-title", 62);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-title", 60);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1, "Sign Up");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
 }
 function SignUpPage_ng_container_1_ion_title_7_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-title", 62);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-title", 60);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1, "Personal details");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
 }
 function SignUpPage_ng_container_1_ion_card_10_Template(rf, ctx) {
   if (rf & 1) {
-    const _r14 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-card", 63)(1, "div", 64)(2, "span", 65);
+    const _r12 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-card", 61)(1, "div", 62)(2, "span", 63);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](3, "Already have an account ?");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](4, "span", 66);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](4, "span", 64);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_1_ion_card_10_Template_span_click_4_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r14);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r12);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.gotoLogin());
     });
@@ -467,10 +470,10 @@ function SignUpPage_ng_container_1_ion_card_10_Template(rf, ctx) {
 }
 function SignUpPage_ng_container_1_div_15_Template(rf, ctx) {
   if (rf & 1) {
-    const _r15 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 35);
+    const _r13 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 34);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_1_div_15_Template_div_click_0_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r15);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r13);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.signup("skip"));
     });
@@ -481,16 +484,16 @@ function SignUpPage_ng_container_1_div_15_Template(rf, ctx) {
 }
 function SignUpPage_ng_container_1_ion_item_16_ion_text_4_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-text", 70);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-text", 68);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1, "*");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
 }
 function SignUpPage_ng_container_1_ion_item_16_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 56)(1, "ion-input", 67)(2, "div", 68);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 54)(1, "ion-input", 65)(2, "div", 66);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](3, "First Name ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](4, SignUpPage_ng_container_1_ion_item_16_ion_text_4_Template, 2, 0, "ion-text", 69);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](4, SignUpPage_ng_container_1_ion_item_16_ion_text_4_Template, 2, 0, "ion-text", 67);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
@@ -501,23 +504,23 @@ function SignUpPage_ng_container_1_ion_item_16_Template(rf, ctx) {
 }
 function SignUpPage_ng_container_1_ion_item_17_ion_text_4_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-text", 70);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-text", 68);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1, "*");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
 }
 function SignUpPage_ng_container_1_ion_item_17_Template(rf, ctx) {
   if (rf & 1) {
-    const _r16 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 56)(1, "ion-input", 71);
+    const _r14 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 54)(1, "ion-input", 69);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_1_ion_item_17_Template_ion_input_keyup_1_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r16);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r14);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "div", 68);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "div", 66);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](3, "Last Name ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](4, SignUpPage_ng_container_1_ion_item_17_ion_text_4_Template, 2, 0, "ion-text", 69);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](4, SignUpPage_ng_container_1_ion_item_17_ion_text_4_Template, 2, 0, "ion-text", 67);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
@@ -528,23 +531,23 @@ function SignUpPage_ng_container_1_ion_item_17_Template(rf, ctx) {
 }
 function SignUpPage_ng_container_1_ion_item_18_span_4_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span", 74);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span", 72);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1, "*");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
 }
 function SignUpPage_ng_container_1_ion_item_18_Template(rf, ctx) {
   if (rf & 1) {
-    const _r17 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 56)(1, "ion-input", 72);
+    const _r15 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 54)(1, "ion-input", 70);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_1_ion_item_18_Template_ion_input_keyup_1_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r17);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r15);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "div", 68);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "div", 66);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](3, "Email address ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](4, SignUpPage_ng_container_1_ion_item_18_span_4_Template, 2, 0, "span", 73);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](4, SignUpPage_ng_container_1_ion_item_18_span_4_Template, 2, 0, "span", 71);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
@@ -555,23 +558,23 @@ function SignUpPage_ng_container_1_ion_item_18_Template(rf, ctx) {
 }
 function SignUpPage_ng_container_1_ion_item_19_span_4_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span", 74);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span", 72);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1, "*");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
 }
 function SignUpPage_ng_container_1_ion_item_19_Template(rf, ctx) {
   if (rf & 1) {
-    const _r18 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 56)(1, "ion-input", 75);
+    const _r16 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 54)(1, "ion-input", 73);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_1_ion_item_19_Template_ion_input_keyup_1_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r18);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r16);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "div", 68);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "div", 66);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](3, "Mobile number ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](4, SignUpPage_ng_container_1_ion_item_19_span_4_Template, 2, 0, "span", 73);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](4, SignUpPage_ng_container_1_ion_item_19_span_4_Template, 2, 0, "span", 71);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
@@ -582,23 +585,23 @@ function SignUpPage_ng_container_1_ion_item_19_Template(rf, ctx) {
 }
 function SignUpPage_ng_container_1_ion_item_20_span_4_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span", 74);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span", 72);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1, "*");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
 }
 function SignUpPage_ng_container_1_ion_item_20_Template(rf, ctx) {
   if (rf & 1) {
-    const _r19 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 56)(1, "ion-input", 75);
+    const _r17 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 54)(1, "ion-input", 73);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_1_ion_item_20_Template_ion_input_keyup_1_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r19);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r17);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "div", 68);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "div", 66);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](3, "Mobile number ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](4, SignUpPage_ng_container_1_ion_item_20_span_4_Template, 2, 0, "span", 73);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](4, SignUpPage_ng_container_1_ion_item_20_span_4_Template, 2, 0, "span", 71);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
@@ -609,29 +612,29 @@ function SignUpPage_ng_container_1_ion_item_20_Template(rf, ctx) {
 }
 function SignUpPage_ng_container_1_ion_item_21_span_4_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span", 74);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span", 72);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1, "*");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
 }
 function SignUpPage_ng_container_1_ion_item_21_Template(rf, ctx) {
   if (rf & 1) {
-    const _r20 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 56)(1, "ion-input", 76);
+    const _r18 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 54)(1, "ion-input", 74);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_1_ion_item_21_Template_ion_input_keyup_1_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r20);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r18);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtwoWayListener"]("ngModelChange", function SignUpPage_ng_container_1_ion_item_21_Template_ion_input_ngModelChange_1_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r20);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r18);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtwoWayBindingSet"](ctx_r1.forcedMobNUm, $event) || (ctx_r1.forcedMobNUm = $event);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"]($event);
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "div", 68);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "div", 66);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](3, "Mobile number ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](4, SignUpPage_ng_container_1_ion_item_21_span_4_Template, 2, 0, "span", 73);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](4, SignUpPage_ng_container_1_ion_item_21_span_4_Template, 2, 0, "span", 71);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
@@ -644,23 +647,23 @@ function SignUpPage_ng_container_1_ion_item_21_Template(rf, ctx) {
 }
 function SignUpPage_ng_container_1_ion_item_22_span_4_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span", 74);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span", 72);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1, "*");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
 }
 function SignUpPage_ng_container_1_ion_item_22_Template(rf, ctx) {
   if (rf & 1) {
-    const _r21 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 56)(1, "ion-input", 75);
+    const _r19 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 54)(1, "ion-input", 73);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_1_ion_item_22_Template_ion_input_keyup_1_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r21);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r19);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "div", 68);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "div", 66);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](3, "Mobile number ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](4, SignUpPage_ng_container_1_ion_item_22_span_4_Template, 2, 0, "span", 73);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](4, SignUpPage_ng_container_1_ion_item_22_span_4_Template, 2, 0, "span", 71);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
@@ -669,52 +672,43 @@ function SignUpPage_ng_container_1_ion_item_22_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r1.signUpConfig["Phone_Number"] && ctx_r1.signUpConfig["Phone_Number"] === "Mandatory");
   }
 }
-function SignUpPage_ng_container_1_ion_item_29_span_3_Template(rf, ctx) {
+function SignUpPage_ng_container_1_ion_item_29_span_7_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span", 74);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span", 72);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1, "*");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-  }
-  if (rf & 2) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate"]("*");
   }
 }
 function SignUpPage_ng_container_1_ion_item_29_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 77);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](1, "img", 78)(2, "ion-input", 79);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](3, SignUpPage_ng_container_1_ion_item_29_span_3_Template, 2, 1, "span", 73);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-  }
-  if (rf & 2) {
-    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("value", ctx_r1.showDate);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r1.signUpConfig["DOB"] && ctx_r1.signUpConfig["DOB"] === "Mandatory");
-  }
-}
-function SignUpPage_ng_container_1_ng_template_31_Template(rf, ctx) {
-  if (rf & 1) {
-    const _r22 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-datetime", 80, 0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("ionChange", function SignUpPage_ng_container_1_ng_template_31_Template_ion_datetime_ionChange_0_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r22);
-      const popoverDatetime_r23 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵreference"](1);
+    const _r20 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 75);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_1_ion_item_29_Template_ion_item_click_0_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r20);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.displayMybookings(popoverDatetime_r23 == null ? null : popoverDatetime_r23.value, 1));
+      return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.openCalendar());
     });
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](1, "img", 76);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "div", 77)(3, "div", 78);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](4, "Date of birth");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](5, "div", 79);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](7, SignUpPage_ng_container_1_ion_item_29_span_7_Template, 2, 0, "span", 71);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpropertyInterpolate"]("value", ctx_r1.pageDate);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate"](ctx_r1.showDate || "Date Of Birth");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r1.signUpConfig["DOB"] === "Mandatory");
   }
 }
-function SignUpPage_ng_container_1_ion_item_32_span_3_Template(rf, ctx) {
+function SignUpPage_ng_container_1_ion_item_31_span_3_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span", 74);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span", 72);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
@@ -723,16 +717,16 @@ function SignUpPage_ng_container_1_ion_item_32_span_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate"]("*");
   }
 }
-function SignUpPage_ng_container_1_ion_item_32_Template(rf, ctx) {
+function SignUpPage_ng_container_1_ion_item_31_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 56)(1, "ion-label", 81);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 54)(1, "ion-label", 80);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](2, " Gender ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](3, SignUpPage_ng_container_1_ion_item_32_span_3_Template, 2, 1, "span", 73);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](3, SignUpPage_ng_container_1_ion_item_31_span_3_Template, 2, 1, "span", 71);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](4, "div", 82)(5, "ion-segment", 83)(6, "ion-segment-button", 84);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](4, "div", 81)(5, "ion-segment", 82)(6, "ion-segment-button", 83);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](7);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](8, "ion-segment-button", 31);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](8, "ion-segment-button", 30);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](9);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()();
   }
@@ -746,25 +740,25 @@ function SignUpPage_ng_container_1_ion_item_32_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"](" ", "Female", " ");
   }
 }
-function SignUpPage_ng_container_1_ion_item_33_span_4_Template(rf, ctx) {
+function SignUpPage_ng_container_1_ion_item_32_span_4_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span", 74);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span", 72);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1, "*");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
 }
-function SignUpPage_ng_container_1_ion_item_33_Template(rf, ctx) {
+function SignUpPage_ng_container_1_ion_item_32_Template(rf, ctx) {
   if (rf & 1) {
-    const _r24 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 56)(1, "ion-input", 85);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_1_ion_item_33_Template_ion_input_keyup_1_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r24);
+    const _r21 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 54)(1, "ion-input", 84);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_1_ion_item_32_Template_ion_input_keyup_1_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r21);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "div", 68);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "div", 66);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](3, "Address ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](4, SignUpPage_ng_container_1_ion_item_33_span_4_Template, 2, 0, "span", 73);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](4, SignUpPage_ng_container_1_ion_item_32_span_4_Template, 2, 0, "span", 71);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
@@ -773,21 +767,21 @@ function SignUpPage_ng_container_1_ion_item_33_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r1.signUpConfig["Address"] && ctx_r1.signUpConfig["Address"] === "Mandatory");
   }
 }
-function SignUpPage_ng_container_1_ion_item_34_Template(rf, ctx) {
+function SignUpPage_ng_container_1_ion_item_33_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 56);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](1, "ion-input", 86);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 54);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](1, "ion-input", 85);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
 }
-function SignUpPage_ng_container_1_span_37_Template(rf, ctx) {
+function SignUpPage_ng_container_1_span_36_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1, "Signup");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
 }
-function SignUpPage_ng_container_1_span_38_Template(rf, ctx) {
+function SignUpPage_ng_container_1_span_37_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1, "Submit");
@@ -796,70 +790,78 @@ function SignUpPage_ng_container_1_span_38_Template(rf, ctx) {
 }
 function SignUpPage_ng_container_1_Template(rf, ctx) {
   if (rf & 1) {
-    const _r13 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+    const _r11 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "ion-header", 44)(2, "ion-toolbar", 45)(3, "ion-buttons", 46)(4, "ion-back-button", 47);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "ion-header", 42)(2, "ion-toolbar", 43)(3, "ion-buttons", 44)(4, "ion-back-button", 45);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_1_Template_ion_back_button_click_4_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r13);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r11);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.goBack());
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](5, SignUpPage_ng_container_1_ion_title_5_Template, 2, 0, "ion-title", 48)(6, SignUpPage_ng_container_1_ion_title_6_Template, 2, 0, "ion-title", 48)(7, SignUpPage_ng_container_1_ion_title_7_Template, 2, 0, "ion-title", 48);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](8, "img", 49);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](5, SignUpPage_ng_container_1_ion_title_5_Template, 2, 0, "ion-title", 46)(6, SignUpPage_ng_container_1_ion_title_6_Template, 2, 0, "ion-title", 46)(7, SignUpPage_ng_container_1_ion_title_7_Template, 2, 0, "ion-title", 46);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](8, "img", 47);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](9, "ion-content", 50);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](10, SignUpPage_ng_container_1_ion_card_10_Template, 6, 0, "ion-card", 51);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](11, "div", 52)(12, "div", 53);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](9, "ion-content", 48);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](10, SignUpPage_ng_container_1_ion_card_10_Template, 6, 0, "ion-card", 49);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](11, "div", 50)(12, "div", 51);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](13, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](14, "form", 54);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](14, "form", 52);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("ngSubmit", function SignUpPage_ng_container_1_Template_form_ngSubmit_14_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r13);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r11);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.signup("buttonType"));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](15, SignUpPage_ng_container_1_div_15_Template, 3, 0, "div", 7)(16, SignUpPage_ng_container_1_ion_item_16_Template, 5, 1, "ion-item", 55)(17, SignUpPage_ng_container_1_ion_item_17_Template, 5, 1, "ion-item", 55)(18, SignUpPage_ng_container_1_ion_item_18_Template, 5, 1, "ion-item", 55)(19, SignUpPage_ng_container_1_ion_item_19_Template, 5, 1, "ion-item", 55)(20, SignUpPage_ng_container_1_ion_item_20_Template, 5, 1, "ion-item", 55)(21, SignUpPage_ng_container_1_ion_item_21_Template, 5, 2, "ion-item", 55)(22, SignUpPage_ng_container_1_ion_item_22_Template, 5, 1, "ion-item", 55);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](23, "ion-item", 56)(24, "ion-input", 57);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](15, SignUpPage_ng_container_1_div_15_Template, 3, 0, "div", 6)(16, SignUpPage_ng_container_1_ion_item_16_Template, 5, 1, "ion-item", 53)(17, SignUpPage_ng_container_1_ion_item_17_Template, 5, 1, "ion-item", 53)(18, SignUpPage_ng_container_1_ion_item_18_Template, 5, 1, "ion-item", 53)(19, SignUpPage_ng_container_1_ion_item_19_Template, 5, 1, "ion-item", 53)(20, SignUpPage_ng_container_1_ion_item_20_Template, 5, 1, "ion-item", 53)(21, SignUpPage_ng_container_1_ion_item_21_Template, 5, 2, "ion-item", 53)(22, SignUpPage_ng_container_1_ion_item_22_Template, 5, 1, "ion-item", 53);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](23, "ion-item", 54)(24, "ion-input", 55);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_1_Template_ion_input_keyup_24_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r13);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r11);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](25, "ion-icon", 58);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](25, "ion-icon", 56);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_1_Template_ion_icon_click_25_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r13);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r11);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.togglePasswordVisibility1());
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](26, "ion-item", 56)(27, "ion-input", 59);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](26, "ion-item", 54)(27, "ion-input", 57);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_1_Template_ion_input_keyup_27_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r13);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r11);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](28, "ion-icon", 58);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](28, "ion-icon", 56);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_1_Template_ion_icon_click_28_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r13);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r11);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.toggleCnfPasswordVisibility());
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](29, SignUpPage_ng_container_1_ion_item_29_Template, 4, 2, "ion-item", 60);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](30, "ion-modal", 26);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](31, SignUpPage_ng_container_1_ng_template_31_Template, 2, 1, "ng-template");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](29, SignUpPage_ng_container_1_ion_item_29_Template, 8, 2, "ion-item", 58);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](30, "app-date-picker-modal", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("dateSelected", function SignUpPage_ng_container_1_Template_app_date_picker_modal_dateSelected_30_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r11);
+      const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
+      return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.displayMybookings($event, 1));
+    })("isOpenChange", function SignUpPage_ng_container_1_Template_app_date_picker_modal_isOpenChange_30_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r11);
+      const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
+      return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.isCalenderOpen = $event);
+    });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](32, SignUpPage_ng_container_1_ion_item_32_Template, 10, 3, "ion-item", 55)(33, SignUpPage_ng_container_1_ion_item_33_Template, 5, 1, "ion-item", 55)(34, SignUpPage_ng_container_1_ion_item_34_Template, 2, 0, "ion-item", 55);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](35, "div")(36, "ion-button", 61);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_1_Template_ion_button_click_36_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](31, SignUpPage_ng_container_1_ion_item_31_Template, 10, 3, "ion-item", 53)(32, SignUpPage_ng_container_1_ion_item_32_Template, 5, 1, "ion-item", 53)(33, SignUpPage_ng_container_1_ion_item_33_Template, 2, 0, "ion-item", 53);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](34, "div")(35, "ion-button", 59);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_1_Template_ion_button_click_35_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r11);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.signup("sign-up"));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](37, SignUpPage_ng_container_1_span_37_Template, 2, 0, "span", 1)(38, SignUpPage_ng_container_1_span_38_Template, 2, 0, "span", 1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](36, SignUpPage_ng_container_1_span_36_Template, 2, 0, "span", 0)(37, SignUpPage_ng_container_1_span_37_Template, 2, 0, "span", 0);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerEnd"]();
   }
@@ -903,7 +905,9 @@ function SignUpPage_ng_container_1_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpropertyInterpolate"]("name", ctx_r1.cfmshowpass ? "eye-off" : "eye");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r1.signUpConfig["DOB"] && ctx_r1.signUpConfig["DOB"] !== "Hide");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("value", ctx_r1.pageDate)("max", ctx_r1.todayDate)("isOpen", ctx_r1.isCalenderOpen);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r1.signUpConfig["Title"] && ctx_r1.signUpConfig["Title"] !== "Hide");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r1.signUpConfig["Address"] && ctx_r1.signUpConfig["Address"] !== "Hide");
@@ -924,10 +928,10 @@ function SignUpPage_ng_container_2_ion_buttons_5_Template(rf, ctx) {
 }
 function SignUpPage_ng_container_2_div_15_Template(rf, ctx) {
   if (rf & 1) {
-    const _r26 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 114);
+    const _r23 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 113);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_2_div_15_Template_div_click_0_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r26);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r23);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.signup("skip"));
     });
@@ -938,14 +942,14 @@ function SignUpPage_ng_container_2_div_15_Template(rf, ctx) {
 }
 function SignUpPage_ng_container_2_ion_row_28_Template(rf, ctx) {
   if (rf & 1) {
-    const _r27 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-row")(1, "ion-col", 95)(2, "ion-item", 96)(3, "ion-input", 115);
+    const _r24 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-row")(1, "ion-col", 94)(2, "ion-item", 95)(3, "ion-input", 114);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_2_ion_row_28_Template_ion_input_keyup_3_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r27);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r24);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     })("ionChange", function SignUpPage_ng_container_2_ion_row_28_Template_ion_input_ionChange_3_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r27);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r24);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.enforceMaxLength($event));
     });
@@ -954,14 +958,14 @@ function SignUpPage_ng_container_2_ion_row_28_Template(rf, ctx) {
 }
 function SignUpPage_ng_container_2_ion_row_29_Template(rf, ctx) {
   if (rf & 1) {
-    const _r28 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-row")(1, "ion-col", 95)(2, "ion-item", 96)(3, "ion-input", 115);
+    const _r25 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-row")(1, "ion-col", 94)(2, "ion-item", 95)(3, "ion-input", 114);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_2_ion_row_29_Template_ion_input_keyup_3_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r28);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r25);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     })("ionChange", function SignUpPage_ng_container_2_ion_row_29_Template_ion_input_ionChange_3_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r28);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r25);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.enforceMaxLength($event));
     });
@@ -970,19 +974,19 @@ function SignUpPage_ng_container_2_ion_row_29_Template(rf, ctx) {
 }
 function SignUpPage_ng_container_2_ion_row_30_Template(rf, ctx) {
   if (rf & 1) {
-    const _r29 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-row")(1, "ion-col", 95)(2, "ion-item", 96)(3, "ion-input", 116);
+    const _r26 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-row")(1, "ion-col", 94)(2, "ion-item", 95)(3, "ion-input", 115);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_2_ion_row_30_Template_ion_input_keyup_3_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r29);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r26);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     })("ionChange", function SignUpPage_ng_container_2_ion_row_30_Template_ion_input_ionChange_3_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r29);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r26);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.enforceMaxLength($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtwoWayListener"]("ngModelChange", function SignUpPage_ng_container_2_ion_row_30_Template_ion_input_ngModelChange_3_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r29);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r26);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtwoWayBindingSet"](ctx_r1.forcedMobNUm, $event) || (ctx_r1.forcedMobNUm = $event);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"]($event);
@@ -997,132 +1001,118 @@ function SignUpPage_ng_container_2_ion_row_30_Template(rf, ctx) {
 }
 function SignUpPage_ng_container_2_ion_row_31_Template(rf, ctx) {
   if (rf & 1) {
-    const _r30 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-row")(1, "ion-col", 95)(2, "ion-item", 96)(3, "ion-input", 115);
+    const _r27 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-row")(1, "ion-col", 94)(2, "ion-item", 95)(3, "ion-input", 114);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_2_ion_row_31_Template_ion_input_keyup_3_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r30);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r27);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     })("ionChange", function SignUpPage_ng_container_2_ion_row_31_Template_ion_input_ionChange_3_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r30);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r27);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.enforceMaxLength($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()();
   }
 }
-function SignUpPage_ng_container_2_ng_template_50_Template(rf, ctx) {
-  if (rf & 1) {
-    const _r31 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-datetime", 117, 0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("ionChange", function SignUpPage_ng_container_2_ng_template_50_Template_ion_datetime_ionChange_0_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r31);
-      const popoverDatetime_r32 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵreference"](1);
-      const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.displayMybookings(popoverDatetime_r32 == null ? null : popoverDatetime_r32.value, 1));
-    });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-  }
-  if (rf & 2) {
-    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpropertyInterpolate"]("value", ctx_r1.pageDate);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("max", ctx_r1.maxDate);
-  }
-}
 function SignUpPage_ng_container_2_Template(rf, ctx) {
   if (rf & 1) {
-    const _r25 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+    const _r22 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "ion-header", 87)(2, "ion-toolbar", 88)(3, "ion-row")(4, "ion-col", 89);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](5, SignUpPage_ng_container_2_ion_buttons_5_Template, 2, 0, "ion-buttons", 1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "ion-header", 86)(2, "ion-toolbar", 87)(3, "ion-row")(4, "ion-col", 88);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](5, SignUpPage_ng_container_2_ion_buttons_5_Template, 2, 0, "ion-buttons", 0);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](6, "ion-col", 90)(7, "ion-title", 91);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](6, "ion-col", 89)(7, "ion-title", 90);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](8, "Personal Details");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](9, "ion-col", 89);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](9, "ion-col", 88);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](10, "ion-content", 92)(11, "div", 52)(12, "div", 53);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](10, "ion-content", 91)(11, "div", 50)(12, "div", 51);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](13, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](14, "form", 54);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](14, "form", 52);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("ngSubmit", function SignUpPage_ng_container_2_Template_form_ngSubmit_14_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r25);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r22);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.signup("buttonType"));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](15, SignUpPage_ng_container_2_div_15_Template, 3, 0, "div", 93);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](16, "ion-row", 94)(17, "ion-col", 95)(18, "ion-item", 96)(19, "ion-input", 97);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](15, SignUpPage_ng_container_2_div_15_Template, 3, 0, "div", 92);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](16, "ion-row", 93)(17, "ion-col", 94)(18, "ion-item", 95)(19, "ion-input", 96);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_2_Template_ion_input_keyup_19_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r25);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r22);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](20, "ion-row")(21, "ion-col", 95)(22, "ion-item", 96)(23, "ion-input", 98);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](20, "ion-row")(21, "ion-col", 94)(22, "ion-item", 95)(23, "ion-input", 97);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_2_Template_ion_input_keyup_23_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r25);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r22);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](24, "ion-row")(25, "ion-col", 99)(26, "ion-item", 100)(27, "ion-input", 101);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](24, "ion-row")(25, "ion-col", 98)(26, "ion-item", 99)(27, "ion-input", 100);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_2_Template_ion_input_keyup_27_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r25);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r22);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](28, SignUpPage_ng_container_2_ion_row_28_Template, 4, 0, "ion-row", 1)(29, SignUpPage_ng_container_2_ion_row_29_Template, 4, 0, "ion-row", 1)(30, SignUpPage_ng_container_2_ion_row_30_Template, 4, 1, "ion-row", 1)(31, SignUpPage_ng_container_2_ion_row_31_Template, 4, 0, "ion-row", 1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](32, "ion-row")(33, "ion-col", 95)(34, "ion-item", 96)(35, "ion-input", 102);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](28, SignUpPage_ng_container_2_ion_row_28_Template, 4, 0, "ion-row", 0)(29, SignUpPage_ng_container_2_ion_row_29_Template, 4, 0, "ion-row", 0)(30, SignUpPage_ng_container_2_ion_row_30_Template, 4, 1, "ion-row", 0)(31, SignUpPage_ng_container_2_ion_row_31_Template, 4, 0, "ion-row", 0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](32, "ion-row")(33, "ion-col", 94)(34, "ion-item", 95)(35, "ion-input", 101);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_2_Template_ion_input_keyup_35_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r25);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r22);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](36, "div", 103);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](36, "div", 102);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_2_Template_div_click_36_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r25);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r22);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onPasswordToggle());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](37, "ion-icon", 104);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](37, "ion-icon", 103);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](38, "ion-row")(39, "ion-col", 95)(40, "ion-item", 96)(41, "ion-input", 105);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](38, "ion-row")(39, "ion-col", 94)(40, "ion-item", 95)(41, "ion-input", 104);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_2_Template_ion_input_keyup_41_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r25);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r22);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](42, "div", 103);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](42, "div", 102);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_2_Template_div_click_42_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r25);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r22);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onPasswordToggle1());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](43, "ion-icon", 104);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](43, "ion-icon", 103);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](44, "ion-row")(45, "ion-col", 106)(46, "ion-item", 107);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](47, "img", 108)(48, "ion-input", 109);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](44, "ion-row")(45, "ion-col", 105)(46, "ion-item", 106);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](47, "img", 107)(48, "ion-input", 108);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](49, "ion-modal", 110);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](50, SignUpPage_ng_container_2_ng_template_50_Template, 2, 2, "ng-template");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](49, "app-date-picker-modal", 109);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("dateSelected", function SignUpPage_ng_container_2_Template_app_date_picker_modal_dateSelected_49_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r22);
+      const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
+      return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.displayMybookings($event, 1));
+    });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](51, "ion-col", 106)(52, "ion-segment", 111)(53, "ion-segment-button", 112)(54, "ion-label");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](55, "Male");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](50, "ion-col", 105)(51, "ion-segment", 110)(52, "ion-segment-button", 111)(53, "ion-label");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](54, "Male");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](56, "ion-segment-button", 31)(57, "ion-label");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](58, "Female");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](55, "ion-segment-button", 30)(56, "ion-label");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](57, "Female");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](59, "div")(60, "ion-button", 113);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_2_Template_ion_button_click_60_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](58, "div")(59, "ion-button", 112);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_2_Template_ion_button_click_59_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r22);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.signup("sign-up"));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](61, "span");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](62, "Submit");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](60, "span");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](61, "Submit");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()()();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerEnd"]();
   }
@@ -1152,35 +1142,37 @@ function SignUpPage_ng_container_2_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("name", ctx_r1.showconfirmPassword ? "eye-off" : "eye");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("value", ctx_r1.showDate);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("value", ctx_r1.pageDate)("max", ctx_r1.maxDate);
   }
 }
 function SignUpPage_ng_container_3_ion_title_5_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-title", 62);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-title", 60);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1, "Sign Up");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
 }
 function SignUpPage_ng_container_3_ion_title_6_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-title", 62);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-title", 60);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1, "Sign Up");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
 }
 function SignUpPage_ng_container_3_ion_title_7_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-title", 62);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-title", 60);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1, "Personal details");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
 }
 function SignUpPage_ng_container_3_div_12_Template(rf, ctx) {
   if (rf & 1) {
-    const _r34 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 35);
+    const _r29 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 34);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_3_div_12_Template_div_click_0_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r34);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r29);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.signup("skip"));
     });
@@ -1191,10 +1183,10 @@ function SignUpPage_ng_container_3_div_12_Template(rf, ctx) {
 }
 function SignUpPage_ng_container_3_ion_item_19_Template(rf, ctx) {
   if (rf & 1) {
-    const _r35 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 121)(1, "ion-input", 144);
+    const _r30 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 119)(1, "ion-input", 142);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_3_ion_item_19_Template_ion_input_keyup_1_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r35);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r30);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
@@ -1203,10 +1195,10 @@ function SignUpPage_ng_container_3_ion_item_19_Template(rf, ctx) {
 }
 function SignUpPage_ng_container_3_ion_item_20_Template(rf, ctx) {
   if (rf & 1) {
-    const _r36 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 145)(1, "ion-input", 144);
+    const _r31 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 79)(1, "ion-input", 142);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_3_ion_item_20_Template_ion_input_keyup_1_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r36);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r31);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
@@ -1215,15 +1207,15 @@ function SignUpPage_ng_container_3_ion_item_20_Template(rf, ctx) {
 }
 function SignUpPage_ng_container_3_ion_item_21_Template(rf, ctx) {
   if (rf & 1) {
-    const _r37 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 121)(1, "ion-input", 146);
+    const _r32 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 119)(1, "ion-input", 143);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_3_ion_item_21_Template_ion_input_keyup_1_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r37);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r32);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtwoWayListener"]("ngModelChange", function SignUpPage_ng_container_3_ion_item_21_Template_ion_input_ngModelChange_1_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r37);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r32);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtwoWayBindingSet"](ctx_r1.forcedMobNUm, $event) || (ctx_r1.forcedMobNUm = $event);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"]($event);
@@ -1238,63 +1230,46 @@ function SignUpPage_ng_container_3_ion_item_21_Template(rf, ctx) {
 }
 function SignUpPage_ng_container_3_ion_item_22_Template(rf, ctx) {
   if (rf & 1) {
-    const _r38 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 121)(1, "ion-input", 144);
+    const _r33 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 119)(1, "ion-input", 142);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_3_ion_item_22_Template_ion_input_keyup_1_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r38);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r33);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
   }
 }
-function SignUpPage_ng_container_3_ng_template_36_Template(rf, ctx) {
+function SignUpPage_ng_container_3_ion_item_50_Template(rf, ctx) {
   if (rf & 1) {
-    const _r39 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-datetime", 80, 0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("ionChange", function SignUpPage_ng_container_3_ng_template_36_Template_ion_datetime_ionChange_0_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r39);
-      const popoverDatetime_r40 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵreference"](1);
-      const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.displayMybookings(popoverDatetime_r40 == null ? null : popoverDatetime_r40.value, 1));
-    });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-  }
-  if (rf & 2) {
-    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpropertyInterpolate"]("value", ctx_r1.pageDate);
-  }
-}
-function SignUpPage_ng_container_3_ion_item_51_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 147);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](1, "ion-input", 148);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 144);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](1, "ion-input", 145);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
 }
-function SignUpPage_ng_container_3_span_54_Template(rf, ctx) {
+function SignUpPage_ng_container_3_span_53_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1, "Sign up");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
 }
-function SignUpPage_ng_container_3_span_55_Template(rf, ctx) {
+function SignUpPage_ng_container_3_span_54_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1, "Submit");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
 }
-function SignUpPage_ng_container_3_div_56_Template(rf, ctx) {
+function SignUpPage_ng_container_3_div_55_Template(rf, ctx) {
   if (rf & 1) {
-    const _r41 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 149)(1, "span", 65);
+    const _r34 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 146)(1, "span", 63);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](2, "Already have an account ?");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](3, "span", 150);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_3_div_56_Template_span_click_3_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r41);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](3, "span", 147);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_3_div_55_Template_span_click_3_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r34);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.gotoLogin());
     });
@@ -1304,95 +1279,99 @@ function SignUpPage_ng_container_3_div_56_Template(rf, ctx) {
 }
 function SignUpPage_ng_container_3_Template(rf, ctx) {
   if (rf & 1) {
-    const _r33 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+    const _r28 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "ion-header")(2, "ion-toolbar", 88)(3, "ion-buttons", 46);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "ion-header")(2, "ion-toolbar", 87)(3, "ion-buttons", 44);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](4, "ion-back-button");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](5, SignUpPage_ng_container_3_ion_title_5_Template, 2, 0, "ion-title", 48)(6, SignUpPage_ng_container_3_ion_title_6_Template, 2, 0, "ion-title", 48)(7, SignUpPage_ng_container_3_ion_title_7_Template, 2, 0, "ion-title", 48);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](8, "img", 49);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](5, SignUpPage_ng_container_3_ion_title_5_Template, 2, 0, "ion-title", 46)(6, SignUpPage_ng_container_3_ion_title_6_Template, 2, 0, "ion-title", 46)(7, SignUpPage_ng_container_3_ion_title_7_Template, 2, 0, "ion-title", 46);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](8, "img", 47);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](9, "ion-content", 118)(10, "ion-card", 119)(11, "form", 120);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](9, "ion-content", 116)(10, "ion-card", 117)(11, "form", 118);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("ngSubmit", function SignUpPage_ng_container_3_Template_form_ngSubmit_11_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r33);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r28);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.signup("buttonType"));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](12, SignUpPage_ng_container_3_div_12_Template, 3, 0, "div", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](13, "ion-item", 121)(14, "ion-input", 122);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](12, SignUpPage_ng_container_3_div_12_Template, 3, 0, "div", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](13, "ion-item", 119)(14, "ion-input", 120);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_3_Template_ion_input_keyup_14_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r33);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r28);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](15, "ion-item", 121)(16, "ion-input", 123);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](15, "ion-item", 119)(16, "ion-input", 121);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_3_Template_ion_input_keyup_16_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r33);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r28);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](17, "ion-item", 121)(18, "ion-input", 124);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](17, "ion-item", 119)(18, "ion-input", 122);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_3_Template_ion_input_keyup_18_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r33);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r28);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](19, SignUpPage_ng_container_3_ion_item_19_Template, 2, 0, "ion-item", 125)(20, SignUpPage_ng_container_3_ion_item_20_Template, 2, 0, "ion-item", 126)(21, SignUpPage_ng_container_3_ion_item_21_Template, 2, 1, "ion-item", 125)(22, SignUpPage_ng_container_3_ion_item_22_Template, 2, 0, "ion-item", 125);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](23, "ion-item", 121);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](24, "ion-input", 127);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](25, "ion-icon", 128);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](19, SignUpPage_ng_container_3_ion_item_19_Template, 2, 0, "ion-item", 123)(20, SignUpPage_ng_container_3_ion_item_20_Template, 2, 0, "ion-item", 124)(21, SignUpPage_ng_container_3_ion_item_21_Template, 2, 1, "ion-item", 123)(22, SignUpPage_ng_container_3_ion_item_22_Template, 2, 0, "ion-item", 123);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](23, "ion-item", 119);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](24, "ion-input", 125);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](25, "ion-icon", 126);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_3_Template_ion_icon_click_25_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r33);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r28);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.togglePasswordVisibility("password"));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](26, "ion-item", 121);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](27, "ion-input", 129);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](28, "ion-icon", 128);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](26, "ion-item", 119);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](27, "ion-input", 127);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](28, "ion-icon", 126);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_3_Template_ion_icon_click_28_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r33);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r28);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.togglePasswordVisibility("confirmPassword"));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](29, "ion-item", 130);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](30, "ion-input", 131);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](31, "div", 132);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](32, "ion-icon", 133);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](29, "ion-item", 128);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](30, "ion-input", 129);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](31, "div", 130);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](32, "ion-icon", 131);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](33, "span");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](34, "Select date");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](35, "ion-modal", 26);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](36, SignUpPage_ng_container_3_ng_template_36_Template, 2, 1, "ng-template");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](35, "app-date-picker-modal", 132);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("dateSelected", function SignUpPage_ng_container_3_Template_app_date_picker_modal_dateSelected_35_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r28);
+      const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
+      return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.displayMybookings($event, 1));
+    });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](37, "ion-item", 121)(38, "ion-label", 134);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](39, " Gender");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](36, "ion-item", 119)(37, "ion-label", 133);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](38, " Gender");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](40, "div")(41, "ion-radio-group", 135)(42, "ion-list", 136)(43, "ion-item", 137)(44, "ion-label", 138);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](45, "Male");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](39, "div")(40, "ion-radio-group", 134)(41, "ion-list", 135)(42, "ion-item", 136)(43, "ion-label", 78);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](44, "Male");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](46, "ion-radio", 139);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](45, "ion-radio", 137);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](47, "ion-item", 137)(48, "ion-label", 138);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](49, "Female");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](46, "ion-item", 136)(47, "ion-label", 78);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](48, "Female");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](50, "ion-radio", 140);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](49, "ion-radio", 138);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](51, SignUpPage_ng_container_3_ion_item_51_Template, 2, 0, "ion-item", 141);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](50, SignUpPage_ng_container_3_ion_item_50_Template, 2, 0, "ion-item", 139);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](52, "div")(53, "ion-button", 142);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_3_Template_ion_button_click_53_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r33);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](51, "div")(52, "ion-button", 140);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_3_Template_ion_button_click_52_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r28);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.signup("sign-up"));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](54, SignUpPage_ng_container_3_span_54_Template, 2, 0, "span", 1)(55, SignUpPage_ng_container_3_span_55_Template, 2, 0, "span", 1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](53, SignUpPage_ng_container_3_span_53_Template, 2, 0, "span", 0)(54, SignUpPage_ng_container_3_span_54_Template, 2, 0, "span", 0);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](56, SignUpPage_ng_container_3_div_56_Template, 5, 0, "div", 143);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](55, SignUpPage_ng_container_3_div_55_Template, 5, 0, "div", 141);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerEnd"]();
   }
@@ -1428,7 +1407,9 @@ function SignUpPage_ng_container_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("name", ctx_r1.isConfirmPasswordVisible ? "eye-outline" : "eye-off-outline");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("value", ctx_r1.showDate);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("value", ctx_r1.pageDate);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](15);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r1.loginType != "Forced Signup with OTP Login");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r1.loginType != "Forced Signup with OTP Login");
@@ -1438,33 +1419,16 @@ function SignUpPage_ng_container_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r1.loginType != "Forced Signup with OTP Login");
   }
 }
-function SignUpPage_ng_container_4_ng_template_45_Template(rf, ctx) {
+function SignUpPage_ng_container_4_ion_item_60_Template(rf, ctx) {
   if (rf & 1) {
-    const _r43 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-datetime", 188, 0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("ionChange", function SignUpPage_ng_container_4_ng_template_45_Template_ion_datetime_ionChange_0_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r43);
-      const popoverDatetime_r44 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵreference"](1);
-      const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.displayMybookings(popoverDatetime_r44 == null ? null : popoverDatetime_r44.value, 1));
-    });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-  }
-  if (rf & 2) {
-    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpropertyInterpolate"]("value", ctx_r1.pageDate);
-  }
-}
-function SignUpPage_ng_container_4_ion_item_61_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 162);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](1, "ion-icon", 189)(2, "ion-input", 190);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-item", 159);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](1, "ion-icon", 185)(2, "ion-input", 186);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
 }
-function SignUpPage_ng_container_4_div_64_Template(rf, ctx) {
+function SignUpPage_ng_container_4_div_63_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 191);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 187);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
@@ -1476,113 +1440,117 @@ function SignUpPage_ng_container_4_div_64_Template(rf, ctx) {
 }
 function SignUpPage_ng_container_4_Template(rf, ctx) {
   if (rf & 1) {
-    const _r42 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+    const _r35 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "ion-header", 151)(2, "ion-toolbar", 152)(3, "ion-buttons", 153);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](4, "ion-back-button", 154);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "ion-header", 148)(2, "ion-toolbar", 149)(3, "ion-buttons", 150);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](4, "ion-back-button", 151);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](5, "div", 155);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](6, "img", 156);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](5, "div", 152);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](6, "img", 153);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](7, "ion-content", 157)(8, "div", 158)(9, "h2", 159);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](7, "ion-content", 154)(8, "div", 155)(9, "h2", 156);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](10, "Sign up");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](11, "div", 160)(12, "form", 161);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](11, "div", 157)(12, "form", 158);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("ngSubmit", function SignUpPage_ng_container_4_Template_form_ngSubmit_12_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r42);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r35);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.signup("sign-up"));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](13, "ion-grid")(14, "ion-row")(15, "ion-col", 95)(16, "ion-item", 162);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](17, "ion-icon", 163)(18, "ion-input", 164);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](13, "ion-grid")(14, "ion-row")(15, "ion-col", 94)(16, "ion-item", 159);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](17, "ion-icon", 160)(18, "ion-input", 161);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](19, "ion-row")(20, "ion-col", 106)(21, "ion-item", 162);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](22, "ion-icon", 165)(23, "ion-input", 166);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](19, "ion-row")(20, "ion-col", 105)(21, "ion-item", 159);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](22, "ion-icon", 162)(23, "ion-input", 163);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](24, "ion-col", 106)(25, "ion-item", 162);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](26, "ion-icon", 167);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](27, "ion-input", 168);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](24, "ion-col", 105)(25, "ion-item", 159);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](26, "ion-icon", 164);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](27, "ion-input", 165);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_4_Template_ion_input_keyup_27_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r42);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r35);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](28, "ion-row")(29, "ion-col", 106)(30, "ion-item", 162);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](31, "ion-icon", 169);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](32, "ion-input", 170);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](28, "ion-row")(29, "ion-col", 105)(30, "ion-item", 159);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](31, "ion-icon", 166);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](32, "ion-input", 167);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_4_Template_ion_input_keyup_32_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r42);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r35);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](33, "ion-icon", 171);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](33, "ion-icon", 168);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_4_Template_ion_icon_click_33_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r42);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r35);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.togglePasswordVisibility1());
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](34, "ion-col", 106)(35, "ion-item", 162);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](36, "ion-icon", 169);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](37, "ion-input", 172);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](34, "ion-col", 105)(35, "ion-item", 159);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](36, "ion-icon", 166);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](37, "ion-input", 169);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("keyup", function SignUpPage_ng_container_4_Template_ion_input_keyup_37_listener($event) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r42);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r35);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onInputChange($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](38, "ion-icon", 171);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](38, "ion-icon", 168);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_4_Template_ion_icon_click_38_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r42);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r35);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.toggleCnfPasswordVisibility());
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](39, "ion-row")(40, "ion-col", 173)(41, "ion-item", 174);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](42, "ion-icon", 175)(43, "ion-input", 176);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](39, "ion-row")(40, "ion-col", 170)(41, "ion-item", 171);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](42, "ion-icon", 172)(43, "ion-input", 173);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](44, "ion-modal", 26);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](45, SignUpPage_ng_container_4_ng_template_45_Template, 2, 1, "ng-template");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](44, "app-date-picker-modal", 132);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("dateSelected", function SignUpPage_ng_container_4_Template_app_date_picker_modal_dateSelected_44_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r35);
+      const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
+      return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.displayMybookings($event, 1));
+    });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](46, "ion-col", 173)(47, "div", 177);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](48, "Gender");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](45, "ion-col", 170)(46, "div", 174);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](47, "Gender");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](49, "ion-radio-group", 178)(50, "div", 179)(51, "ion-item", 180);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](52, "ion-radio", 181);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](53, "ion-label");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](54, "Male");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](48, "ion-radio-group", 175)(49, "div", 176)(50, "ion-item", 177);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](51, "ion-radio", 178);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](52, "ion-label");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](53, "Male");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](55, "ion-item", 180);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](56, "ion-radio", 182);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](57, "ion-label");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](58, "Female");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](54, "ion-item", 177);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](55, "ion-radio", 179);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](56, "ion-label");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](57, "Female");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](59, "ion-row")(60, "ion-col", 95);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](61, SignUpPage_ng_container_4_ion_item_61_Template, 3, 0, "ion-item", 183);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](58, "ion-row")(59, "ion-col", 94);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](60, SignUpPage_ng_container_4_ion_item_60_Template, 3, 0, "ion-item", 180);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](62, "ion-row")(63, "ion-col", 95);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](64, SignUpPage_ng_container_4_div_64_Template, 2, 1, "div", 184);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](61, "ion-row")(62, "ion-col", 94);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](63, SignUpPage_ng_container_4_div_63_Template, 2, 1, "div", 181);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](65, "ion-row")(66, "ion-col")(67, "ion-button", 185);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_4_Template_ion_button_click_67_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r42);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](64, "ion-row")(65, "ion-col")(66, "ion-button", 182);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_4_Template_ion_button_click_66_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r35);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.signup("sign-up"));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](68, "Sign Up");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](67, "Sign Up");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](69, "ion-row")(70, "ion-col", 95)(71, "div", 186);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](72, "Already have an account?");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](73, "br");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](74, "span", 187);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_4_Template_span_click_74_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r42);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](68, "ion-row")(69, "ion-col", 94)(70, "div", 183);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](71, "Already have an account?");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](72, "br");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](73, "span", 184);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SignUpPage_ng_container_4_Template_span_click_73_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r35);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.gotoLogin());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](75, "Login");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](74, "Login");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()()()()()();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerEnd"]();
   }
@@ -1614,7 +1582,9 @@ function SignUpPage_ng_container_4_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵclassProp"]("syamoli-input-error", ctx_r1.showSignupError && (ctx_r1.signupForm.controls.dob == null ? null : ctx_r1.signupForm.controls.dob.invalid));
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("value", ctx_r1.showDate);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("value", ctx_r1.pageDate);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](16);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r1.loginType != "Forced Signup with OTP Login");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r1.showSignupError);
@@ -1663,6 +1633,7 @@ class SignUpPage {
     // Shyamoli theme helpers
     this.shyamoliPasswordTick = false; // green tick when password length >=8
     this.shyamoliPasswordsMatch = true; // confirm password match state
+    this.isCalenderOpen = false;
     this.signUpConfig = this.commonStorage.getItem("metaData").signUpConfig;
     const platformnew = _capacitor_core__WEBPACK_IMPORTED_MODULE_5__.Capacitor.getPlatform();
     this.isIos = platformnew === 'ios' ? true : false;
@@ -1675,6 +1646,7 @@ class SignUpPage {
     this.appData.newTheme = this.util.getNewTheme();
     this.today = new Date();
     this.todayDate = this.today.toISOString().split('T')[0];
+    this.pageDate = this.todayDate;
     const threeYearsAgo = new Date(this.today.getFullYear() - 3, this.today.getMonth(), this.today.getDate());
     this.maxDate = threeYearsAgo.toISOString().split('T')[0];
   }
@@ -1863,10 +1835,14 @@ class SignUpPage {
           }
         }
       } else {
+        var _this$signupForm;
         this.showSignupError = false;
         this.signupErrorMessage = null;
+        const fullName = ((_this$signupForm = this.signupForm) === null || _this$signupForm === void 0 || (_this$signupForm = _this$signupForm.value) === null || _this$signupForm === void 0 || (_this$signupForm = _this$signupForm.full_name) === null || _this$signupForm === void 0 ? void 0 : _this$signupForm.trim()) || '';
+        const nameParts = fullName.split(/\s+/);
         if (this.isValid()) {
           if (this.isConfirmPasswordValid()) {
+            var _this$signupForm2, _this$signupForm3;
             this.loader.showLoadingDefault();
             // this.commonService.gTrack("signup")
             let user = {};
@@ -1874,9 +1850,9 @@ class SignUpPage {
               "email": this.signupForm.value.email,
               "password": this.signupForm.value.password,
               "password_confirmation": this.signupForm.value.password_confirmation,
-              "first_name": this.signupForm.value.first_name,
+              "first_name": ((_this$signupForm2 = this.signupForm) === null || _this$signupForm2 === void 0 || (_this$signupForm2 = _this$signupForm2.value) === null || _this$signupForm2 === void 0 ? void 0 : _this$signupForm2.first_name) || nameParts[0] || '',
               "title": this.signupForm.value.sex,
-              "last_name": this.signupForm.value.last_name,
+              "last_name": ((_this$signupForm3 = this.signupForm) === null || _this$signupForm3 === void 0 || (_this$signupForm3 = _this$signupForm3.value) === null || _this$signupForm3 === void 0 ? void 0 : _this$signupForm3.last_name) || nameParts.slice(1).join(' ') || '',
               "mobile_number": this.signupForm.value.mobile_number ? this.signupForm.value.mobile_number : this.forcedLoginOtp.MobileNumber,
               "dob": this.signupForm.value.dob,
               "address": this.signupForm.value.address
@@ -2268,8 +2244,17 @@ class SignUpPage {
     this.mineDisplaydate;
   }
   displayMybookings(date, type) {
-    date = date.substring(0, 10);
+    if (Array.isArray(date)) {
+      date = date[0];
+    }
+    if (!date) {
+      return;
+    }
+    date = String(date).substring(0, 10);
     var newDate = new Date(date);
+    if (isNaN(newDate.getTime())) {
+      return;
+    }
     if (type == 1 || type == 2) {
       this.pageDate = (0,date_fns__WEBPACK_IMPORTED_MODULE_4__.format)(newDate, 'yyyy-MM-dd');
       if (this.metaData.msiteFolder == 'ourbustheme') {
@@ -2280,7 +2265,6 @@ class SignUpPage {
       var aryDates = this.GetDatesPro(newDate, 6);
       this.signupForm.controls['dob'].setValue(this.showDate);
       this.dateDisplayData(aryDates);
-      this.modalCtrl.dismiss();
     }
   }
   GetDatesPro(startDate, daysToAdd) {
@@ -2335,9 +2319,9 @@ class SignUpPage {
     }
   }
   updatePasswordMatch() {
-    var _this$signupForm, _this$signupForm2;
-    const pwd = (_this$signupForm = this.signupForm) === null || _this$signupForm === void 0 || (_this$signupForm = _this$signupForm.value) === null || _this$signupForm === void 0 ? void 0 : _this$signupForm.password;
-    const cfm = (_this$signupForm2 = this.signupForm) === null || _this$signupForm2 === void 0 || (_this$signupForm2 = _this$signupForm2.value) === null || _this$signupForm2 === void 0 ? void 0 : _this$signupForm2.password_confirmation;
+    var _this$signupForm4, _this$signupForm5;
+    const pwd = (_this$signupForm4 = this.signupForm) === null || _this$signupForm4 === void 0 || (_this$signupForm4 = _this$signupForm4.value) === null || _this$signupForm4 === void 0 ? void 0 : _this$signupForm4.password;
+    const cfm = (_this$signupForm5 = this.signupForm) === null || _this$signupForm5 === void 0 || (_this$signupForm5 = _this$signupForm5.value) === null || _this$signupForm5 === void 0 ? void 0 : _this$signupForm5.password_confirmation;
     this.shyamoliPasswordsMatch = pwd && cfm ? pwd === cfm : true;
   }
   togglePasswordVisibility(field) {
@@ -2394,6 +2378,12 @@ class SignUpPage {
       this.util.cleverTapEvent("", profile, true);
     }
   }
+  openCalendar() {
+    if (this.isCalenderOpen) {
+      return;
+    }
+    this.isCalenderOpen = true;
+  }
 }
 _SignUpPage = SignUpPage;
 _SignUpPage.ɵfac = function SignUpPage_Factory(__ngFactoryType__) {
@@ -2405,10 +2395,10 @@ _SignUpPage.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵ�
   standalone: false,
   decls: 5,
   vars: 5,
-  consts: [["popoverDatetime", ""], [4, "ngIf"], ["title", "Customer Login", "subtitle", "", "showsubTxt", "false", "showsubtitle", "false"], [3, "ngClass"], [1, "themeone-bg-content", "theme1", 2, "position", "absolute", "z-index", "8888", "top", "86px", "--background", "transparent"], [1, "themeone-center", "themeone-middle", 2, "padding-bottom", "89px"], ["novalidate", "", 2, "padding-bottom", "0px", "overflow-y", "scroll", 3, "ngSubmit", "formGroup"], ["class", "login-btn1", 3, "click", 4, "ngIf"], [1, "themeone-ion-item", 2, "margin-bottom", "0px"], ["type", "text", "placeholder", "First Name", "formControlName", "first_name", "autocomplete", "off", 3, "keyup"], ["slot", "start", "src", "./assets/icon/user-3-line.svg", 2, "height", "24px", "width", "24px", "position", "absolute", "z-index", "11", "left", "10px"], [1, "themeone-ion-item"], ["type", "text", "placeholder", "Last Name", "formControlName", "last_name", "autocomplete", "off", 3, "keyup"], [1, "themeone-ion-item-autofill", 2, "margin-top", "0px"], ["type", "email", "placeholder", "Email address", "formControlName", "email", "autocomplete", "off", 3, "keyup"], ["slot", "start", "src", "./assets/icon/Contact.svg", 2, "height", "24px", "width", "24px", "position", "absolute", "z-index", "11", "left", "10px"], ["class", "themeone-ion-item", "style", "margin-bottom: 0px;", 4, "ngIf"], [1, "themeone-ion-item-autofill", 2, "margin-bottom", "0"], ["placeholder", "Password", "formControlName", "password", "autocomplete", "off", 3, "keyup", "type"], ["slot", "start", "src", "./assets/icon/lock-fill.svg", 2, "height", "24px", "width", "24px", "position", "absolute", "z-index", "11", "left", "10px"], ["slot", "end", "style", "height: 24px;width: 24px;position: absolute;\n                        z-index: 11;right: 10px;", "src", "./assets/icon/eye-off-line.svg", 3, "click", 4, "ngIf"], ["placeholder", "Confirm Password", "formControlName", "password_confirmation", "autocomplete", "off", 3, "keyup", "type"], ["slot", "end", "style", "height: 24px;width: 24px;position: absolute;\n                            z-index: 11;right: 10px;", "src", "./assets/icon/eye-off-line.svg", 3, "click", 4, "ngIf"], ["tappable", "", "id", "open-date-input-5", 1, "themeone-ion-item"], ["src", "./assets/icon/Calendar.svg", "alt", "", "slot", "start", 2, "height", "28px", "width", "28px", "position", "absolute", "z-index", "11", "left", "10px"], ["type", "text", "formControlName", "dob", "pl", "", "placeholder", "Date Of Birth", 3, "value"], ["trigger", "open-date-input-5"], [2, "font-size", "14px", "color", "#999999", "padding-bottom", "10px"], [2, "padding-bottom", "5px"], ["formControlName", "sex", "mode", "md", 1, "tabs"], ["value", "Mr", 3, "ngClass"], ["value", "Ms"], ["class", "themeone-ion-item", 4, "ngIf"], ["mode", "md", "expand", "block", 3, "click", "ngClass"], ["style", "margin-top: 15px;", "class", "txt-ln2", 4, "ngIf"], [1, "login-btn1", 3, "click"], ["type", "tel", "placeholder", "Mobile Number", "formControlName", "mobile_number", 3, "keyup"], ["slot", "start", "src", "./assets/icon/phone-fill.svg", 2, "height", "24px", "width", "24px", "position", "absolute", "z-index", "11", "left", "10px"], ["slot", "end", "src", "./assets/icon/eye-off-line.svg", 2, "height", "24px", "width", "24px", "position", "absolute", "z-index", "11", "right", "10px", 3, "click"], ["mode", "md", "show-default-buttons", "true", "done-text", "Ok", "presentation", "date", "showDefaultTitle", "true", 3, "ionChange", "value", "max"], ["type", "text", "placeholder", "Referral Code (Optional)", "formControlName", "referal_code"], [1, "txt-ln2", 2, "margin-top", "15px"], [1, "themeone-frgt-pw"], [3, "click", "ngClass"], [1, "background-cl"], ["mode", "md", 1, "background-cl"], ["slot", "start"], [2, "color", "var(--viewBgColor)", 3, "click"], ["class", "title-main-wthlogin", 4, "ngIf"], ["alt", "", 1, "icn-main-wthtlogin", 3, "src"], [1, "bg-content"], ["class", "card-1", 4, "ngIf"], [1, "center-div"], [1, "no-service"], ["novalidate", "", 2, "padding-bottom", "50px", "overflow-y", "scroll", 3, "ngSubmit", "formGroup"], ["style", "min-height: 0px; margin-bottom: 10px;", 4, "ngIf"], [2, "min-height", "0px", "margin-bottom", "10px"], ["label", "Password", "labelPlacement", "floating", "formControlName", "password", "autocomplete", "off", 1, "txt-lbl", 2, "background", "transparent", "min-height", "48px", 3, "keyup", "type"], ["slot", "end", 1, "eye_icon", 3, "click", "name"], ["label", "Confirm Password", "labelPlacement", "floating", "formControlName", "password_confirmation", "autocomplete", "off", 1, "txt-lbl", 2, "min-height", "48px", 3, "keyup", "type"], ["style", "min-height: 0px; margin-bottom: 10px;", "tappable", "", "id", "open-date-input-5", 4, "ngIf"], ["expand", "block", 1, "login-btn", 2, "margin-top", "30px", 3, "click"], [1, "title-main-wthlogin"], [1, "card-1"], [1, "txt-ln2"], [1, "frgt-pw", 2, "margin", "10px"], [1, "click-btn", 3, "click"], ["labelPlacement", "floating", "type", "text", "formControlName", "first_name", "autocomplete", "off", 1, "txt-lbl", 2, "min-height", "48px"], ["slot", "label"], ["color", "danger", 4, "ngIf"], ["color", "danger"], ["labelPlacement", "floating", "type", "text", "formControlName", "last_name", "autocomplete", "off", 1, "txt-lbl", 2, "min-height", "48px", 3, "keyup"], ["labelPlacement", "floating", "type", "email", "formControlName", "email", "autocomplete", "off", 1, "txt-lbl", 2, "min-height", "48px", 3, "keyup"], ["class", "mandatory_star", 4, "ngIf"], [1, "mandatory_star"], ["labelPlacement", "floating", "type", "number", "formControlName", "mobile_number", 1, "txt-lbl", 2, "min-height", "48px", 3, "keyup"], ["labelPlacement", "floating", "type", "number", "formControlName", "mobile_number", "readonly", "", 1, "txt-lbl", 2, "min-height", "48px", 3, "keyup", "ngModelChange", "ngModel"], ["tappable", "", "id", "open-date-input-5", 2, "min-height", "0px", "margin-bottom", "10px"], ["src", "./assets/icon/Calendar.svg", "alt", "", "slot", "end"], ["label", "Date of birth", "labelPlacement", "floating", "type", "text", "formControlName", "dob", 1, "txt-lbl", 2, "min-height", "48px", 3, "value"], ["mode", "md", "show-default-buttons", "true", "done-text", "Ok", "presentation", "date", "showDefaultTitle", "true", 3, "ionChange", "value"], [1, "txt-lbl"], [1, "seg-btn"], ["formControlName", "sex", 1, "tabs"], ["value", "Mr"], ["labelPlacement", "floating", "type", "text", "formControlName", "address", "autocomplete", "off", 1, "txt-lbl", 2, "min-height", "48px", 3, "keyup"], ["label", "Referral Code (Optional)", "labelPlacement", "floating", "type", "text", "formControlName", "referal_code", 1, "txt-lbl", 2, "min-height", "48px"], [1, "ourbustheme"], ["mode", "md", 1, "high-1"], ["size", "2"], ["size", "8", 2, "display", "flex", "align-items", "center"], [2, "text-align", "center", "font-size", "19px"], [1, "ourbustheme", 2, "--background", "white"], ["style", "font-size: 14px; top: 73px; right: 18px;color: var(--iconsAndButtonsColor);text-align: end;\n    margin-right: 8px;", 3, "click", 4, "ngIf"], [2, "margin-top", "24px"], ["size", "12"], ["lines", "none", "mode", "md", 1, "ourbus_custom_input"], ["label", "First Name", "labelPlacement", "floating", "fill", "outline", "type", "text", "maxlength", "25", "formControlName", "first_name", "autocomplete", "off", 1, "ourbus_inputText", "ourbus_labelSet", 3, "keyup"], ["label", "Last Name", "labelPlacement", "floating", "fill", "outline", "type", "text", "maxlength", "25", "formControlName", "last_name", "autocomplete", "off", 1, "ourbus_inputText", "ourbus_labelSet", 3, "keyup"], ["lines", "none", "size", "12"], ["mode", "md", 1, "ourbus_custom_input"], ["label", "Email Address", "labelPlacement", "floating", "fill", "outline", "type", "email", "maxlength", "50", "formControlName", "email", "autocomplete", "off", 1, "ourbus_inputText", "ourbus_labelSet", 3, "keyup"], ["label", "Password", "labelPlacement", "floating", "fill", "outline", "formControlName", "password", "autocomplete", "off", 1, "ourbus_inputText", "ourbus_labelSet", 3, "keyup", "type"], [1, "icondiv1", 3, "click"], [1, "iconeye12", 3, "name"], ["label", "Confirm Password", "labelPlacement", "floating", "fill", "outline", "type", "password", "formControlName", "password_confirmation", "autocomplete", "off", 1, "ourbus_inputText", "ourbus_labelSet", 3, "keyup", "type"], ["size", "6"], ["lines", "none", "mode", "md", "tappable", "", "id", "open-date-input-3", 1, "ourbus_custom_input"], ["src", "./assets/icon/Calendar copy.svg", "alt", "", "slot", "end"], ["label", "Date of birth", "labelPlacement", "floating", "fill", "outline", "type", "text", "formControlName", "dob", 1, "ourbus_inputText", "ourbus_labelSet", 3, "value"], ["id", "dob", "trigger", "open-date-input-3", 1, "ourbus-Modal"], ["mode", "ios", "formControlName", "sex", 2, "height", "60px"], ["value", "Mr", 1, "ourbus_segment"], ["expand", "block", 1, "login-btn", "ourbus_btn", 3, "click"], [2, "font-size", "14px", "top", "73px", "right", "18px", "color", "var(--iconsAndButtonsColor)", "text-align", "end", "margin-right", "8px", 3, "click"], ["label", "Mobile Number", "labelPlacement", "floating", "fill", "outline", "type", "tel", "maxlength", "10", "formControlName", "mobile_number", 1, "ourbus_inputText", "ourbus_labelSet", 3, "keyup", "ionChange"], ["label", "Mobile Number", "labelPlacement", "floating", "fill", "outline", "type", "tel", "maxlength", "10", "formControlName", "mobile_number", "readonly", "", 1, "ourbus_inputText", "ourbus_labelSet", 3, "keyup", "ionChange", "ngModelChange", "ngModel"], ["mode", "md", "show-default-buttons", "true", "done-text", "Ok", "presentation", "date", "showDefaultTitle", "true", "color", "success", 1, "ourbus-datetime-header", 3, "ionChange", "value", "max"], [1, "", 2, "--background", "#F1F7FA"], [1, "seabird_card_2"], ["novalidate", "", 2, "overflow-y", "scroll", 3, "ngSubmit", "formGroup"], ["lines", "none", 2, "font-size", "14px"], ["placeholder", "First name", "type", "text", "formControlName", "first_name", "autocomplete", "off", 3, "keyup"], ["placeholder", "Last name", "type", "text", "formControlName", "last_name", "autocomplete", "off", 3, "keyup"], ["placeholder", "Email address", "type", "email", "formControlName", "email", "autocomplete", "off", 3, "keyup"], ["lines", "none", "style", "font-size: 14px;", 4, "ngIf"], ["style", "font-size: 14px;", 4, "ngIf"], ["placeholder", "Password", "formControlName", "password", "autocomplete", "off", 3, "type"], ["slot", "end", 2, "cursor", "pointer", "color", "#999999", 3, "click", "name"], ["placeholder", "Confirm Password", "formControlName", "password_confirmation", "autocomplete", "off", 3, "type"], ["lines", "none", "tappable", "", "id", "open-date-input-5", 2, "font-size", "14px"], ["placeholder", "Date of birth", "type", "text", "formControlName", "dob", 3, "value"], ["slot", "end", 2, "display", "flex", "align-items", "center", "color", "#2B28CE"], ["name", "calendar-outline", 2, "margin-right", "4px"], [1, "txt-lbl", 2, "color", "#7c7878"], ["mode", "md", "formControlName", "sex"], [1, "seabird_list"], ["lines", "none", 2, "--background", "#ffffff"], [2, "font-size", "12px"], ["slot", "start", "value", "Mr", 1, "seabird_Radio_color"], ["slot", "start", "value", "Ms", 1, "seabird_Radio_color"], ["lines", "none", "style", "font-size: 14px;border-bottom: 0px;", 4, "ngIf"], ["expand", "block", 1, "seabird_login_btn", 3, "click"], ["class", "seabird_bottom_div", 4, "ngIf"], ["placeholder", "Mobile number", "type", "number", "formControlName", "mobile_number", 3, "keyup"], [2, "font-size", "14px"], ["placeholder", "Mobile number", "type", "number", "formControlName", "mobile_number", "readonly", "", 3, "keyup", "ngModelChange", "ngModel"], ["lines", "none", 2, "font-size", "14px", "border-bottom", "0px"], ["placeholder", "Referral code (Optional)", "type", "text", "formControlName", "referal_code"], [1, "seabird_bottom_div"], [1, "click-btn", 2, "line-height", "0.54", 3, "click"], [1, "syamolitheme", "ion-no-border"], ["mode", "md", 1, "syamolitheme", "ion-no-border", 2, "--background", "white !important"], ["slot", "start", 2, "position", "absolute", "left", "0", "z-index", "10"], ["defaultHref", "login"], [2, "display", "flex", "align-items", "center", "justify-content", "center", "height", "100%"], ["alt", "Logo", 2, "height", "35px", "width", "auto", "object-fit", "contain", "image-rendering", "-webkit-optimize-contrast", 3, "src"], [1, "syamolitheme"], [1, "syamoli-center", 2, "font-family", "'Gilroy-Bold'"], [1, "syamoli-heading"], [1, "syamoli-form-block"], ["novalidate", "", 3, "ngSubmit", "formGroup"], ["lines", "none", 1, "syamoli-input"], ["slot", "start", "src", "./assets/icon/shyamoli-person.svg"], ["type", "text", "formControlName", "full_name", "autocomplete", "off", "placeholder", "Enter Full Name"], ["slot", "start", "src", "./assets/icon/shyamoli-mail.svg"], ["type", "email", "formControlName", "email", "autocomplete", "off", "placeholder", "Email"], ["slot", "start", "src", "./assets/icon/mobile-shyamoli.svg"], ["type", "tel", "formControlName", "mobile_number", "maxlength", "10", "placeholder", "Mobile Number", 3, "keyup"], ["slot", "start", "src", "./assets/icon/password-shyamoli.svg"], ["formControlName", "password", "placeholder", "Password", "autocomplete", "off", 3, "keyup", "type"], ["slot", "end", 2, "color", "#888888", 3, "click", "name"], ["formControlName", "password_confirmation", "placeholder", "Confirm Password", "autocomplete", "off", 2, "font-size", "13px", 3, "keyup", "type"], ["size", "12", "size-md", "6"], ["lines", "none", "tappable", "", "id", "open-date-input-5", 1, "syamoli-input"], ["slot", "start", "src", "./assets/icon/calendar-shyamoli.svg", 2, "color", "var(--syamoli-primary)"], ["type", "text", "formControlName", "dob", "placeholder", "Date of Birth", "readonly", "", 3, "value"], [1, "syamoli-gender-label"], ["formControlName", "sex", 1, "syamoli-radio-group"], [1, "syamoli-radio-container"], ["lines", "none", 1, "syamoli-radio-item"], ["mode", "md", "value", "Mr", "slot", "start", 1, "syamoli-radio"], ["mode", "md", "value", "Ms", "slot", "start", 1, "syamoli-radio"], ["class", "syamoli-input", "lines", "none", 4, "ngIf"], ["class", "syamoli-error-text", "role", "alert", "style", "margin-top:4px;", 4, "ngIf"], ["mode", "md", "expand", "block", 1, "syamoli-btn-primary", 2, "margin-top", "12px", 3, "click"], [1, "syamoli-text-secondary", 2, "margin-top", "60px", "font-size", "13px", "text-align", "center", "font-family", "'Gilroy-Bold',sans-serif"], [1, "syamoli-link", 2, "cursor", "pointer", 3, "click"], ["mode", "md", "show-default-buttons", "true", "done-text", "Ok", "presentation", "date", "showDefaultTitle", "true", 1, "custom-datetime", 3, "ionChange", "value"], ["slot", "start", "src", "./assets/icon/refferal-shyamoli.svg", 2, "color", "var(--syamoli-primary)"], ["type", "text", "formControlName", "referal_code", "placeholder", "Referral Code (Optional)"], ["role", "alert", 1, "syamoli-error-text", 2, "margin-top", "4px"]],
+  consts: [[4, "ngIf"], ["title", "Customer Login", "subtitle", "", "showsubTxt", "false", "showsubtitle", "false"], [3, "ngClass"], [1, "themeone-bg-content", "theme1", 2, "position", "absolute", "z-index", "8888", "top", "86px", "--background", "transparent"], [1, "themeone-center", "themeone-middle", 2, "padding-bottom", "89px"], ["novalidate", "", 2, "padding-bottom", "0px", "overflow-y", "scroll", 3, "ngSubmit", "formGroup"], ["class", "login-btn1", 3, "click", 4, "ngIf"], [1, "themeone-ion-item", 2, "margin-bottom", "0px"], ["type", "text", "placeholder", "First Name", "formControlName", "first_name", "autocomplete", "off", 3, "keyup"], ["slot", "start", "src", "./assets/icon/user-3-line.svg", 2, "height", "24px", "width", "24px", "position", "absolute", "z-index", "11", "left", "10px"], [1, "themeone-ion-item"], ["type", "text", "placeholder", "Last Name", "formControlName", "last_name", "autocomplete", "off", 3, "keyup"], [1, "themeone-ion-item-autofill", 2, "margin-top", "0px"], ["type", "email", "placeholder", "Email address", "formControlName", "email", "autocomplete", "off", 3, "keyup"], ["slot", "start", "src", "./assets/icon/Contact.svg", 2, "height", "24px", "width", "24px", "position", "absolute", "z-index", "11", "left", "10px"], ["class", "themeone-ion-item", "style", "margin-bottom: 0px;", 4, "ngIf"], [1, "themeone-ion-item-autofill", 2, "margin-bottom", "0"], ["placeholder", "Password", "formControlName", "password", "autocomplete", "off", 3, "keyup", "type"], ["slot", "start", "src", "./assets/icon/lock-fill.svg", 2, "height", "24px", "width", "24px", "position", "absolute", "z-index", "11", "left", "10px"], ["slot", "end", "style", "height: 24px;width: 24px;position: absolute;\n                        z-index: 11;right: 10px;", "src", "./assets/icon/eye-off-line.svg", 3, "click", 4, "ngIf"], ["placeholder", "Confirm Password", "formControlName", "password_confirmation", "autocomplete", "off", 3, "keyup", "type"], ["slot", "end", "style", "height: 24px;width: 24px;position: absolute;\n                            z-index: 11;right: 10px;", "src", "./assets/icon/eye-off-line.svg", 3, "click", 4, "ngIf"], [1, "themeone-ion-item", 3, "click"], ["src", "./assets/icon/Calendar.svg", "alt", "", "slot", "start", 2, "height", "28px", "width", "28px", "position", "absolute", "z-index", "11", "left", "10px"], [2, "width", "100%", "padding-left", "10%"], [3, "dateSelected", "isOpenChange", "value", "max", "isOpen"], [2, "font-size", "14px", "color", "#999999", "padding-bottom", "10px"], [2, "padding-bottom", "5px"], ["formControlName", "sex", "mode", "md", 1, "tabs"], ["value", "Mr", 3, "ngClass"], ["value", "Ms"], ["class", "themeone-ion-item", 4, "ngIf"], ["mode", "md", "expand", "block", 3, "click", "ngClass"], ["style", "margin-top: 15px;", "class", "txt-ln2", 4, "ngIf"], [1, "login-btn1", 3, "click"], ["type", "tel", "placeholder", "Mobile Number", "formControlName", "mobile_number", 3, "keyup"], ["slot", "start", "src", "./assets/icon/phone-fill.svg", 2, "height", "24px", "width", "24px", "position", "absolute", "z-index", "11", "left", "10px"], ["slot", "end", "src", "./assets/icon/eye-off-line.svg", 2, "height", "24px", "width", "24px", "position", "absolute", "z-index", "11", "right", "10px", 3, "click"], ["type", "text", "placeholder", "Referral Code (Optional)", "formControlName", "referal_code"], [1, "txt-ln2", 2, "margin-top", "15px"], [1, "themeone-frgt-pw"], [3, "click", "ngClass"], [1, "background-cl"], ["mode", "md", 1, "background-cl"], ["slot", "start"], [2, "color", "var(--viewBgColor)", 3, "click"], ["class", "title-main-wthlogin", 4, "ngIf"], ["alt", "", 1, "icn-main-wthtlogin", 3, "src"], [1, "bg-content"], ["class", "card-1", 4, "ngIf"], [1, "center-div"], [1, "no-service"], ["novalidate", "", 2, "padding-bottom", "50px", "overflow-y", "scroll", 3, "ngSubmit", "formGroup"], ["style", "min-height: 0px; margin-bottom: 10px;", 4, "ngIf"], [2, "min-height", "0px", "margin-bottom", "10px"], ["label", "Password", "labelPlacement", "floating", "formControlName", "password", "autocomplete", "off", 1, "txt-lbl", 2, "background", "transparent", "min-height", "48px", 3, "keyup", "type"], ["slot", "end", 1, "eye_icon", 3, "click", "name"], ["label", "Confirm Password", "labelPlacement", "floating", "formControlName", "password_confirmation", "autocomplete", "off", 1, "txt-lbl", 2, "min-height", "48px", 3, "keyup", "type"], ["style", "min-height: 0px; margin-bottom: 10px;", 3, "click", 4, "ngIf"], ["expand", "block", 1, "login-btn", 2, "margin-top", "30px", 3, "click"], [1, "title-main-wthlogin"], [1, "card-1"], [1, "txt-ln2"], [1, "frgt-pw", 2, "margin", "10px"], [1, "click-btn", 3, "click"], ["labelPlacement", "floating", "type", "text", "formControlName", "first_name", "autocomplete", "off", 1, "txt-lbl", 2, "min-height", "48px"], ["slot", "label"], ["color", "danger", 4, "ngIf"], ["color", "danger"], ["labelPlacement", "floating", "type", "text", "formControlName", "last_name", "autocomplete", "off", 1, "txt-lbl", 2, "min-height", "48px", 3, "keyup"], ["labelPlacement", "floating", "type", "email", "formControlName", "email", "autocomplete", "off", 1, "txt-lbl", 2, "min-height", "48px", 3, "keyup"], ["class", "mandatory_star", 4, "ngIf"], [1, "mandatory_star"], ["labelPlacement", "floating", "type", "number", "formControlName", "mobile_number", 1, "txt-lbl", 2, "min-height", "48px", 3, "keyup"], ["labelPlacement", "floating", "type", "number", "formControlName", "mobile_number", "readonly", "", 1, "txt-lbl", 2, "min-height", "48px", 3, "keyup", "ngModelChange", "ngModel"], [2, "min-height", "0px", "margin-bottom", "10px", 3, "click"], ["src", "./assets/icon/Calendar.svg", "alt", "", "slot", "end"], [1, "txt-lbl", 2, "width", "100%", "min-height", "48px"], [2, "font-size", "12px"], [2, "font-size", "14px"], [1, "txt-lbl"], [1, "seg-btn"], ["formControlName", "sex", 1, "tabs"], ["value", "Mr"], ["labelPlacement", "floating", "type", "text", "formControlName", "address", "autocomplete", "off", 1, "txt-lbl", 2, "min-height", "48px", 3, "keyup"], ["label", "Referral Code (Optional)", "labelPlacement", "floating", "type", "text", "formControlName", "referal_code", 1, "txt-lbl", 2, "min-height", "48px"], [1, "ourbustheme"], ["mode", "md", 1, "high-1"], ["size", "2"], ["size", "8", 2, "display", "flex", "align-items", "center"], [2, "text-align", "center", "font-size", "19px"], [1, "ourbustheme", 2, "--background", "white"], ["style", "font-size: 14px; top: 73px; right: 18px;color: var(--iconsAndButtonsColor);text-align: end;\n    margin-right: 8px;", 3, "click", 4, "ngIf"], [2, "margin-top", "24px"], ["size", "12"], ["lines", "none", "mode", "md", 1, "ourbus_custom_input"], ["label", "First Name", "labelPlacement", "floating", "fill", "outline", "type", "text", "maxlength", "25", "formControlName", "first_name", "autocomplete", "off", 1, "ourbus_inputText", "ourbus_labelSet", 3, "keyup"], ["label", "Last Name", "labelPlacement", "floating", "fill", "outline", "type", "text", "maxlength", "25", "formControlName", "last_name", "autocomplete", "off", 1, "ourbus_inputText", "ourbus_labelSet", 3, "keyup"], ["lines", "none", "size", "12"], ["mode", "md", 1, "ourbus_custom_input"], ["label", "Email Address", "labelPlacement", "floating", "fill", "outline", "type", "email", "maxlength", "50", "formControlName", "email", "autocomplete", "off", 1, "ourbus_inputText", "ourbus_labelSet", 3, "keyup"], ["label", "Password", "labelPlacement", "floating", "fill", "outline", "formControlName", "password", "autocomplete", "off", 1, "ourbus_inputText", "ourbus_labelSet", 3, "keyup", "type"], [1, "icondiv1", 3, "click"], [1, "iconeye12", 3, "name"], ["label", "Confirm Password", "labelPlacement", "floating", "fill", "outline", "type", "password", "formControlName", "password_confirmation", "autocomplete", "off", 1, "ourbus_inputText", "ourbus_labelSet", 3, "keyup", "type"], ["size", "6"], ["lines", "none", "mode", "md", "tappable", "", "id", "open-date-input-3", 1, "ourbus_custom_input"], ["src", "./assets/icon/Calendar copy.svg", "alt", "", "slot", "end"], ["label", "Date of birth", "labelPlacement", "floating", "fill", "outline", "type", "text", "formControlName", "dob", 1, "ourbus_inputText", "ourbus_labelSet", 3, "value"], ["trigger", "open-date-input-3", "modalClass", "ourbus-Modal", 3, "dateSelected", "value", "max"], ["mode", "ios", "formControlName", "sex", 2, "height", "60px"], ["value", "Mr", 1, "ourbus_segment"], ["expand", "block", 1, "login-btn", "ourbus_btn", 3, "click"], [2, "font-size", "14px", "top", "73px", "right", "18px", "color", "var(--iconsAndButtonsColor)", "text-align", "end", "margin-right", "8px", 3, "click"], ["label", "Mobile Number", "labelPlacement", "floating", "fill", "outline", "type", "tel", "maxlength", "10", "formControlName", "mobile_number", 1, "ourbus_inputText", "ourbus_labelSet", 3, "keyup", "ionChange"], ["label", "Mobile Number", "labelPlacement", "floating", "fill", "outline", "type", "tel", "maxlength", "10", "formControlName", "mobile_number", "readonly", "", 1, "ourbus_inputText", "ourbus_labelSet", 3, "keyup", "ionChange", "ngModelChange", "ngModel"], [1, "", 2, "--background", "#F1F7FA"], [1, "seabird_card_2"], ["novalidate", "", 2, "overflow-y", "scroll", 3, "ngSubmit", "formGroup"], ["lines", "none", 2, "font-size", "14px"], ["placeholder", "First name", "type", "text", "formControlName", "first_name", "autocomplete", "off", 3, "keyup"], ["placeholder", "Last name", "type", "text", "formControlName", "last_name", "autocomplete", "off", 3, "keyup"], ["placeholder", "Email address", "type", "email", "formControlName", "email", "autocomplete", "off", 3, "keyup"], ["lines", "none", "style", "font-size: 14px;", 4, "ngIf"], ["style", "font-size: 14px;", 4, "ngIf"], ["placeholder", "Password", "formControlName", "password", "autocomplete", "off", 3, "type"], ["slot", "end", 2, "cursor", "pointer", "color", "#999999", 3, "click", "name"], ["placeholder", "Confirm Password", "formControlName", "password_confirmation", "autocomplete", "off", 3, "type"], ["lines", "none", "tappable", "", "id", "open-date-input-5", 2, "font-size", "14px"], ["placeholder", "Date of birth", "type", "text", "formControlName", "dob", 3, "value"], ["slot", "end", 2, "display", "flex", "align-items", "center", "color", "#2B28CE"], ["name", "calendar-outline", 2, "margin-right", "4px"], ["trigger", "open-date-input-5", 3, "dateSelected", "value"], [1, "txt-lbl", 2, "color", "#7c7878"], ["mode", "md", "formControlName", "sex"], [1, "seabird_list"], ["lines", "none", 2, "--background", "#ffffff"], ["slot", "start", "value", "Mr", 1, "seabird_Radio_color"], ["slot", "start", "value", "Ms", 1, "seabird_Radio_color"], ["lines", "none", "style", "font-size: 14px;border-bottom: 0px;", 4, "ngIf"], ["expand", "block", 1, "seabird_login_btn", 3, "click"], ["class", "seabird_bottom_div", 4, "ngIf"], ["placeholder", "Mobile number", "type", "number", "formControlName", "mobile_number", 3, "keyup"], ["placeholder", "Mobile number", "type", "number", "formControlName", "mobile_number", "readonly", "", 3, "keyup", "ngModelChange", "ngModel"], ["lines", "none", 2, "font-size", "14px", "border-bottom", "0px"], ["placeholder", "Referral code (Optional)", "type", "text", "formControlName", "referal_code"], [1, "seabird_bottom_div"], [1, "click-btn", 2, "line-height", "0.54", 3, "click"], [1, "syamolitheme", "ion-no-border"], ["mode", "md", 1, "syamolitheme", "ion-no-border", 2, "--background", "white !important"], ["slot", "start", 2, "position", "absolute", "left", "0", "z-index", "10"], ["defaultHref", "login"], [2, "display", "flex", "align-items", "center", "justify-content", "center", "height", "100%"], ["alt", "Logo", 2, "height", "35px", "width", "auto", "object-fit", "contain", "image-rendering", "-webkit-optimize-contrast", 3, "src"], [1, "syamolitheme"], [1, "syamoli-center", 2, "font-family", "'Gilroy-Bold'"], [1, "syamoli-heading"], [1, "syamoli-form-block"], ["novalidate", "", 3, "ngSubmit", "formGroup"], ["lines", "none", 1, "syamoli-input"], ["slot", "start", "src", "./assets/icon/shyamoli-person.svg"], ["type", "text", "formControlName", "full_name", "autocomplete", "off", "placeholder", "Enter Full Name"], ["slot", "start", "src", "./assets/icon/shyamoli-mail.svg"], ["type", "email", "formControlName", "email", "autocomplete", "off", "placeholder", "Email"], ["slot", "start", "src", "./assets/icon/mobile-shyamoli.svg"], ["type", "tel", "formControlName", "mobile_number", "maxlength", "10", "placeholder", "Mobile Number", 3, "keyup"], ["slot", "start", "src", "./assets/icon/password-shyamoli.svg"], ["formControlName", "password", "placeholder", "Password", "autocomplete", "off", 3, "keyup", "type"], ["slot", "end", 2, "color", "#888888", 3, "click", "name"], ["formControlName", "password_confirmation", "placeholder", "Confirm Password", "autocomplete", "off", 2, "font-size", "13px", 3, "keyup", "type"], ["size", "12", "size-md", "6"], ["lines", "none", "tappable", "", "id", "open-date-input-5", 1, "syamoli-input"], ["slot", "start", "src", "./assets/icon/calendar-shyamoli.svg", 2, "color", "var(--syamoli-primary)"], ["type", "text", "formControlName", "dob", "placeholder", "Date of Birth", "readonly", "", 3, "value"], [1, "syamoli-gender-label"], ["formControlName", "sex", 1, "syamoli-radio-group"], [1, "syamoli-radio-container"], ["lines", "none", 1, "syamoli-radio-item"], ["mode", "md", "value", "Mr", "slot", "start", 1, "syamoli-radio"], ["mode", "md", "value", "Ms", "slot", "start", 1, "syamoli-radio"], ["class", "syamoli-input", "lines", "none", 4, "ngIf"], ["class", "syamoli-error-text", "role", "alert", "style", "margin-top:4px;", 4, "ngIf"], ["mode", "md", "expand", "block", 1, "syamoli-btn-primary", 2, "margin-top", "12px", 3, "click"], [1, "syamoli-text-secondary", 2, "margin-top", "60px", "font-size", "13px", "text-align", "center", "font-family", "'Gilroy-Bold',sans-serif"], [1, "syamoli-link", 2, "cursor", "pointer", 3, "click"], ["slot", "start", "src", "./assets/icon/refferal-shyamoli.svg", 2, "color", "var(--syamoli-primary)"], ["type", "text", "formControlName", "referal_code", "placeholder", "Referral Code (Optional)"], ["role", "alert", 1, "syamoli-error-text", 2, "margin-top", "4px"]],
   template: function SignUpPage_Template(rf, ctx) {
     if (rf & 1) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](0, SignUpPage_ng_container_0_Template, 59, 20, "ng-container", 1)(1, SignUpPage_ng_container_1_Template, 39, 24, "ng-container", 1)(2, SignUpPage_ng_container_2_Template, 63, 12, "ng-container", 1)(3, SignUpPage_ng_container_3_Template, 57, 19, "ng-container", 1)(4, SignUpPage_ng_container_4_Template, 76, 31, "ng-container", 1);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](0, SignUpPage_ng_container_0_Template, 59, 23, "ng-container", 0)(1, SignUpPage_ng_container_1_Template, 38, 27, "ng-container", 0)(2, SignUpPage_ng_container_2_Template, 62, 14, "ng-container", 0)(3, SignUpPage_ng_container_3_Template, 56, 20, "ng-container", 0)(4, SignUpPage_ng_container_4_Template, 75, 32, "ng-container", 0);
     }
     if (rf & 2) {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx.metaData.msiteFolder == "cbustheme" || ctx.metaData.msiteFolder == "networktheme");
@@ -2422,7 +2412,7 @@ _SignUpPage.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵ�
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx.metaData.msiteFolder == "shyamolitheme");
     }
   },
-  dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_21__.NgClass, _angular_common__WEBPACK_IMPORTED_MODULE_21__.NgIf, _angular_forms__WEBPACK_IMPORTED_MODULE_1__["ɵNgNoValidate"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.NgControlStatusGroup, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.MaxLengthValidator, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonButton, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonButtons, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonCard, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonCol, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonContent, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonDatetime, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonGrid, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonHeader, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonIcon, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonInput, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonItem, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonLabel, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonList, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonRadio, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonRadioGroup, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonRow, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonSegment, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonSegmentButton, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonText, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonTitle, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonToolbar, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonModal, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.NumericValueAccessor, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.SelectValueAccessor, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.TextValueAccessor, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonBackButton, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.FormGroupDirective, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.FormControlName, _common_header_common_header_component__WEBPACK_IMPORTED_MODULE_22__.CommonHeaderComponent],
+  dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_21__.NgClass, _angular_common__WEBPACK_IMPORTED_MODULE_21__.NgIf, _angular_forms__WEBPACK_IMPORTED_MODULE_1__["ɵNgNoValidate"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.NgControlStatusGroup, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.MaxLengthValidator, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonButton, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonButtons, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonCard, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonCol, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonContent, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonGrid, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonHeader, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonIcon, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonInput, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonItem, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonLabel, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonList, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonRadio, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonRadioGroup, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonRow, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonSegment, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonSegmentButton, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonText, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonTitle, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonToolbar, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.NumericValueAccessor, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.SelectValueAccessor, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.TextValueAccessor, _ionic_angular__WEBPACK_IMPORTED_MODULE_14__.IonBackButton, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.FormGroupDirective, _angular_forms__WEBPACK_IMPORTED_MODULE_1__.FormControlName, _common_header_common_header_component__WEBPACK_IMPORTED_MODULE_22__.CommonHeaderComponent, _components_date_picker_modal_date_picker_modal_component__WEBPACK_IMPORTED_MODULE_23__.DatePickerModalComponent],
   styles: [".head[_ngcontent-%COMP%] {\n  font-family: NotoSans;\n  font-size: 14px;\n  margin: 16px;\n  font-weight: bold;\n  font-stretch: normal;\n  font-style: normal;\n  line-height: normal;\n  letter-spacing: normal;\n  color: #4a4a4a;\n}\n\nion-content[_ngcontent-%COMP%] {\n  overflow-y: scroll;\n  --ion-background-color: var(--viewBgColor);\n}\n\n.scroll-y[_ngcontent-%COMP%] {\n  overflow-y: scroll;\n}\n\n.card-1[_ngcontent-%COMP%] {\n  padding: 16px 12px;\n  margin: 0;\n  box-shadow: rgba(0, 0, 0, 0) 0 0 0 0px, rgba(0, 0, 0, 0) 0 0 0 0, rgba(0, 0, 0, 0) 0 0 0 0;\n  border-radius: 0;\n  height: 44px;\n}\n\n.h50[_ngcontent-%COMP%] {\n  height: 50px;\n}\n\n.bg-content[_ngcontent-%COMP%] {\n  --background: #f7f9fb;\n}\n.bg-content[_ngcontent-%COMP%]   .txt-ln2[_ngcontent-%COMP%] {\n  height: 44px;\n  width: 100%;\n  z-index: 5;\n  --background: white;\n  font-family: NotoSans;\n}\n\n.icn-main-wthtlogin[_ngcontent-%COMP%] {\n  vertical-align: middle;\n  position: initial;\n  right: 0;\n  padding: 0;\n  width: 140px;\n  height: 40px;\n  top: 0;\n  float: right;\n  margin-right: 10px;\n  margin-top: 0px;\n  margin-bottom: 0px;\n}\n\n.title-main-wthlogin[_ngcontent-%COMP%] {\n  margin: 9px 16px 0px -25px;\n  font-family: NotoSans;\n  font-size: 15px;\n  font-weight: bold;\n  font-stretch: normal;\n  font-style: normal;\n  letter-spacing: normal;\n  display: inline-block;\n  color: var(--viewBgColor) !important;\n}\n\n.frgt-pw[_ngcontent-%COMP%] {\n  font-size: 14px;\n  font-weight: normal;\n  color: #3e3e52;\n}\n\n.click-btn[_ngcontent-%COMP%] {\n  font-size: 13px;\n  font-weight: bold;\n  line-height: 1.54;\n  text-align: center;\n  color: var(--iconsAndButtonsColor);\n}\n\n.txt-lbl[_ngcontent-%COMP%] {\n  font-family: NotoSans;\n  font-size: 14px;\n  color: #3e3e52;\n}\n\nion-item[_ngcontent-%COMP%] {\n  --background: #f7f9fb;\n}\n\n.center-div[_ngcontent-%COMP%] {\n  margin: 8px;\n}\n\n.login-btn[_ngcontent-%COMP%] {\n  text-transform: initial;\n  --background:var(--iconsAndButtonsColor);\n  color: var(--primaryText);\n  font-family: NotoSans;\n  font-weight: bolder;\n  font-size: 13px;\n  bottom: 10px;\n  height: 50px;\n  border-radius: 4px;\n}\n\n.login-btn1[_ngcontent-%COMP%] {\n  text-transform: initial;\n  color: var(--iconsAndButtonsColor);\n  font-family: NotoSans;\n  font-weight: bolder;\n  font-size: 13px;\n  position: fixed;\n  top: 62px;\n  right: 14px;\n  z-index: 200;\n}\n\n.seg-btn[_ngcontent-%COMP%] {\n  width: 196px;\n  margin: 0;\n  border-radius: 4px;\n  background-color: #eaeaea;\n}\n.seg-btn[_ngcontent-%COMP%]   ion-segment[_ngcontent-%COMP%] {\n  height: 24px;\n  border: 1px solid #eaeaea;\n  border-radius: 4px;\n}\n.seg-btn[_ngcontent-%COMP%]   ion-segment-button[_ngcontent-%COMP%] {\n  font-size: 12px;\n  font-weight: bold;\n  color: #9b9b9b;\n  min-height: 0px;\n  text-transform: capitalize;\n}\n.seg-btn[_ngcontent-%COMP%]   ion-segment-button.segment-button-checked[_ngcontent-%COMP%] {\n  color: var(--viewBgColor);\n  background-color: var(--iconsAndButtonsColor);\n  font-weight: bolder;\n}\n\n.img-icn[_ngcontent-%COMP%] {\n  width: 110px;\n  height: 37px;\n  display: block;\n  \n\n  margin-right: 10px;\n  margin-bottom: 5px;\n}\n\nion-modal[_ngcontent-%COMP%] {\n  --width: 290px;\n  --height: 520px;\n  --border-radius: 8px;\n}\n\nion-modal[_ngcontent-%COMP%]   ion-datetime[_ngcontent-%COMP%] {\n  height: 520px;\n}\n\n.themeone-bg-content[_ngcontent-%COMP%] {\n  --background: #FFFFFF;\n}\n.themeone-bg-content[_ngcontent-%COMP%]   .seg-btn[_ngcontent-%COMP%] {\n  width: 196px;\n  margin: 0;\n  border-radius: 4px;\n  background-color: #eaeaea;\n}\n.themeone-bg-content[_ngcontent-%COMP%]   .seg-btn[_ngcontent-%COMP%]   ion-segment[_ngcontent-%COMP%] {\n  height: 34px;\n  border: 1px solid #19196E;\n  border-radius: 5px;\n}\n.themeone-bg-content[_ngcontent-%COMP%]   .seg-btn[_ngcontent-%COMP%]   ion-segment-button[_ngcontent-%COMP%] {\n  font-size: 12px;\n  font-weight: bold;\n  min-height: 0px;\n  text-transform: capitalize;\n  background-color: #FFFFFF;\n  color: #19196E;\n}\n.themeone-bg-content[_ngcontent-%COMP%]   .seg-btn[_ngcontent-%COMP%]   .segone[_ngcontent-%COMP%] {\n  border-right: 1px solid #19196E;\n}\n.themeone-bg-content[_ngcontent-%COMP%]   .seg-btn[_ngcontent-%COMP%]   .themeone_segone[_ngcontent-%COMP%] {\n  border-right: 1px solid #000;\n}\n.themeone-bg-content[_ngcontent-%COMP%]   .seg-btn[_ngcontent-%COMP%]   ion-segment-button.segment-button-checked[_ngcontent-%COMP%] {\n  color: #19196E;\n  background-color: #F2C21A;\n  font-weight: bolder;\n}\n.themeone-bg-content[_ngcontent-%COMP%]   .themeone-seg-btn[_ngcontent-%COMP%] {\n  width: 196px;\n  margin: 0;\n  border-radius: 4px;\n  background-color: #eaeaea;\n}\n.themeone-bg-content[_ngcontent-%COMP%]   .themeone-seg-btn[_ngcontent-%COMP%]   ion-segment[_ngcontent-%COMP%] {\n  height: 34px;\n  border: 1px solid #000;\n  border-radius: 5px;\n}\n.themeone-bg-content[_ngcontent-%COMP%]   .themeone-seg-btn[_ngcontent-%COMP%]   ion-segment-button[_ngcontent-%COMP%] {\n  font-size: 12px;\n  font-weight: bold;\n  min-height: 0px;\n  text-transform: capitalize;\n  background-color: #FFFFFF;\n  color: #000;\n}\n.themeone-bg-content[_ngcontent-%COMP%]   .themeone-seg-btn[_ngcontent-%COMP%]   .segone[_ngcontent-%COMP%] {\n  border-right: 1px solid #19196E;\n}\n.themeone-bg-content[_ngcontent-%COMP%]   .themeone-seg-btn[_ngcontent-%COMP%]   .themeone_segone[_ngcontent-%COMP%] {\n  border-right: 1px solid #000;\n}\n.themeone-bg-content[_ngcontent-%COMP%]   .themeone-seg-btn[_ngcontent-%COMP%]   ion-segment-button.segment-button-checked[_ngcontent-%COMP%] {\n  color: var(--viewBgColor);\n  background-color: var(--iconsAndButtonsColor);\n  font-weight: bolder;\n}\n.themeone-bg-content[_ngcontent-%COMP%]   .themeone-bg-page[_ngcontent-%COMP%] {\n  background: #191966;\n  height: -webkit-fill-available;\n}\n.themeone-bg-content[_ngcontent-%COMP%]   .themeone-center[_ngcontent-%COMP%] {\n  background: #FFFFFF;\n  border-top-left-radius: 25px;\n  border-top-right-radius: 25px;\n  padding: 1px 16px 16px 16px;\n}\n.themeone-bg-content[_ngcontent-%COMP%]   .themeone-sub-hd-txt[_ngcontent-%COMP%] {\n  font-size: 24px;\n  font-weight: 700;\n  color: #191966;\n  margin: 5% 0 5%;\n  text-align: center;\n}\n.themeone-bg-content[_ngcontent-%COMP%]   .themeone-sub-hd-txt-2[_ngcontent-%COMP%] {\n  font-size: 24px;\n  font-weight: 700;\n  color: var(--primaryText);\n  margin: 5% 0 5%;\n  text-align: center;\n}\n.themeone-bg-content[_ngcontent-%COMP%]   .themeone-ion-item[_ngcontent-%COMP%] {\n  border: 1px #D9D9D9 solid;\n  --inner-border-width: 0;\n  border-radius: 10px;\n  --border-radius: 10px;\n  --border-width: 0px;\n  margin: 10px 0px;\n  color: #333333;\n  font-size: 14px;\n  --inner-padding-end: 0;\n  --padding-start: 0px;\n}\n.themeone-bg-content[_ngcontent-%COMP%]   .themeone-ion-item[_ngcontent-%COMP%]   ion-input[_ngcontent-%COMP%] {\n  --padding-start: 42px;\n  --padding-top: 12px;\n  --padding-bottom: 12px;\n  --border-radius: 10px;\n  font-family: \"roboto\";\n}\n.themeone-bg-content[_ngcontent-%COMP%]   .themeone-ion-item[_ngcontent-%COMP%]   ion-datetime[_ngcontent-%COMP%] {\n  --padding-start: 42px;\n  --padding-top: 12px;\n  --padding-bottom: 12px;\n  --border-radius: 10px;\n  width: 100%;\n}\n.themeone-bg-content[_ngcontent-%COMP%]   .themeone-login-btn[_ngcontent-%COMP%] {\n  --background: #F2C21A;\n  font-size: 16px;\n  font-weight: 700;\n  line-height: 26px;\n  letter-spacing: -0.01em;\n  text-align: center;\n  --border-radius: 010px;\n  height: 50px;\n  color: #191966;\n  margin-top: 15px;\n  --box-shadow: none;\n}\n.themeone-bg-content[_ngcontent-%COMP%]   .themeone-login-btn-2[_ngcontent-%COMP%] {\n  --background: var(--iconsAndButtonsColor);\n  font-size: 16px;\n  font-weight: 700;\n  line-height: 26px;\n  letter-spacing: -0.01em;\n  text-align: center;\n  --border-radius: 010px;\n  height: 50px;\n  color: var(--primaryText);\n  margin-top: 15px;\n  --box-shadow: none;\n}\n.themeone-bg-content[_ngcontent-%COMP%]   .themeone-otp-btn[_ngcontent-%COMP%] {\n  font-size: 16px;\n  font-weight: 700;\n  line-height: 26px;\n  letter-spacing: -0.01em;\n  text-align: center;\n  --border-radius: 010px;\n  height: 50px;\n  color: #191966;\n  \n\n  \n\n  margin-top: 15px;\n  --border-color: #F2C21A;\n}\n.themeone-bg-content[_ngcontent-%COMP%]   .themeone-forget-pass[_ngcontent-%COMP%] {\n  color: #191966;\n  font-size: 14px;\n  font-weight: 500;\n  line-height: 24px;\n  letter-spacing: -0.01em;\n  text-align: left;\n}\n.themeone-bg-content[_ngcontent-%COMP%]   .themeone-click-btn[_ngcontent-%COMP%] {\n  font-size: 12px;\n  font-weight: 700;\n  line-height: 18px;\n  letter-spacing: 0.01em;\n  text-align: center;\n  color: #F2C21A;\n}\n.themeone-bg-content[_ngcontent-%COMP%]   .themeone-click-btn-2[_ngcontent-%COMP%] {\n  font-size: 12px;\n  font-weight: 700;\n  line-height: 18px;\n  letter-spacing: 0.01em;\n  text-align: center;\n  color: var(--materialUiColor);\n}\n.themeone-bg-content[_ngcontent-%COMP%]   .themeone-frgt-pw[_ngcontent-%COMP%] {\n  font-size: 12px;\n  font-weight: 500;\n  line-height: 18px;\n  letter-spacing: 0.01em;\n  text-align: center;\n  color: #1F1F1F;\n}\n.themeone-bg-content[_ngcontent-%COMP%]   .txt-ln2[_ngcontent-%COMP%] {\n  text-align: center;\n  width: 100%;\n}\n.themeone-bg-content[_ngcontent-%COMP%]   ion-col[_ngcontent-%COMP%] {\n  padding: 0px;\n}\n.themeone-bg-content[_ngcontent-%COMP%]   .themeone-ion-item-autofill[_ngcontent-%COMP%] {\n  --inner-border-width: 0;\n  border-radius: 10px;\n  --border-radius: 10px;\n  --border-width: 0px;\n  margin: 10px 0px;\n  color: #333333;\n  --inner-padding-end: 0;\n  --padding-start: 0px;\n  font-size: 14px;\n  border: 1px #D9D9D9 solid;\n}\n.themeone-bg-content[_ngcontent-%COMP%]   .themeone-ion-item-autofill[_ngcontent-%COMP%]   ion-input[_ngcontent-%COMP%] {\n  --padding-start: 42px;\n  --padding-top: 12px;\n  --padding-bottom: 12px;\n  --border-radius: 10px;\n}\n\n.seabird_card_1[_ngcontent-%COMP%] {\n  border: 1px solid #626262;\n  --background: white;\n  margin: 16px;\n  border-radius: 10px;\n  padding: 12px;\n}\n\n.seabird_card_2[_ngcontent-%COMP%] {\n  margin: 16px;\n  border: 1px solid #626262;\n  --background:white;\n}\n\n.seabird_card_2[_ngcontent-%COMP%]    > form[_ngcontent-%COMP%]    > ion-item[_ngcontent-%COMP%] {\n  --background:transparent;\n  border-bottom: 1px solid #626262;\n}\n\n.seabird_login_btn[_ngcontent-%COMP%] {\n  text-transform: initial;\n  --background:var(--iconsAndButtonsColor);\n  color: var(--primaryText);\n  font-family: NotoSans;\n  font-weight: bolder;\n  font-size: 13px;\n  height: 44px;\n  border-radius: 4px;\n  width: 92%;\n  margin-left: 16px;\n  margin-top: 55px;\n  --border-radius:40px;\n}\n\n.seabird_list[_ngcontent-%COMP%] {\n  display: inline-flex;\n  padding: 0px;\n}\n\n.seabird_Radio_color[_ngcontent-%COMP%] {\n  margin: 2px !important;\n  --color-checked:var(--iconsAndButtonsColor) !important ;\n}\n\n.seabird_bottom_div[_ngcontent-%COMP%] {\n  text-align: center;\n  display: grid;\n  margin-top: 50px;\n}\n\n.ourbus_custom_input[_ngcontent-%COMP%] {\n  --highlight-color-focused: #D9D9D9;\n  --highlight-height: 1px;\n  --border-color: #D9D9D9;\n  --highlight-background: #D9D9D9;\n}\n.ourbus_custom_input[_ngcontent-%COMP%]   .ourbus_label_select[_ngcontent-%COMP%] {\n  position: absolute !important;\n}\n.ourbus_custom_input[_ngcontent-%COMP%]   .ourbus_ionselect_center[_ngcontent-%COMP%] {\n  margin-top: 17px !important;\n  padding-top: 0px !important;\n}\n\n.ourbus_labelSet[_ngcontent-%COMP%] {\n  color: #4e4e4e !important;\n}\n\n.ourbus_inputText[_ngcontent-%COMP%] {\n  font-size: 16px;\n  font-weight: 700;\n  color: #2D2D2D;\n}\n\n.ourbus_inputText_disable[_ngcontent-%COMP%] {\n  font-size: 16px;\n  font-weight: 700;\n  color: #747474;\n}\n\n.ourbus_custom_input_disable[_ngcontent-%COMP%] {\n  --highlight-color-focused: #747474;\n  --highlight-height: 1px;\n  --border-color: #747474;\n  --highlight-background: #efefef;\n  --background: #efefef;\n}\n\n.ourbustheme[_ngcontent-%COMP%]   ion-item[_ngcontent-%COMP%] {\n  --background: #fff;\n}\n.ourbustheme[_ngcontent-%COMP%]   .dob_calender[_ngcontent-%COMP%] {\n  max-width: 100%;\n}\n.ourbustheme[_ngcontent-%COMP%]   .ourbus_segment[_ngcontent-%COMP%] {\n  margin: 8px;\n}\n.ourbustheme[_ngcontent-%COMP%]   .segment-button-checked[_ngcontent-%COMP%] {\n  --indicator-color: var(--iconsAndButtonsColor) !important;\n  --indicator-color-checked: transparent !important;\n  color: var(--primaryText);\n  margin: 8px !important;\n}\n\nion-modal#dob[_ngcontent-%COMP%] {\n  --width: 311px !important;\n  --height: 543px !important;\n  --border-radius: 8px !important;\n}\n\n.ourbus_btn[_ngcontent-%COMP%] {\n  font-size: 15px;\n  height: 55px;\n  border-radius: 4px;\n  margin-top: 10px;\n}\n\n.iconeye12[_ngcontent-%COMP%] {\n  position: absolute;\n  margin-top: -8px;\n  z-index: 99999999;\n  color: #696768;\n  font-size: 21px;\n  height: 25px;\n  width: 25px;\n  right: 12px;\n}\n\n.icondiv1[_ngcontent-%COMP%] {\n  text-align: right;\n  margin-right: 41px;\n  z-index: 999999999;\n}\n\n[_nghost-%COMP%]     ion-datetime {\n  background: green;\n}\n\nion-modal[_ngcontent-%COMP%] {\n  --width: 350px;\n  --height: 580px;\n  --border-radius: 8px;\n}\n\nion-modal[_ngcontent-%COMP%]   ion-datetime[_ngcontent-%COMP%] {\n  height: 580px;\n}\n\nion-back-button[_ngcontent-%COMP%] {\n  color: black;\n}\n\n.mandatory_star[_ngcontent-%COMP%] {\n  color: red;\n}\n\n.eye_icon[_ngcontent-%COMP%] {\n  height: 20px;\n  width: 20px;\n  position: absolute;\n  z-index: 11;\n  right: 10px;\n  bottom: 0px;\n}\n\n.custom-item[_ngcontent-%COMP%] {\n  position: relative;\n}\n\n.mandatory-star[_ngcontent-%COMP%] {\n  color: red;\n  font-weight: bold;\n  position: absolute;\n  top: 14px; \n\n  left: 85px; \n\n  font-size: 18px;\n}\n\n.theme1_bg_curved[_ngcontent-%COMP%] {\n  height: 100px;\n  background-color: var(--homeBgColor) !important;\n  color: #ffffff;\n}\n\n.cbus_bg_curved[_ngcontent-%COMP%] {\n  height: 100px;\n  background-color: #191966;\n  color: #ffffff;\n}\n\n.theme1[_ngcontent-%COMP%]   body[_ngcontent-%COMP%] {\n  padding: 0 constant(safe-area-inset-right) constant(safe-area-inset-bottom) constant(safe-area-inset-left);\n  padding: 0 env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);\n}\n\n.background-cl[_ngcontent-%COMP%] {\n  color: var(--primary) !important;\n  --background: var(--primary) !important;\n}\n\n.syamolitheme[_ngcontent-%COMP%] {\n  --syamoli-primary: var(--iconsAndButtonsColor);\n  --syamoli-primary-light: #fff4f0;\n  --syamoli-text-primary: #1F2937;\n  --syamoli-text-secondary: #111111;\n  --syamoli-border: #a4a5a7;\n  --syamoli-error: #DC2626;\n  --syamoli-success: #059669;\n  --syamoli-focus-ring: 0 0 0 3px rgba(255,145,0,0.35);\n  background: #FFFFFF;\n}\n.syamolitheme[_ngcontent-%COMP%]   ion-toolbar[_ngcontent-%COMP%] {\n  --border-width: 0 !important;\n  border: none !important;\n  box-shadow: none !important;\n  border-bottom: none !important;\n}\n.syamolitheme[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  border: none !important;\n  outline: none !important;\n  box-shadow: none !important;\n  display: block;\n}\n\n.syamoli-center[_ngcontent-%COMP%] {\n  width: 100%;\n  max-width: 430px;\n  margin: 0 auto;\n  padding: 16px 12px 60px;\n}\n\n.syamoli-form-block[_ngcontent-%COMP%] {\n  background: transparent;\n  border: none;\n  box-shadow: none;\n  padding: 8px 12px 28px;\n  border-radius: 0;\n}\n\n.syamoli-heading[_ngcontent-%COMP%] {\n  font-size: 24px;\n  font-weight: 600;\n  color: var(--syamoli-text-primary);\n  text-align: center;\n  margin-bottom: 0px;\n  margin-top: 8px;\n}\n\n@keyframes _ngcontent-%COMP%_syamoliCardFade {\n  from {\n    opacity: 0;\n    transform: translateY(8px);\n  }\n  to {\n    opacity: 1;\n    transform: translateY(0);\n  }\n}\n.syamoli-input[_ngcontent-%COMP%] {\n  --inner-padding-end: 4px;\n  --inner-padding-start: 2px;\n  --padding-start: 4px;\n  --background: transparent;\n  margin-bottom: 4px;\n  border: 1px solid #D9D9D9;\n  border-radius: 10px;\n  font-size: 14px;\n  transition: border-color 0.15s ease, box-shadow 0.15s ease;\n}\n.syamoli-input[_ngcontent-%COMP%]   ion-input[_ngcontent-%COMP%] {\n  --padding-start: 0px;\n  --padding-top: 12px;\n  --padding-bottom: 12px;\n  --padding-end: -7px;\n}\n.syamoli-input[_ngcontent-%COMP%]   ion-icon[slot=start][_ngcontent-%COMP%] {\n  margin-left: 4px;\n  margin-right: 4px;\n  height: 18px;\n  width: 18px;\n}\n.syamoli-input[_ngcontent-%COMP%]   ion-icon[slot=end][_ngcontent-%COMP%] {\n  margin-right: 4px;\n  margin-left: 4px;\n  height: 18px;\n  width: 18px;\n}\n\nion-row[_ngcontent-%COMP%]:last-child   .syamoli-input[_ngcontent-%COMP%] {\n  margin-top: -4px;\n}\n\n.syamoli-input-focus[_ngcontent-%COMP%] {\n  border-color: var(--syamoli-primary);\n  box-shadow: var(--syamoli-focus-ring);\n}\n\n.syamoli-input-error[_ngcontent-%COMP%] {\n  border-color: var(--syamoli-error) !important;\n}\n\n.syamoli-helper[_ngcontent-%COMP%] {\n  font-size: 11px;\n  color: #6B7280;\n  margin-top: -8px;\n  margin-bottom: 10px;\n}\n\n.syamoli-error-text[_ngcontent-%COMP%] {\n  font-size: 12px;\n  color: var(--syamoli-error);\n  font-weight: 600;\n}\n\n.syamoli-link[_ngcontent-%COMP%] {\n  color: var(--syamoli-primary);\n  font-weight: 600;\n}\n\n.syamoli-link[_ngcontent-%COMP%]:hover {\n  text-decoration: underline;\n}\n\n.syamoli-text-secondary[_ngcontent-%COMP%] {\n  color: var(--syamoli-text-secondary);\n}\n\n.syamoli-btn-primary[_ngcontent-%COMP%] {\n  --background: var(--syamoli-primary);\n  --border-radius: 10px;\n  height: 50px;\n  font-weight: 600;\n  font-size: 15px;\n  text-transform: none;\n  margin-right: 4px;\n}\n\n.syamoli-btn-primary.is-loading[_ngcontent-%COMP%] {\n  opacity: 0.6;\n}\n\n.syamoli-btn-secondary[_ngcontent-%COMP%] {\n  --background: #000000;\n  --color: #ffffff;\n  --border-radius: 10px;\n  height: 50px;\n  font-weight: 600;\n  font-size: 15px;\n  text-transform: none;\n  margin-left: 4px;\n}\n\n.syamoli-btn-secondary.is-loading[_ngcontent-%COMP%] {\n  opacity: 0.6;\n}\n\n.syamoli-gender-label[_ngcontent-%COMP%] {\n  font-size: 14px;\n  font-weight: 500;\n  color: var(--syamoli-text-primary);\n  margin: -4px 0 6px 0;\n  text-align: left;\n}\n\n.syamoli-radio-group[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: column;\n  gap: 4px;\n}\n\n.syamoli-radio-container[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: row;\n  gap: 20px;\n  align-items: flex-start;\n  justify-content: flex-start;\n  margin-top: 2px;\n  margin-left: 0px;\n  padding-left: 0px;\n  width: 100%;\n}\n\n.syamoli-radio-item[_ngcontent-%COMP%] {\n  --background: transparent;\n  --padding-start: 0px;\n  --inner-padding-end: 0;\n  --inner-padding-start: 0;\n  font-size: 14px;\n  --min-height: 32px;\n  margin: 0;\n  cursor: pointer;\n  flex: 0 0 auto;\n  padding-left: 0 !important;\n  margin-left: 0 !important;\n}\n\n.syamoli-radio-item[_ngcontent-%COMP%]   ion-label[_ngcontent-%COMP%] {\n  font-size: 14px;\n  color: var(--syamoli-text-primary);\n  margin-left: 8px;\n  padding-left: 0;\n}\n\n.syamoli-radio[_ngcontent-%COMP%] {\n  --color: #E5E7EB;\n  --color-checked: #FF8C00;\n  --border-radius: 50%;\n  --inner-border-radius: 50%;\n  width: 20px;\n  height: 20px;\n  margin-right: 4px;\n}\n\nion-segment.syamoli-segment[_ngcontent-%COMP%] {\n  --indicator-color: var(--syamoli-primary);\n}\n\n.syamoli-segment-buttons[_ngcontent-%COMP%] {\n  --indicator-color: transparent;\n  --background: transparent;\n  border: none;\n  padding: 0;\n  margin-top: 8px;\n}\n\n.syamoli-segment-btn[_ngcontent-%COMP%] {\n  --background: transparent;\n  --background-checked: var(--syamoli-primary);\n  --color: var(--syamoli-text-primary);\n  --color-checked: white;\n  --border-radius: 8px;\n  --border-width: 2px;\n  --border-color: var(--syamoli-border);\n  --border-style: solid;\n  font-size: 14px;\n  font-weight: 500;\n  height: 42px;\n  margin: 0 4px;\n  transition: all 0.2s ease;\n}\n\n.syamoli-segment-btn.segment-button-checked[_ngcontent-%COMP%] {\n  --border-color: var(--syamoli-primary);\n  --background: var(--syamoli-primary);\n  --color: white;\n  font-weight: 600;\n}\n\nion-segment-button[_ngcontent-%COMP%] {\n  font-size: 13px;\n}\n\nion-segment-button.segment-button-checked[_ngcontent-%COMP%] {\n  color: var(--syamoli-primary);\n  font-weight: 600;\n}\n\n.eye_icon[_ngcontent-%COMP%] {\n  position: static;\n  margin-right: 4px;\n}\n\n@media (max-width: 480px) {\n  .syamoli-center[_ngcontent-%COMP%] {\n    padding: 24px 8px 48px;\n  }\n  .syamoli-form-block[_ngcontent-%COMP%] {\n    padding: 18px 8px 24px;\n  }\n}\n.custom-datetime[_ngcontent-%COMP%] {\n  --ion-color-base: var(--iconsAndButtonsColor) !important;\n}"]
 });
 

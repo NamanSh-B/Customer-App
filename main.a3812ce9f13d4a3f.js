@@ -16032,8 +16032,8 @@ var _AppData;
 
 class AppData {
   constructor() {
-    this.APP_ID = "com.ios.shyamolibus";
-    this.IOS_ID = "com.ios.shyamolibus"; // Keep original iOS bundle ID
+    this.APP_ID = "com.bitla.ticketsimply";
+    this.IOS_ID = "com.bitla.ticketsimply"; // Keep original iOS bundle ID
     this.APP_NAME = "Shyamoli Paribahan";
     this.ONE_SIGNAL_APP_ID = "";
     this.SENDER_ID = "";
@@ -16046,7 +16046,7 @@ class AppData {
     this.isANDROID = false; // For making android build change <base href="./"> to <base href="/"> otherwise keep it <base href="/"> in index.html page
     this.isWEBAPP = true; // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
     //Mobile web or IOS version can change from here
-    this.mobileWebVersion = "20.07.26"; // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
+    this.mobileWebVersion = "21.09.26"; // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
     this.iosVersion = "19.9";
     this.androidVersion = "26.2";
     this.IsVideoSplash = false; // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
@@ -16063,7 +16063,7 @@ class AppData {
     // this.BASE_URL = "https://lxmi.ticketsimply.co.in/";
     // this.BASE_URL = "https://btb-qa1.ticketsimply.co.in/";
     // this.BASE_URL = "https://mst-mob.ticketsimply.co.in/"
-    this.BASE_URL = "https://rjto-qa1.ticketsimply.co.in/";
+    this.BASE_URL = "https://jpsb-qa1.ticketsimply.co.in/";
     // this.BASE_URL = "https://www.tsrtconline.site/";
     // this.BASE_URL = "https://sppl-mob.ticketsimply.co.in/"; // cbus theme
     // this.BASE_URL = "https://rylr-mob.ticketsimply.co.in/"; // cbus theme
