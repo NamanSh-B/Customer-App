@@ -7962,6 +7962,65 @@ function SeatLayoutPage_ng_container_0_div_16_span_7_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate"](ctx_r1.selectedSeatsNumbers);
   }
 }
+function SeatLayoutPage_ng_container_0_div_16_span_9_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span", 68);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipe"](2, "number");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+  }
+  if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate2"](" ", " " + ctx_r1.currencySym + " ", "", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind2"](2, 2, ctx_r1.totalBookingAmount, "1.2-2"), " ");
+  }
+}
+function SeatLayoutPage_ng_container_0_div_16_span_10_span_1_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span")(1, "span", 69);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipe"](3, "number");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](4, "span", 70);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipe"](6, "number");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+  }
+  if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate2"]("", " " + ctx_r1.currencySym + " ", "", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind2"](3, 4, ctx_r1.totalBookingAmount, "1.2-2"), "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate2"](" ", " " + ctx_r1.currencySym + " ", "", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind2"](6, 7, ctx_r1.totalBookingAmountAfterDiscount, "1.2-2"), " ");
+  }
+}
+function SeatLayoutPage_ng_container_0_div_16_span_10_span_2_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span", 68);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipe"](2, "number");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+  }
+  if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate2"](" ", " " + ctx_r1.currencySym + " ", "", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind2"](2, 2, ctx_r1.totalBookingAmount, "1.2-2"), " ");
+  }
+}
+function SeatLayoutPage_ng_container_0_div_16_span_10_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](1, SeatLayoutPage_ng_container_0_div_16_span_10_span_1_Template, 7, 10, "span", 0)(2, SeatLayoutPage_ng_container_0_div_16_span_10_span_2_Template, 3, 5, "span", 61);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+  }
+  if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r1.totalBookingAmountAfterDiscount < ctx_r1.totalBookingAmount);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r1.totalBookingAmountAfterDiscount >= ctx_r1.totalBookingAmount);
+  }
+}
 function SeatLayoutPage_ng_container_0_div_16_Template(rf, ctx) {
   if (rf & 1) {
     const _r16 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
@@ -7969,27 +8028,26 @@ function SeatLayoutPage_ng_container_0_div_16_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](6, SeatLayoutPage_ng_container_0_div_16_span_6_Template, 2, 4, "span", 59)(7, SeatLayoutPage_ng_container_0_div_16_span_7_Template, 2, 1, "span", 60);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](8, "div")(9, "span", 61);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](10);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipe"](11, "number");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](12, "div", 62);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_0_div_16_Template_div_click_12_listener() {
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](8, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](9, SeatLayoutPage_ng_container_0_div_16_span_9_Template, 3, 5, "span", 61)(10, SeatLayoutPage_ng_container_0_div_16_span_10_Template, 3, 2, "span", 0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](11, "div", 62);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_0_div_16_Template_div_click_11_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r16);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.callFarebreakup());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](13, "span", 63);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](14, "View Breakup");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](12, "span", 63);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](13, "View Breakup");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](15, "ion-col", 64);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_0_div_16_Template_ion_col_click_15_listener() {
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](14, "ion-col", 64);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_0_div_16_Template_ion_col_click_14_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r16);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.goToPassengerDetails());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](16, "ion-button", 65);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](17, "Select pick-up point");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](15, "ion-button", 65);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](16, "Select pick-up point");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()();
   }
   if (rf & 2) {
@@ -8001,8 +8059,10 @@ function SeatLayoutPage_ng_container_0_div_16_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r1.bookseatcount.length > 3);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r1.bookseatcount.length <= 3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate2"]("", " " + ctx_r1.currencySym + " ", "", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind2"](11, 7, ctx_r1.totalBookingAmount, "1.2-2"), "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", !ctx_r1.metaData.show_discounted_fare_in_srp);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r1.metaData.show_discounted_fare_in_srp);
   }
 }
 function SeatLayoutPage_ng_container_0_div_17_span_6_Template(rf, ctx) {
@@ -8029,34 +8089,92 @@ function SeatLayoutPage_ng_container_0_div_17_span_7_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate"](ctx_r1.selectedSeatsNumbers);
   }
 }
+function SeatLayoutPage_ng_container_0_div_17_span_9_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span", 68);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipe"](2, "number");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+  }
+  if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate2"](" ", " " + ctx_r1.currencySym + " ", "", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind2"](2, 2, ctx_r1.totalBookingAmount, "1.2-2"), " ");
+  }
+}
+function SeatLayoutPage_ng_container_0_div_17_span_10_span_1_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span")(1, "span", 69);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipe"](3, "number");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](4, "span", 70);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipe"](6, "number");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+  }
+  if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate2"]("", " " + ctx_r1.currencySym + " ", "", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind2"](3, 4, ctx_r1.totalBookingAmount, "1.2-2"), "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate2"](" ", " " + ctx_r1.currencySym + " ", "", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind2"](6, 7, ctx_r1.totalBookingAmountAfterDiscount, "1.2-2"), " ");
+  }
+}
+function SeatLayoutPage_ng_container_0_div_17_span_10_span_2_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span", 68);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipe"](2, "number");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+  }
+  if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate2"](" ", " " + ctx_r1.currencySym + " ", "", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind2"](2, 2, ctx_r1.totalBookingAmount, "1.2-2"), " ");
+  }
+}
+function SeatLayoutPage_ng_container_0_div_17_span_10_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](1, SeatLayoutPage_ng_container_0_div_17_span_10_span_1_Template, 7, 10, "span", 0)(2, SeatLayoutPage_ng_container_0_div_17_span_10_span_2_Template, 3, 5, "span", 61);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+  }
+  if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r1.totalBookingAmountAfterDiscount < ctx_r1.totalBookingAmount);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r1.totalBookingAmountAfterDiscount >= ctx_r1.totalBookingAmount);
+  }
+}
 function SeatLayoutPage_ng_container_0_div_17_Template(rf, ctx) {
   if (rf & 1) {
     const _r17 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 68)(1, "ion-row", 55)(2, "ion-col", 69)(3, "div", 57)(4, "ion-label", 70);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 71)(1, "ion-row", 55)(2, "ion-col", 72)(3, "div", 57)(4, "ion-label", 73);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](6, SeatLayoutPage_ng_container_0_div_17_span_6_Template, 2, 4, "span", 59)(7, SeatLayoutPage_ng_container_0_div_17_span_7_Template, 2, 1, "span", 59);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](8, "div")(9, "span", 61);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](10);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipe"](11, "number");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](12, "div", 62);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_0_div_17_Template_div_click_12_listener() {
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](8, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](9, SeatLayoutPage_ng_container_0_div_17_span_9_Template, 3, 5, "span", 61)(10, SeatLayoutPage_ng_container_0_div_17_span_10_Template, 3, 2, "span", 0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](11, "div", 62);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_0_div_17_Template_div_click_11_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r17);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.callFarebreakup());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](13, "span", 63);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](14, "View Breakup");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](12, "span", 63);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](13, "View Breakup");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](15, "ion-col", 71);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_0_div_17_Template_ion_col_click_15_listener() {
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](14, "ion-col", 74);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_0_div_17_Template_ion_col_click_14_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r17);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.goToPassengerDetails());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](16, "ion-button", 72);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](17, " Select pick-up point");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](15, "ion-button", 75);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](16, " Select pick-up point");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()();
   }
   if (rf & 2) {
@@ -8068,21 +8186,23 @@ function SeatLayoutPage_ng_container_0_div_17_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r1.bookseatcount.length > 3);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r1.bookseatcount.length <= 3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate2"]("", " " + ctx_r1.currencySym + " ", "", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind2"](11, 7, ctx_r1.totalBookingAmount, "1.2-2"), "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", !ctx_r1.metaData.show_discounted_fare_in_srp);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r1.metaData.show_discounted_fare_in_srp);
   }
 }
 function SeatLayoutPage_ng_container_0_ion_bottom_drawer_18_Template(rf, ctx) {
   if (rf & 1) {
     const _r18 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-bottom-drawer", 73);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-bottom-drawer", 76);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtwoWayListener"]("stateChange", function SeatLayoutPage_ng_container_0_ion_bottom_drawer_18_Template_ion_bottom_drawer_stateChange_0_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r18);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtwoWayBindingSet"](ctx_r1.drawerState, $event) || (ctx_r1.drawerState = $event);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"]($event);
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "div", 74);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "div", 77);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](2, " Bottom Drawer Content ");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
   }
@@ -8113,7 +8233,7 @@ function SeatLayoutPage_ng_container_0_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](10, "ion-content", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](11, SeatLayoutPage_ng_container_0_div_11_Template, 2, 1, "div", 9)(12, SeatLayoutPage_ng_container_0_div_12_Template, 11, 4, "div", 10)(13, SeatLayoutPage_ng_container_0_ion_row_13_Template, 5, 3, "ion-row", 11)(14, SeatLayoutPage_ng_container_0_div_14_Template, 2, 1, "div", 0)(15, SeatLayoutPage_ng_container_0_div_15_Template, 2, 1, "div", 0);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](16, SeatLayoutPage_ng_container_0_div_16_Template, 18, 10, "div", 12)(17, SeatLayoutPage_ng_container_0_div_17_Template, 18, 10, "div", 13)(18, SeatLayoutPage_ng_container_0_ion_bottom_drawer_18_Template, 3, 7, "ion-bottom-drawer", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](16, SeatLayoutPage_ng_container_0_div_16_Template, 17, 7, "div", 12)(17, SeatLayoutPage_ng_container_0_div_17_Template, 17, 7, "div", 13)(18, SeatLayoutPage_ng_container_0_ion_bottom_drawer_18_Template, 3, 7, "ion-bottom-drawer", 14);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerEnd"]();
   }
   if (rf & 2) {
@@ -8148,7 +8268,7 @@ function SeatLayoutPage_ng_container_0_Template(rf, ctx) {
 }
 function SeatLayoutPage_ng_container_1_div_5_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 89);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 92);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
@@ -8173,8 +8293,8 @@ function SeatLayoutPage_ng_container_1_ion_row_10_Template(rf, ctx) {
 function SeatLayoutPage_ng_container_1_div_11_ion_col_3_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-col", 28);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](1, "div", 90);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "div", 91);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](1, "div", 93);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "div", 94);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
   }
@@ -8188,17 +8308,17 @@ function SeatLayoutPage_ng_container_1_div_11_ion_col_3_Template(rf, ctx) {
 }
 function SeatLayoutPage_ng_container_1_div_11_ion_col_4_div_3_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 91);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 94);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1, " Blocked seat for social distancing ");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
 }
 function SeatLayoutPage_ng_container_1_div_11_ion_col_4_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-col", 31)(1, "div", 90);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-col", 31)(1, "div", 93);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](2, " X ");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](3, SeatLayoutPage_ng_container_1_div_11_ion_col_4_div_3_Template, 2, 0, "div", 92);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](3, SeatLayoutPage_ng_container_1_div_11_ion_col_4_div_3_Template, 2, 0, "div", 95);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -8324,14 +8444,14 @@ function SeatLayoutPage_ng_container_1_div_14_Template(rf, ctx) {
 function SeatLayoutPage_ng_container_1_ion_row_15_Template(rf, ctx) {
   if (rf & 1) {
     const _r23 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-row", 93)(1, "div", 94)(2, "ion-segment", 95);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-row", 96)(1, "div", 97)(2, "ion-segment", 98);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtwoWayListener"]("ngModelChange", function SeatLayoutPage_ng_container_1_ion_row_15_Template_ion_segment_ngModelChange_2_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r23);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtwoWayBindingSet"](ctx_r1.berthType, $event) || (ctx_r1.berthType = $event);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"]($event);
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](3, "ion-segment-button", 96);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](3, "ion-segment-button", 99);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_1_ion_row_15_Template_ion_segment_button_click_3_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r23);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
@@ -8339,7 +8459,7 @@ function SeatLayoutPage_ng_container_1_ion_row_15_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](5, "ion-segment-button", 97);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](5, "ion-segment-button", 100);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_1_ion_row_15_Template_ion_segment_button_click_5_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r23);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
@@ -8361,7 +8481,7 @@ function SeatLayoutPage_ng_container_1_ion_row_15_Template(rf, ctx) {
 function SeatLayoutPage_ng_container_1_ion_row_16_div_3_Template(rf, ctx) {
   if (rf & 1) {
     const _r25 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 99);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 102);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_1_ion_row_16_div_3_Template_div_click_0_listener() {
       const prices_r26 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r25).$implicit;
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](3);
@@ -8381,7 +8501,7 @@ function SeatLayoutPage_ng_container_1_ion_row_16_div_3_Template(rf, ctx) {
 function SeatLayoutPage_ng_container_1_ion_row_16_Template(rf, ctx) {
   if (rf & 1) {
     const _r24 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-row", 98)(1, "div", 99);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-row", 101)(1, "div", 102);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_1_ion_row_16_Template_div_click_1_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r24);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
@@ -8389,7 +8509,7 @@ function SeatLayoutPage_ng_container_1_ion_row_16_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](2, " All ");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](3, SeatLayoutPage_ng_container_1_ion_row_16_div_3_Template, 2, 3, "div", 100);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](3, SeatLayoutPage_ng_container_1_ion_row_16_div_3_Template, 2, 3, "div", 103);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -8423,14 +8543,14 @@ function SeatLayoutPage_ng_container_1_app_grid_coach_using_table_17_Template(rf
 function SeatLayoutPage_ng_container_1_ion_bottom_drawer_34_Template(rf, ctx) {
   if (rf & 1) {
     const _r28 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-bottom-drawer", 73);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-bottom-drawer", 76);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtwoWayListener"]("stateChange", function SeatLayoutPage_ng_container_1_ion_bottom_drawer_34_Template_ion_bottom_drawer_stateChange_0_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r28);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtwoWayBindingSet"](ctx_r1.drawerState, $event) || (ctx_r1.drawerState = $event);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"]($event);
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "div", 74);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "div", 77);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](2, " Bottom Drawer Content ");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
   }
@@ -8445,35 +8565,35 @@ function SeatLayoutPage_ng_container_1_Template(rf, ctx) {
   if (rf & 1) {
     const _r19 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "ion-header")(2, "ion-toolbar", 75)(3, "ion-buttons", 76)(4, "ion-back-button", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "ion-header")(2, "ion-toolbar", 78)(3, "ion-buttons", 79)(4, "ion-back-button", 4);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_1_Template_ion_back_button_click_4_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r19);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.goBack());
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](5, SeatLayoutPage_ng_container_1_div_5_Template, 2, 2, "div", 77);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](6, "div", 78);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](5, SeatLayoutPage_ng_container_1_div_5_Template, 2, 2, "div", 80);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](6, "div", 81);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](7);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](8, "div", 78);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](8, "div", 81);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](9);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](10, SeatLayoutPage_ng_container_1_ion_row_10_Template, 3, 1, "ion-row", 0)(11, SeatLayoutPage_ng_container_1_div_11_Template, 7, 2, "div", 7);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](12, "ion-content");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](13, SeatLayoutPage_ng_container_1_div_13_Template, 2, 1, "div", 9)(14, SeatLayoutPage_ng_container_1_div_14_Template, 11, 4, "div", 10)(15, SeatLayoutPage_ng_container_1_ion_row_15_Template, 7, 3, "ion-row", 79)(16, SeatLayoutPage_ng_container_1_ion_row_16_Template, 4, 2, "ion-row", 80)(17, SeatLayoutPage_ng_container_1_app_grid_coach_using_table_17_Template, 1, 6, "app-grid-coach-using-table", 52);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](13, SeatLayoutPage_ng_container_1_div_13_Template, 2, 1, "div", 9)(14, SeatLayoutPage_ng_container_1_div_14_Template, 11, 4, "div", 10)(15, SeatLayoutPage_ng_container_1_ion_row_15_Template, 7, 3, "ion-row", 82)(16, SeatLayoutPage_ng_container_1_ion_row_16_Template, 4, 2, "ion-row", 83)(17, SeatLayoutPage_ng_container_1_app_grid_coach_using_table_17_Template, 1, 6, "app-grid-coach-using-table", 52);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](18, "div", 81)(19, "div", 82)(20, "span", 83);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](18, "div", 84)(19, "div", 85)(20, "span", 86);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](21);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](22, "span", 84);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](22, "span", 87);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](23);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](24, "div", 85)(25, "span", 86);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](24, "div", 88)(25, "span", 89);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](26);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipe"](27, "number");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](28, "span", 87);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](28, "span", 90);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_1_Template_span_click_28_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r19);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
@@ -8481,7 +8601,7 @@ function SeatLayoutPage_ng_container_1_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](29, "View Breakup");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](30, "div", 88);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](30, "div", 91);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_1_Template_div_click_30_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r19);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
@@ -8529,7 +8649,7 @@ function SeatLayoutPage_ng_container_1_Template(rf, ctx) {
 }
 function SeatLayoutPage_ng_container_2_div_7_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 108);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 111);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
@@ -8554,8 +8674,8 @@ function SeatLayoutPage_ng_container_2_ion_row_8_Template(rf, ctx) {
 function SeatLayoutPage_ng_container_2_div_9_ion_col_3_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-col", 28);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](1, "div", 90);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "div", 91);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](1, "div", 93);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "div", 94);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
   }
@@ -8569,17 +8689,17 @@ function SeatLayoutPage_ng_container_2_div_9_ion_col_3_Template(rf, ctx) {
 }
 function SeatLayoutPage_ng_container_2_div_9_ion_col_4_div_3_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 91);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 94);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1, " Blocked seat for social distancing ");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
 }
 function SeatLayoutPage_ng_container_2_div_9_ion_col_4_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-col", 31)(1, "div", 90);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-col", 31)(1, "div", 93);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](2, " X ");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](3, SeatLayoutPage_ng_container_2_div_9_ion_col_4_div_3_Template, 2, 0, "div", 92);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](3, SeatLayoutPage_ng_container_2_div_9_ion_col_4_div_3_Template, 2, 0, "div", 95);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -8717,7 +8837,7 @@ function SeatLayoutPage_ng_container_2_ng_container_12_Template(rf, ctx) {
 function SeatLayoutPage_ng_container_2_ng_container_13_ion_row_2_div_3_Template(rf, ctx) {
   if (rf & 1) {
     const _r34 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 112);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 115);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_2_ng_container_13_ion_row_2_div_3_Template_div_click_0_listener() {
       const prices_r35 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r34).$implicit;
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](4);
@@ -8737,7 +8857,7 @@ function SeatLayoutPage_ng_container_2_ng_container_13_ion_row_2_div_3_Template(
 function SeatLayoutPage_ng_container_2_ng_container_13_ion_row_2_Template(rf, ctx) {
   if (rf & 1) {
     const _r33 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-row", 111)(1, "div", 112);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-row", 114)(1, "div", 115);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_2_ng_container_13_ion_row_2_Template_div_click_1_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r33);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](3);
@@ -8745,7 +8865,7 @@ function SeatLayoutPage_ng_container_2_ng_container_13_ion_row_2_Template(rf, ct
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](2, " All Prices ");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](3, SeatLayoutPage_ng_container_2_ng_container_13_ion_row_2_div_3_Template, 2, 3, "div", 113);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](3, SeatLayoutPage_ng_container_2_ng_container_13_ion_row_2_div_3_Template, 2, 3, "div", 116);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -8759,8 +8879,8 @@ function SeatLayoutPage_ng_container_2_ng_container_13_ion_row_2_Template(rf, ct
 function SeatLayoutPage_ng_container_2_ng_container_13_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "ion-card", 109);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](2, SeatLayoutPage_ng_container_2_ng_container_13_ion_row_2_Template, 4, 2, "ion-row", 110);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "ion-card", 112);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](2, SeatLayoutPage_ng_container_2_ng_container_13_ion_row_2_Template, 4, 2, "ion-row", 113);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerEnd"]();
   }
@@ -8773,14 +8893,14 @@ function SeatLayoutPage_ng_container_2_ng_container_13_Template(rf, ctx) {
 function SeatLayoutPage_ng_container_2_ion_row_14_Template(rf, ctx) {
   if (rf & 1) {
     const _r36 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-row", 93)(1, "div", 114)(2, "ion-segment", 95);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-row", 96)(1, "div", 117)(2, "ion-segment", 98);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtwoWayListener"]("ngModelChange", function SeatLayoutPage_ng_container_2_ion_row_14_Template_ion_segment_ngModelChange_2_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r36);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtwoWayBindingSet"](ctx_r1.berthType, $event) || (ctx_r1.berthType = $event);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"]($event);
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](3, "ion-segment-button", 115);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](3, "ion-segment-button", 118);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_2_ion_row_14_Template_ion_segment_button_click_3_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r36);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
@@ -8788,7 +8908,7 @@ function SeatLayoutPage_ng_container_2_ion_row_14_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](5, "ion-segment-button", 116);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](5, "ion-segment-button", 119);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_2_ion_row_14_Template_ion_segment_button_click_5_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r36);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
@@ -8810,7 +8930,7 @@ function SeatLayoutPage_ng_container_2_ion_row_14_Template(rf, ctx) {
 function SeatLayoutPage_ng_container_2_ng_container_15_app_grid_coach_using_table_1_Template(rf, ctx) {
   if (rf & 1) {
     const _r37 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "app-grid-coach-using-table", 118);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "app-grid-coach-using-table", 121);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("seatClicked", function SeatLayoutPage_ng_container_2_ng_container_15_app_grid_coach_using_table_1_Template_app_grid_coach_using_table_seatClicked_0_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r37);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](3);
@@ -8830,7 +8950,7 @@ function SeatLayoutPage_ng_container_2_ng_container_15_app_grid_coach_using_tabl
 function SeatLayoutPage_ng_container_2_ng_container_15_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](1, SeatLayoutPage_ng_container_2_ng_container_15_app_grid_coach_using_table_1_Template, 1, 8, "app-grid-coach-using-table", 117);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](1, SeatLayoutPage_ng_container_2_ng_container_15_app_grid_coach_using_table_1_Template, 1, 8, "app-grid-coach-using-table", 120);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerEnd"]();
   }
   if (rf & 2) {
@@ -8841,7 +8961,7 @@ function SeatLayoutPage_ng_container_2_ng_container_15_Template(rf, ctx) {
 }
 function SeatLayoutPage_ng_container_2_div_17_span_3_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span", 122);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span", 125);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
@@ -8852,7 +8972,7 @@ function SeatLayoutPage_ng_container_2_div_17_span_3_Template(rf, ctx) {
 }
 function SeatLayoutPage_ng_container_2_div_17_span_7_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span", 125);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "span", 128);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipe"](2, "number");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
@@ -8865,13 +8985,13 @@ function SeatLayoutPage_ng_container_2_div_17_span_7_Template(rf, ctx) {
 }
 function SeatLayoutPage_ng_container_2_div_17_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 119)(1, "ion-row", 120)(2, "ion-col", 69);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](3, SeatLayoutPage_ng_container_2_div_17_span_3_Template, 2, 1, "span", 121);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](4, "span", 122);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 122)(1, "ion-row", 123)(2, "ion-col", 72);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](3, SeatLayoutPage_ng_container_2_div_17_span_3_Template, 2, 1, "span", 124);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](4, "span", 125);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](6, "ion-col", 123);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](7, SeatLayoutPage_ng_container_2_div_17_span_7_Template, 3, 5, "span", 124);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](6, "ion-col", 126);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](7, SeatLayoutPage_ng_container_2_div_17_span_7_Template, 3, 5, "span", 127);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
@@ -8887,7 +9007,7 @@ function SeatLayoutPage_ng_container_2_div_17_Template(rf, ctx) {
 function SeatLayoutPage_ng_container_2_div_18_Template(rf, ctx) {
   if (rf & 1) {
     const _r38 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 126)(1, "div", 127);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 129)(1, "div", 130);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_2_div_18_Template_div_click_1_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r38);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
@@ -8901,14 +9021,14 @@ function SeatLayoutPage_ng_container_2_div_18_Template(rf, ctx) {
 function SeatLayoutPage_ng_container_2_ion_bottom_drawer_19_Template(rf, ctx) {
   if (rf & 1) {
     const _r39 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-bottom-drawer", 73);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-bottom-drawer", 76);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtwoWayListener"]("stateChange", function SeatLayoutPage_ng_container_2_ion_bottom_drawer_19_Template_ion_bottom_drawer_stateChange_0_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r39);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtwoWayBindingSet"](ctx_r1.drawerState, $event) || (ctx_r1.drawerState = $event);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"]($event);
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "div", 74);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "div", 77);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](2, " Bottom Drawer Content ");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
   }
@@ -8923,24 +9043,24 @@ function SeatLayoutPage_ng_container_2_Template(rf, ctx) {
   if (rf & 1) {
     const _r29 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "ion-header")(2, "ion-toolbar", 101)(3, "ion-buttons", 76)(4, "ion-back-button", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "ion-header")(2, "ion-toolbar", 104)(3, "ion-buttons", 79)(4, "ion-back-button", 4);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_2_Template_ion_back_button_click_4_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r29);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.goBack());
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](5, "div", 102);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](5, "div", 105);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](6, "Select Seats");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](7, SeatLayoutPage_ng_container_2_div_7_Template, 2, 2, "div", 103);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](7, SeatLayoutPage_ng_container_2_div_7_Template, 2, 2, "div", 106);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](8, SeatLayoutPage_ng_container_2_ion_row_8_Template, 3, 1, "ion-row", 0)(9, SeatLayoutPage_ng_container_2_div_9_Template, 7, 2, "div", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](10, "ion-content", 104);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](11, SeatLayoutPage_ng_container_2_div_11_Template, 2, 1, "div", 9)(12, SeatLayoutPage_ng_container_2_ng_container_12_Template, 2, 1, "ng-container", 0)(13, SeatLayoutPage_ng_container_2_ng_container_13_Template, 3, 1, "ng-container", 0)(14, SeatLayoutPage_ng_container_2_ion_row_14_Template, 7, 3, "ion-row", 79)(15, SeatLayoutPage_ng_container_2_ng_container_15_Template, 2, 1, "ng-container", 0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](10, "ion-content", 107);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](11, SeatLayoutPage_ng_container_2_div_11_Template, 2, 1, "div", 9)(12, SeatLayoutPage_ng_container_2_ng_container_12_Template, 2, 1, "ng-container", 0)(13, SeatLayoutPage_ng_container_2_ng_container_13_Template, 3, 1, "ng-container", 0)(14, SeatLayoutPage_ng_container_2_ion_row_14_Template, 7, 3, "ion-row", 82)(15, SeatLayoutPage_ng_container_2_ng_container_15_Template, 2, 1, "ng-container", 0);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](16, "ion-footer", 105);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](17, SeatLayoutPage_ng_container_2_div_17_Template, 8, 3, "div", 106)(18, SeatLayoutPage_ng_container_2_div_18_Template, 5, 0, "div", 107);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](16, "ion-footer", 108);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](17, SeatLayoutPage_ng_container_2_div_17_Template, 8, 3, "div", 109)(18, SeatLayoutPage_ng_container_2_div_18_Template, 5, 0, "div", 110);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](19, SeatLayoutPage_ng_container_2_ion_bottom_drawer_19_Template, 3, 7, "ion-bottom-drawer", 14);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerEnd"]();
@@ -8973,9 +9093,9 @@ function SeatLayoutPage_ng_container_2_Template(rf, ctx) {
 }
 function SeatLayoutPage_ng_container_3_div_5_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 136);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 139);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](2, "ion-icon", 137);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](2, "ion-icon", 140);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
@@ -9001,9 +9121,9 @@ function SeatLayoutPage_ng_container_3_div_6_span_4_Template(rf, ctx) {
 }
 function SeatLayoutPage_ng_container_3_div_6_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 138);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 141);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](2, "img", 139);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](2, "img", 142);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](4, SeatLayoutPage_ng_container_3_div_6_span_4_Template, 2, 1, "span", 0);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
@@ -9105,14 +9225,14 @@ function SeatLayoutPage_ng_container_3_div_9_Template(rf, ctx) {
 function SeatLayoutPage_ng_container_3_ion_row_10_Template(rf, ctx) {
   if (rf & 1) {
     const _r42 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-row", 93)(1, "div", 94)(2, "ion-segment", 140);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-row", 96)(1, "div", 97)(2, "ion-segment", 143);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtwoWayListener"]("ngModelChange", function SeatLayoutPage_ng_container_3_ion_row_10_Template_ion_segment_ngModelChange_2_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r42);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtwoWayBindingSet"](ctx_r1.berthType, $event) || (ctx_r1.berthType = $event);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"]($event);
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](3, "ion-segment-button", 141);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](3, "ion-segment-button", 144);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_3_ion_row_10_Template_ion_segment_button_click_3_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r42);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
@@ -9120,7 +9240,7 @@ function SeatLayoutPage_ng_container_3_ion_row_10_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](5, "ion-segment-button", 142);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](5, "ion-segment-button", 145);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_3_ion_row_10_Template_ion_segment_button_click_5_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r42);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
@@ -9141,10 +9261,10 @@ function SeatLayoutPage_ng_container_3_ion_row_10_Template(rf, ctx) {
 }
 function SeatLayoutPage_ng_container_3_div_11_ion_col_5_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-col", 148)(1, "div", 149);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](2, "img", 150);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-col", 151)(1, "div", 152);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](2, "img", 153);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](3, "div", 151);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](3, "div", 154);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
   }
@@ -9160,10 +9280,10 @@ function SeatLayoutPage_ng_container_3_div_11_ion_col_5_Template(rf, ctx) {
 }
 function SeatLayoutPage_ng_container_3_div_11_ion_col_6_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-col", 152)(1, "div", 149);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-col", 155)(1, "div", 152);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](2, "X");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](3, "div", 151);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](3, "div", 154);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](4, "Blocked seat for social distancing");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
   }
@@ -9174,11 +9294,11 @@ function SeatLayoutPage_ng_container_3_div_11_ion_col_6_Template(rf, ctx) {
 }
 function SeatLayoutPage_ng_container_3_div_11_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 143)(1, "div", 144);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 146)(1, "div", 147);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](2, "Select your seat");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](3, "div", 145)(4, "ion-row");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](5, SeatLayoutPage_ng_container_3_div_11_ion_col_5_Template, 5, 6, "ion-col", 146)(6, SeatLayoutPage_ng_container_3_div_11_ion_col_6_Template, 5, 2, "ion-col", 147);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](3, "div", 148)(4, "ion-row");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](5, SeatLayoutPage_ng_container_3_div_11_ion_col_5_Template, 5, 6, "ion-col", 149)(6, SeatLayoutPage_ng_container_3_div_11_ion_col_6_Template, 5, 2, "ion-col", 150);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
@@ -9192,7 +9312,7 @@ function SeatLayoutPage_ng_container_3_div_11_Template(rf, ctx) {
 function SeatLayoutPage_ng_container_3_ion_row_12_div_3_Template(rf, ctx) {
   if (rf & 1) {
     const _r45 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 99);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 102);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_3_ion_row_12_div_3_Template_div_click_0_listener() {
       const prices_r46 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r45).$implicit;
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](3);
@@ -9212,7 +9332,7 @@ function SeatLayoutPage_ng_container_3_ion_row_12_div_3_Template(rf, ctx) {
 function SeatLayoutPage_ng_container_3_ion_row_12_Template(rf, ctx) {
   if (rf & 1) {
     const _r44 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-row", 93)(1, "div", 99);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-row", 96)(1, "div", 102);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_3_ion_row_12_Template_div_click_1_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r44);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
@@ -9220,7 +9340,7 @@ function SeatLayoutPage_ng_container_3_ion_row_12_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](2, " All ");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](3, SeatLayoutPage_ng_container_3_ion_row_12_div_3_Template, 2, 3, "div", 100);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](3, SeatLayoutPage_ng_container_3_ion_row_12_div_3_Template, 2, 3, "div", 103);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -9233,7 +9353,7 @@ function SeatLayoutPage_ng_container_3_ion_row_12_Template(rf, ctx) {
 }
 function SeatLayoutPage_ng_container_3_div_14_div_6_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 163);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 166);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
@@ -9244,7 +9364,7 @@ function SeatLayoutPage_ng_container_3_div_14_div_6_Template(rf, ctx) {
 }
 function SeatLayoutPage_ng_container_3_div_14_div_7_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 163);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 166);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
@@ -9256,18 +9376,18 @@ function SeatLayoutPage_ng_container_3_div_14_div_7_Template(rf, ctx) {
 function SeatLayoutPage_ng_container_3_div_14_Template(rf, ctx) {
   if (rf & 1) {
     const _r47 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 153)(1, "div", 154)(2, "div", 155);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 156)(1, "div", 157)(2, "div", 158);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](3, "Departure");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](4, "ion-row")(5, "ion-col", 156);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](6, SeatLayoutPage_ng_container_3_div_14_div_6_Template, 2, 1, "div", 157)(7, SeatLayoutPage_ng_container_3_div_14_div_7_Template, 2, 1, "div", 157);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](8, "span", 158);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](4, "ion-row")(5, "ion-col", 159);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](6, SeatLayoutPage_ng_container_3_div_14_div_6_Template, 2, 1, "div", 160)(7, SeatLayoutPage_ng_container_3_div_14_div_7_Template, 2, 1, "div", 160);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](8, "span", 161);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](9);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](10, "ion-col", 159)(11, "div", 160);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](10, "ion-col", 162)(11, "div", 163);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](12);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](13, "span", 158);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](13, "span", 161);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](14);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipe"](15, "number");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
@@ -9277,10 +9397,10 @@ function SeatLayoutPage_ng_container_3_div_14_Template(rf, ctx) {
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.goToPassengerDetails());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](17, "ion-button", 161);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](17, "ion-button", 164);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](18, "Reserve Seat");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](19, "div", 162);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](19, "div", 165);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](20, " * Taxes will be calculated during payment ");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
   }
@@ -9303,33 +9423,33 @@ function SeatLayoutPage_ng_container_3_Template(rf, ctx) {
   if (rf & 1) {
     const _r40 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "ion-header", 128)(2, "ion-toolbar", 75)(3, "ion-buttons", 76)(4, "ion-back-button", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "ion-header", 131)(2, "ion-toolbar", 78)(3, "ion-buttons", 79)(4, "ion-back-button", 4);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_3_Template_ion_back_button_click_4_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r40);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.goBack());
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](5, SeatLayoutPage_ng_container_3_div_5_Template, 4, 2, "div", 129)(6, SeatLayoutPage_ng_container_3_div_6_Template, 5, 6, "div", 130);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](5, SeatLayoutPage_ng_container_3_div_5_Template, 4, 2, "div", 132)(6, SeatLayoutPage_ng_container_3_div_6_Template, 5, 6, "div", 133);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](7, "ion-content", 131);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](8, SeatLayoutPage_ng_container_3_div_8_Template, 2, 1, "div", 9)(9, SeatLayoutPage_ng_container_3_div_9_Template, 11, 4, "div", 10)(10, SeatLayoutPage_ng_container_3_ion_row_10_Template, 7, 3, "ion-row", 79)(11, SeatLayoutPage_ng_container_3_div_11_Template, 7, 2, "div", 132)(12, SeatLayoutPage_ng_container_3_ion_row_12_Template, 4, 2, "ion-row", 79);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](13, "app-grid-coach-using-table", 133);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](7, "ion-content", 134);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](8, SeatLayoutPage_ng_container_3_div_8_Template, 2, 1, "div", 9)(9, SeatLayoutPage_ng_container_3_div_9_Template, 11, 4, "div", 10)(10, SeatLayoutPage_ng_container_3_ion_row_10_Template, 7, 3, "ion-row", 82)(11, SeatLayoutPage_ng_container_3_div_11_Template, 7, 2, "div", 135)(12, SeatLayoutPage_ng_container_3_ion_row_12_Template, 4, 2, "ion-row", 82);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](13, "app-grid-coach-using-table", 136);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("seatClicked", function SeatLayoutPage_ng_container_3_Template_app_grid_coach_using_table_seatClicked_13_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r40);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.onSeatSelected($event));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](14, SeatLayoutPage_ng_container_3_div_14_Template, 21, 10, "div", 134);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](15, "ion-bottom-drawer", 73);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](14, SeatLayoutPage_ng_container_3_div_14_Template, 21, 10, "div", 137);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](15, "ion-bottom-drawer", 76);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtwoWayListener"]("stateChange", function SeatLayoutPage_ng_container_3_Template_ion_bottom_drawer_stateChange_15_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r40);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtwoWayBindingSet"](ctx_r1.drawerState, $event) || (ctx_r1.drawerState = $event);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"]($event);
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](16, "div", 135);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](16, "div", 138);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](17, " Bottom Drawer Content\n");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerEnd"]();
@@ -9363,14 +9483,14 @@ function SeatLayoutPage_ng_container_3_Template(rf, ctx) {
 function SeatLayoutPage_ng_container_4_ion_row_7_Template(rf, ctx) {
   if (rf & 1) {
     const _r49 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-row", 172)(1, "div", 16)(2, "ion-segment", 173);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-row", 175)(1, "div", 16)(2, "ion-segment", 176);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtwoWayListener"]("ngModelChange", function SeatLayoutPage_ng_container_4_ion_row_7_Template_ion_segment_ngModelChange_2_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r49);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtwoWayBindingSet"](ctx_r1.berthType, $event) || (ctx_r1.berthType = $event);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"]($event);
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](3, "ion-segment-button", 174);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](3, "ion-segment-button", 177);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_4_ion_row_7_Template_ion_segment_button_click_3_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r49);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
@@ -9379,7 +9499,7 @@ function SeatLayoutPage_ng_container_4_ion_row_7_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](4, "ion-label", 19);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](6, "ion-segment-button", 175);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](6, "ion-segment-button", 178);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_4_ion_row_7_Template_ion_segment_button_click_6_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r49);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
@@ -9414,8 +9534,8 @@ function SeatLayoutPage_ng_container_4_ion_row_8_Template(rf, ctx) {
 function SeatLayoutPage_ng_container_4_div_9_ion_col_3_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-col", 28);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](1, "div", 90);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "div", 91);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](1, "div", 93);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "div", 94);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
   }
@@ -9429,17 +9549,17 @@ function SeatLayoutPage_ng_container_4_div_9_ion_col_3_Template(rf, ctx) {
 }
 function SeatLayoutPage_ng_container_4_div_9_ion_col_4_div_3_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 91);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 94);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1, " Blocked seat for social distancing ");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
 }
 function SeatLayoutPage_ng_container_4_div_9_ion_col_4_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-col", 31)(1, "div", 90);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-col", 31)(1, "div", 93);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](2, " X ");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](3, SeatLayoutPage_ng_container_4_div_9_ion_col_4_div_3_Template, 2, 0, "div", 92);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](3, SeatLayoutPage_ng_container_4_div_9_ion_col_4_div_3_Template, 2, 0, "div", 95);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -9482,7 +9602,7 @@ function SeatLayoutPage_ng_container_4_ion_row_10_ng_container_4_Template(rf, ct
   if (rf & 1) {
     const _r53 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "div", 178);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "div", 181);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_4_ion_row_10_ng_container_4_Template_div_click_1_listener() {
       const prices_r54 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r53).$implicit;
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](3);
@@ -9505,7 +9625,7 @@ function SeatLayoutPage_ng_container_4_ion_row_10_ng_container_4_Template(rf, ct
 function SeatLayoutPage_ng_container_4_ion_row_10_Template(rf, ctx) {
   if (rf & 1) {
     const _r52 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-row", 176)(1, "div", 40)(2, "div", 177);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "ion-row", 179)(1, "div", 40)(2, "div", 180);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_4_ion_row_10_Template_div_click_2_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r52);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
@@ -9612,7 +9732,7 @@ function SeatLayoutPage_ng_container_4_ng_container_14_Template(rf, ctx) {
   if (rf & 1) {
     const _r57 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "div", 179)(2, "app-grid-coach-using-table", 180);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "div", 182)(2, "app-grid-coach-using-table", 183);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("seatClicked", function SeatLayoutPage_ng_container_4_ng_container_14_Template_app_grid_coach_using_table_seatClicked_2_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r57);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
@@ -9658,11 +9778,11 @@ function SeatLayoutPage_ng_container_4_div_15_span_7_Template(rf, ctx) {
 function SeatLayoutPage_ng_container_4_div_15_Template(rf, ctx) {
   if (rf & 1) {
     const _r58 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 181)(1, "ion-row", 182)(2, "ion-col", 183)(3, "div", 57)(4, "ion-label", 70);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 184)(1, "ion-row", 185)(2, "ion-col", 186)(3, "div", 57)(4, "ion-label", 73);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](6, SeatLayoutPage_ng_container_4_div_15_span_6_Template, 2, 4, "span", 59)(7, SeatLayoutPage_ng_container_4_div_15_span_7_Template, 2, 1, "span", 59);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](8, "div")(9, "span", 61);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](8, "div")(9, "span", 68);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](10);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipe"](11, "number");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
@@ -9672,16 +9792,16 @@ function SeatLayoutPage_ng_container_4_div_15_Template(rf, ctx) {
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.callFarebreakup());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](13, "span", 184);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](13, "span", 187);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](14, "View Breakup");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](15, "ion-col", 185);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](15, "ion-col", 188);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_4_div_15_Template_ion_col_click_15_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r58);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.goToPassengerDetails());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](16, "ion-button", 186);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](16, "ion-button", 189);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](17, "Continue");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()();
   }
@@ -9702,31 +9822,31 @@ function SeatLayoutPage_ng_container_4_Template(rf, ctx) {
   if (rf & 1) {
     const _r48 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "ion-header", 164)(2, "div", 165)(3, "ion-buttons", 3)(4, "ion-back-button", 166);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "ion-header", 167)(2, "div", 168)(3, "ion-buttons", 3)(4, "ion-back-button", 169);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function SeatLayoutPage_ng_container_4_Template_ion_back_button_click_4_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r48);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r1.goBack());
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](5, "div", 167);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](5, "div", 170);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](6, "Select Seat");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](7, SeatLayoutPage_ng_container_4_ion_row_7_Template, 9, 3, "ion-row", 168);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](7, SeatLayoutPage_ng_container_4_ion_row_7_Template, 9, 3, "ion-row", 171);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](8, SeatLayoutPage_ng_container_4_ion_row_8_Template, 3, 1, "ion-row", 0)(9, SeatLayoutPage_ng_container_4_div_9_Template, 7, 2, "div", 7)(10, SeatLayoutPage_ng_container_4_ion_row_10_Template, 5, 2, "ion-row", 169);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](11, "ion-content", 170);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](8, SeatLayoutPage_ng_container_4_ion_row_8_Template, 3, 1, "ion-row", 0)(9, SeatLayoutPage_ng_container_4_div_9_Template, 7, 2, "div", 7)(10, SeatLayoutPage_ng_container_4_ion_row_10_Template, 5, 2, "ion-row", 172);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](11, "ion-content", 173);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](12, SeatLayoutPage_ng_container_4_div_12_Template, 2, 1, "div", 9)(13, SeatLayoutPage_ng_container_4_div_13_Template, 11, 4, "div", 10)(14, SeatLayoutPage_ng_container_4_ng_container_14_Template, 3, 8, "ng-container", 0);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](15, SeatLayoutPage_ng_container_4_div_15_Template, 18, 10, "div", 171);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](16, "ion-bottom-drawer", 73);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](15, SeatLayoutPage_ng_container_4_div_15_Template, 18, 10, "div", 174);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](16, "ion-bottom-drawer", 76);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtwoWayListener"]("stateChange", function SeatLayoutPage_ng_container_4_Template_ion_bottom_drawer_stateChange_16_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r48);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtwoWayBindingSet"](ctx_r1.drawerState, $event) || (ctx_r1.drawerState = $event);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"]($event);
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](17, "div", 74);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](17, "div", 77);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](18, " Bottom Drawer Content ");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerEnd"]();
@@ -9861,6 +9981,7 @@ class SeatLayoutPage {
     this.selectedPosition = 0;
     this.showShyamoliCoachLayout = false;
     this.busType = '';
+    this.totalBookingAmountAfterDiscount = "";
     const platformnew = _capacitor_core__WEBPACK_IMPORTED_MODULE_5__.Capacitor.getPlatform();
     this.isIos = platformnew === 'ios' ? true : false;
     this.metaData = this.commonStorage.getItem("metaData");
@@ -10097,6 +10218,7 @@ class SeatLayoutPage {
     this.loaclStorageSeat['selectedSeatReturn'] = [];
     this.selectedSeatsNumbers = "";
     this.totalBookingAmount = 0;
+    this.totalBookingAmountAfterDiscount = 0;
     this.originStageDetails = [];
     this.destinationStageDetails = [];
     this.isChildFare = false;
@@ -11126,6 +11248,7 @@ class SeatLayoutPage {
               }
             }
             this.totalBookingAmount = 0;
+            this.totalBookingAmountAfterDiscount = 0;
             this.inclTransactionChargesAmount = 0;
             this.inclGSTAmount = 0;
             this.baseFare = 0;
@@ -11176,6 +11299,12 @@ class SeatLayoutPage {
               this.inclTransactionChargesAmount += this.inclusiveTransCharges(this.selectedSeatsToBook[i].inclusive_of_tc ? this.selectedSeatsToBook[i].inclusive_of_tc : 0);
               this.inclGSTAmount += this.inclusiveGSTCharges(this.selectedSeatsToBook[i].inclusive_of_st ? this.selectedSeatsToBook[i].inclusive_of_st : 0);
               this.baseFare += this.selectedSeatsToBook[i].base_fare;
+              if (this.metaData.show_discounted_fare_in_srp) {
+                var _this$selectedSeatsTo3;
+                const fare = Number(this.selectedSeatsToBook[i].fare || 0);
+                const discountedPrice = Number((_this$selectedSeatsTo3 = this.selectedSeatsToBook[i].discounted_price) !== null && _this$selectedSeatsTo3 !== void 0 ? _this$selectedSeatsTo3 : fare);
+                this.totalBookingAmountAfterDiscount += fare > discountedPrice ? discountedPrice : fare;
+              }
             }
             this.selectedSeatsNumbers = this.selectedSeats.join(', ');
             // console.log("log", this.selectedSeatsNumbers)
@@ -11216,6 +11345,7 @@ class SeatLayoutPage {
             // this.netBookingAmount += this.transactionChargesAmount;
             // -------------------- Fare charges details --------------------
             fareDetails.totalBookingAmount = this.totalBookingAmount;
+            fareDetails.totalBookingAmountAfterDiscount = this.totalBookingAmountAfterDiscount;
             fareDetails.netBookingAmount = this.netBookingAmount;
             fareDetails.serviceTaxAmount = this.serviceTaxAmount;
             fareDetails.discountAmount += this.discountAmount;
@@ -11331,6 +11461,7 @@ class SeatLayoutPage {
             }
           }
           this.totalBookingAmount = 0;
+          this.totalBookingAmountAfterDiscount = 0;
           this.inclTransactionChargesAmount = 0;
           this.inclGSTAmount = 0;
           this.baseFare = 0;
@@ -11340,13 +11471,13 @@ class SeatLayoutPage {
             var _this$metaData4;
             // this.totalBookingAmount += this.selectedSeatsToBook[i].fare - this.inclusiveTransCharges(this.selectedSeatsToBook[i].inclusive_of_tc?this.selectedSeatsToBook[i].inclusive_of_tc:0);
             if ((_this$metaData4 = this.metaData) !== null && _this$metaData4 !== void 0 && _this$metaData4.gst_tsrtc_enable) {
-              var _this$selectedSeatsTo3, _this$metaData5;
-              if ((_this$selectedSeatsTo3 = this.selectedSeatsToBook[i]) !== null && _this$selectedSeatsTo3 !== void 0 && _this$selectedSeatsTo3.fare_with_discount && (_this$metaData5 = this.metaData) !== null && _this$metaData5 !== void 0 && _this$metaData5.is_round_trip_discount_allowed) {
+              var _this$selectedSeatsTo4, _this$metaData5;
+              if ((_this$selectedSeatsTo4 = this.selectedSeatsToBook[i]) !== null && _this$selectedSeatsTo4 !== void 0 && _this$selectedSeatsTo4.fare_with_discount && (_this$metaData5 = this.metaData) !== null && _this$metaData5 !== void 0 && _this$metaData5.is_round_trip_discount_allowed) {
                 if (this.isreturnTrip) {
                   var _this$metaData6;
                   if ((_this$metaData6 = this.metaData) !== null && _this$metaData6 !== void 0 && _this$metaData6.is_round_trip_disc_allowed_for_onward) {
-                    var _this$selectedSeatsTo4;
-                    this.totalBookingAmount += (_this$selectedSeatsTo4 = this.selectedSeatsToBook[i]) === null || _this$selectedSeatsTo4 === void 0 ? void 0 : _this$selectedSeatsTo4.fare_with_discount;
+                    var _this$selectedSeatsTo5;
+                    this.totalBookingAmount += (_this$selectedSeatsTo5 = this.selectedSeatsToBook[i]) === null || _this$selectedSeatsTo5 === void 0 ? void 0 : _this$selectedSeatsTo5.fare_with_discount;
                   } else {
                     this.totalBookingAmount += this.selectedSeatsToBook[i].concession_fare;
                   }
@@ -11355,8 +11486,8 @@ class SeatLayoutPage {
                   if ((_this$metaData7 = this.metaData) !== null && _this$metaData7 !== void 0 && _this$metaData7.is_round_trip_disc_allowed_for_onward) {
                     this.totalBookingAmount += this.selectedSeatsToBook[i].concession_fare;
                   } else {
-                    var _this$selectedSeatsTo5;
-                    this.totalBookingAmount += (_this$selectedSeatsTo5 = this.selectedSeatsToBook[i]) === null || _this$selectedSeatsTo5 === void 0 ? void 0 : _this$selectedSeatsTo5.fare_with_discount;
+                    var _this$selectedSeatsTo6;
+                    this.totalBookingAmount += (_this$selectedSeatsTo6 = this.selectedSeatsToBook[i]) === null || _this$selectedSeatsTo6 === void 0 ? void 0 : _this$selectedSeatsTo6.fare_with_discount;
                   }
                 }
                 // if((!this.metaData?.is_round_trip_disc_allowed_for_onward)){
@@ -11375,6 +11506,12 @@ class SeatLayoutPage {
             this.inclTransactionChargesAmount += this.inclusiveTransCharges(this.selectedSeatsToBook[i].inclusive_of_tc ? this.selectedSeatsToBook[i].inclusive_of_tc : 0);
             this.inclGSTAmount += this.inclusiveGSTCharges(this.selectedSeatsToBook[i].inclusive_of_st ? this.selectedSeatsToBook[i].inclusive_of_st : 0);
             this.baseFare += this.selectedSeatsToBook[i].base_fare;
+            if (this.metaData.show_discounted_fare_in_srp) {
+              var _this$selectedSeatsTo7;
+              const fare = Number(this.selectedSeatsToBook[i].fare || 0);
+              const discountedPrice = Number((_this$selectedSeatsTo7 = this.selectedSeatsToBook[i].discounted_price) !== null && _this$selectedSeatsTo7 !== void 0 ? _this$selectedSeatsTo7 : fare);
+              this.totalBookingAmountAfterDiscount += fare > discountedPrice ? discountedPrice : fare;
+            }
           }
           this.selectedSeatsNumbers = this.selectedSeats.join(', ');
           // console.log("log", this.selectedSeatsNumbers)
@@ -11415,6 +11552,7 @@ class SeatLayoutPage {
           // this.netBookingAmount += this.transactionChargesAmount;
           // -------------------- Fare charges details --------------------
           fareDetails.totalBookingAmount = this.totalBookingAmount;
+          fareDetails.totalBookingAmountAfterDiscount = this.totalBookingAmountAfterDiscount;
           fareDetails.netBookingAmount = this.netBookingAmount;
           fareDetails.serviceTaxAmount = this.serviceTaxAmount;
           fareDetails.discountAmount += this.discountAmount;
@@ -11602,6 +11740,7 @@ class SeatLayoutPage {
         reservationData.boardingStage = this.boardingStage;
         reservationData.droppingStage = this.droppingStage;
         reservationData.totalBookingAmount = this.totalBookingAmount;
+        reservationData.totalBookingAmountAfterDiscount = this.totalBookingAmountAfterDiscount;
         reservationData.inclTransactionChargesAmount = this.inclTransactionChargesAmount;
         reservationData.inclGSTAmount = this.inclGSTAmount;
         reservationData.netBookingAmount = this.netBookingAmount;
@@ -11941,7 +12080,7 @@ _SeatLayoutPage.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_6__[
   standalone: false,
   decls: 5,
   vars: 5,
-  consts: [[4, "ngIf"], [3, "ngStyle"], ["mode", "md", 1, "themeone-seat-layout-header", 2, "display", "flex", "height", "50px"], ["slot", "start", 2, "position", "absolute", "height", "50px", "padding-left", "5px"], [2, "color", "var(--textFieldPlaceholderColor)", 3, "click"], [2, "margin", "auto", 3, "ngClass"], ["class", "", "style", "padding: 10px 0px 0px 0px;", 4, "ngIf"], ["class", "whole center", 3, "click", 4, "ngIf"], [2, "--background", "white"], ["class", "center err-msg", 4, "ngIf"], ["style", "margin-right:15px", 4, "ngIf"], ["style", "justify-content: left;margin-bottom: 10px;overflow-x: auto;white-space: nowrap; scrollbar-width: none;-ms-overflow-style: none;", "class", "center-hr", 4, "ngIf"], ["ion-button", "", "class", "themeone-bottom theme1", 3, "ngClass", 4, "ngIf"], ["ion-button", "", "class", "themeone-bottom_2 theme1", 3, "ngClass", 4, "ngIf"], [3, "hidden", "disableDrag", "state", "minimumHeight", "dockedHeight", "shouldBounce", "distanceTop", "stateChange", 4, "ngIf"], [1, "", 2, "padding", "10px 0px 0px 0px"], [1, "themeone-seat-segment"], ["mode", "md", 2, "border-bottom", "1px solid #a9a9aa", 3, "ngModelChange", "ngModel", "ngClass"], ["mode", "md", "value", "lower", 3, "click", "ngClass"], [1, "theme-1-segmentLabel"], ["mode", "md", "value", "upper", 3, "click", "ngClass"], ["text-wrap", "", 2, "background-color", "#E4E4E4", "color", "#4A4A4A", "padding", "5px 10px", "border-radius", "5px", "text-align", "center", "margin", "15px", "font-size", "12px", "width", "100%"], [1, "whole", "center", 3, "click"], [1, "legend-box", "center"], ["size", "4", "class", "center", 4, "ngFor", "ngForOf"], ["size", "12", "class", "center", 4, "ngIf"], [1, "bg-close", 2, "display", "none"], ["name", "close-outline", 1, "legend-close", 3, "click"], ["size", "4", 1, "center"], [1, "themeone-legend-seat", "center", 3, "ngStyle"], [1, "themeone-legend-txt"], ["size", "12", 1, "center"], ["class", "themeone-legend-txt", 4, "ngIf"], [1, "center", "err-msg"], [2, "margin-right", "15px"], [1, "ion-activatable", "ripple-parent", 3, "click"], ["ion-button", "", "class", "txt-main", 4, "ngIf"], ["name", "chevron-down-outline", "item-end", ""], ["ion-button", "", 1, "txt-main"], [1, "center-hr", 2, "justify-content", "left", "margin-bottom", "10px", "overflow-x", "auto", "white-space", "nowrap", "scrollbar-width", "none", "-ms-overflow-style", "none"], [1, "hide-scrollbar", 2, "display", "flex", "flex-wrap", "nowrap", "overflow-x", "auto", "width", "100%", "white-space", "nowrap", "scrollbar-width", "none", "-ms-overflow-style", "none"], ["style", "margin-left: 40px; min-width: 60px;", "class", "themeone-btn-price-filter center-hr", 3, "ngClass", "click", 4, "ngIf"], ["style", "margin-left: 40px;color: #000000; min-width: 60px;", "class", "themeone-btn-price-filter_2 center-hr", 3, "ngClass", "click", 4, "ngIf"], [4, "ngFor", "ngForOf"], [1, "themeone-btn-price-filter", "center-hr", 2, "margin-left", "40px", "min-width", "60px", 3, "click", "ngClass"], [1, "themeone-btn-price-filter_2", "center-hr", 2, "margin-left", "40px", "color", "#000000", "min-width", "60px", 3, "click", "ngClass"], ["class", "themeone-btn-price-filter center-hr", 3, "ngClass", "ngStyle", "click", 4, "ngIf"], ["class", "themeone-btn-price-filter_2 center-hr", 3, "ngClass", "ngStyle", "click", 4, "ngIf"], [1, "themeone-btn-price-filter", "center-hr", 3, "click", "ngClass", "ngStyle"], [1, "themeone-btn-price-filter_2", "center-hr", 3, "click", "ngClass", "ngStyle"], [3, "showSeatIcon", "currentBerthType", "selectedPosition", "selectedFilterPrice", "upperAvalibility", "seatData", "seatClicked", "legendClicked", 4, "ngIf"], [3, "seatClicked", "legendClicked", "showSeatIcon", "currentBerthType", "selectedPosition", "selectedFilterPrice", "upperAvalibility", "seatData"], [3, "showSeatIcon", "upperAvalibility", "seatData", "selectedFilterPrice", "selectedPosition", "currentBerthType", "seatClicked", "legendClicked", 4, "ngIf"], [3, "seatClicked", "legendClicked", "showSeatIcon", "upperAvalibility", "seatData", "selectedFilterPrice", "selectedPosition", "currentBerthType"], ["ion-button", "", 1, "themeone-bottom", "theme1", 3, "ngClass"], [2, "width", "100%", "padding", "10px 20px 20px 20px"], ["size", "5"], [1, "themeone-seats"], [1, "themeone-seat-lbl", 2, "color", "var(--placeholderColor)", "font-weight", "normal"], ["class", "themeone-seat-val", 4, "ngIf"], ["style", "color: var(--placeholderColor); font-weight: normal;", "class", "themeone-seat-val", 4, "ngIf"], [1, "themeone-totalvalue"], [3, "click"], [1, "themeone-viewbreakup"], ["size", "7", 1, "center-hr", 2, "justify-content", "end", 3, "click"], [1, "themeone-select-pickup-btn", 2, "border-radius", "5px", "--background", "var(--iconsAndButtonsColor)", "height", "38px", "width", "auto", "font-size", "14px", "font-weight", "600", "--padding-start", "10px", "--padding-end", "10px"], [1, "themeone-seat-val"], [1, "themeone-seat-val", 2, "color", "var(--placeholderColor)", "font-weight", "normal"], ["ion-button", "", 1, "themeone-bottom_2", "theme1", 3, "ngClass"], ["size", "6"], [1, "themeone-seat-lbl"], ["size", "6", 1, "center-hr", 3, "click"], [2, "border-radius", "5px", "--background", "var(--iconsAndButtonsColor)", "--background-activated", "var(--iconsAndButtonsColor)", "font-size", "12px", "font-weight", "600", "color", "var(--primaryText)"], [3, "stateChange", "hidden", "disableDrag", "state", "minimumHeight", "dockedHeight", "shouldBounce", "distanceTop"], [1, "drawer-content"], ["mode", "md", 1, "bg-cl", "tlbr-center"], ["slot", "start"], ["class", "hd-ln-1", 4, "ngIf"], [1, "hd-ln-2"], ["class", "center-hr", 4, "ngIf"], ["style", "margin-bottom: 10px;", "class", "center-hr", 4, "ngIf"], ["ion-button", "", 1, "bottom", "seat-select-footer", 3, "ngClass"], [1, "seats", "center-hr", 2, "margin-left", "10px", "justify-content", "start !important"], [1, "seat-lbl"], [1, "seat-val"], [1, "fare-vl"], [1, "price"], [1, "default-theme-viewBreakup", 3, "click"], [1, "pay1", "center", 2, "height", "54px", 3, "click"], [1, "hd-ln-1"], [1, "legend-seat", "center", 3, "ngStyle"], [1, "legend-txt"], ["class", "legend-txt", 4, "ngIf"], [1, "center-hr"], [1, "seg-btn"], ["mode", "md", 1, "tabs", 3, "ngModelChange", "ngModel"], ["mode", "md", "value", "lower", 1, "center", 2, "height", "30px", "padding-bottom", "0px !important", 3, "click"], ["mode", "md", "value", "upper", 1, "center", 2, "height", "30px", "padding-bottom", "0px !important", 3, "click"], [1, "center-hr", 2, "margin-bottom", "10px"], [1, "btn-price-filter", "center-hr", 3, "click", "ngClass"], ["class", "btn-price-filter center-hr", 3, "ngClass", "click", 4, "ngFor", "ngForOf"], ["mode", "md", 1, "bg-cl"], [2, "font-weight", "bold"], ["style", "color:var(--placeholderColor) !important; font-size: 13px;", 4, "ngIf"], [2, "--background", "#F1F7FA"], [2, "background", "#F1F7FA"], ["style", "margin:4px 8px 4px 8px;", 4, "ngIf"], ["class", "seabirdPayContainer", 4, "ngIf"], [2, "color", "var(--placeholderColor) !important", "font-size", "13px"], [1, "seaBird_card_1"], ["class", "center-hr", "style", "row-gap: 7px;", 4, "ngIf"], [1, "center-hr", 2, "row-gap", "7px"], [1, "seabird-btn-price-filter", "center-hr", 2, "font-weight", "bold", 3, "click", "ngClass"], ["class", "seabird-btn-price-filter center-hr", "style", "font-weight: bold;", 3, "ngClass", "click", 4, "ngFor", "ngForOf"], [1, "seaBird-seg-btn"], ["mode", "md", "value", "lower", 1, "center", 2, "padding-bottom", "0px !important", 3, "click"], ["mode", "md", "value", "upper", 1, "center", 2, "padding-bottom", "0px !important", 3, "click"], [3, "showSeatIcon", "upperAvalibility", "selectedFilterPrice", "selectedPosition", "currentBerthType", "seatData", "showSeatPrice", "showStearing", "seatClicked", "legendClicked", 4, "ngIf"], [3, "seatClicked", "legendClicked", "showSeatIcon", "upperAvalibility", "selectedFilterPrice", "selectedPosition", "currentBerthType", "seatData", "showSeatPrice", "showStearing"], [2, "margin", "4px 8px 4px 8px"], [1, "seabird_fare_row"], ["class", "seabird_seatNum", 4, "ngIf"], [1, "seabird_seatNum"], ["size", "6", 2, "text-align", "end"], ["class", "seabird_fare", 4, "ngIf"], [1, "seabird_fare"], [1, "seabirdPayContainer"], [1, "seabirdPay", "center", 3, "click"], [1, "ourbustheme"], ["class", "hd-ln-1", "style", "text-align: left;margin-left: 10px;font-size: 16px;", 4, "ngIf"], ["class", "ourbus-hd-ln", 4, "ngIf"], [1, "ourbustheme", 2, "--background", "#f7f9fb"], ["class", "ourbus-scroll-container", 4, "ngIf"], [3, "seatClicked", "showSeatIcon", "upperAvalibility", "seatData", "selectedFilterPrice", "selectedPosition", "currentBerthType"], ["style", "height: auto;display: block;", "ion-button", "", "class", "bottom  ", 3, "ngClass", 4, "ngIf"], [1, "drawer-content", "ourbustheme"], [1, "hd-ln-1", 2, "text-align", "left", "margin-left", "10px", "font-size", "16px"], ["name", "arrow-forward-outline", 2, "margin-inline", "8px"], [1, "ourbus-hd-ln"], ["src", "./assets/icon/ourbus_header_person_icon.svg", 1, "ourbus-inline-icon"], ["mode", "ios", 1, "tabs", 2, "--background", "#fff", 3, "ngModelChange", "ngModel"], ["value", "lower", 2, "--border-radius", "none", "padding", "10px 0px", 3, "click"], ["value", "upper", 2, "--border-radius", "none", "padding", "10px 0px", 3, "click"], [1, "ourbus-scroll-container"], [2, "color", "#2D2D2D", "text-align", "center", "font-size", "18px", "font-weight", "700"], [1, "ourbus-scroll-content", 2, "margin-left", "20px"], ["size", "3.5", "class", "ourbus-seat-col", 4, "ngFor", "ngForOf"], ["size", "12", "class", "ourbus-seat-col", 4, "ngIf"], ["size", "3.5", 1, "ourbus-seat-col"], [1, "ourbus-legend-seat", 3, "ngStyle"], [3, "src"], [1, "ourbus-legend-txt"], ["size", "12", 1, "ourbus-seat-col"], ["ion-button", "", 1, "bottom", 2, "height", "auto", "display", "block", 3, "ngClass"], [2, "padding", "5px 15px 15px 15px"], [2, "color", "#000000", "font-weight", "700", "font-size", "16px", "margin-left", "5px"], ["size", "8"], ["class", "seat_text", 4, "ngIf"], [2, "color", "#000000", "font-weight", "700", "font-size", "14px"], ["size", "4", 2, "text-align", "end"], [2, "color", "#747474"], ["expand", "block", 1, "ourbus_btn"], [2, "text-align", "center", "color", "#747474", "font-size", "12px"], [1, "seat_text"], [1, "shyaoli-seat-layout-header"], ["mode", "md", 1, "themeone-seat-layout-header", 2, "display", "flex", "height", "50px", "background", "var(--primary)"], [2, "color", "var(--placeholderColor)", 3, "click"], [1, "shyamoli-themeone-seat-layout-text_2", 2, "margin", "auto"], ["class", "shyamoli-seat-segment", "style", "padding: 10px 0px 0px 0px;", 4, "ngIf"], ["style", "position: sticky; top: 0; z-index: 1; background: white; justify-content: left; margin-bottom: 0px; overflow-x: auto; white-space: nowrap; scrollbar-width: none; -ms-overflow-style: none; padding: 10px 0;", "class", "center-hr", 4, "ngIf"], [1, "shyamoli-seat-layout-content"], ["ion-button", "", "class", "themeone-bottom theme1 shyamoli-bottom", 3, "ngClass", 4, "ngIf"], [1, "shyamoli-seat-segment", 2, "padding", "10px 0px 0px 0px"], ["mode", "md", 1, "theme-1-center_2", 2, "border-bottom", "1px solid #a9a9aa", 3, "ngModelChange", "ngModel"], ["mode", "md", "value", "lower", 1, "theme-1-center_2", 3, "click"], ["mode", "md", "value", "upper", 1, "theme-1-center_2", 3, "click"], [1, "center-hr", 2, "position", "sticky", "top", "0", "z-index", "1", "background", "white", "justify-content", "left", "margin-bottom", "0px", "overflow-x", "auto", "white-space", "nowrap", "scrollbar-width", "none", "-ms-overflow-style", "none", "padding", "10px 0"], [1, "themeone-btn-price-filter_2_shyamoli", "center-hr", 2, "margin-left", "40px", "color", "#000000", "min-width", "60px", 3, "click", "ngClass"], [1, "themeone-btn-price-filter_2_shyamoli", "center-hr", 3, "click", "ngClass", "ngStyle"], [2, "height", "88%", "overflow", "scroll"], [3, "seatClicked", "legendClicked", "showSeatIcon", "upperAvalibility", "seatData", "selectedFilterPrice", "selectedPosition", "currentBerthType", "showSeatPrice", "showStearing"], ["ion-button", "", 1, "themeone-bottom", "theme1", "shyamoli-bottom", 3, "ngClass"], [2, "width", "100%", "padding", "10px 20px 10px 20px"], ["size", "7"], [1, "shyamoli-viewbreakup"], ["size", "5", 1, "center-hr", 3, "click"], [1, "themeone-select-pickup-btn", 2, "border-radius", "10px", "font-size", "16px", "font-weight", "600", "font-family", "'Gilroy-Bold'", "width", "160px"]],
+  consts: [[4, "ngIf"], [3, "ngStyle"], ["mode", "md", 1, "themeone-seat-layout-header", 2, "display", "flex", "height", "50px"], ["slot", "start", 2, "position", "absolute", "height", "50px", "padding-left", "5px"], [2, "color", "var(--textFieldPlaceholderColor)", 3, "click"], [2, "margin", "auto", 3, "ngClass"], ["class", "", "style", "padding: 10px 0px 0px 0px;", 4, "ngIf"], ["class", "whole center", 3, "click", 4, "ngIf"], [2, "--background", "white"], ["class", "center err-msg", 4, "ngIf"], ["style", "margin-right:15px", 4, "ngIf"], ["style", "justify-content: left;margin-bottom: 10px;overflow-x: auto;white-space: nowrap; scrollbar-width: none;-ms-overflow-style: none;", "class", "center-hr", 4, "ngIf"], ["ion-button", "", "class", "themeone-bottom theme1", 3, "ngClass", 4, "ngIf"], ["ion-button", "", "class", "themeone-bottom_2 theme1", 3, "ngClass", 4, "ngIf"], [3, "hidden", "disableDrag", "state", "minimumHeight", "dockedHeight", "shouldBounce", "distanceTop", "stateChange", 4, "ngIf"], [1, "", 2, "padding", "10px 0px 0px 0px"], [1, "themeone-seat-segment"], ["mode", "md", 2, "border-bottom", "1px solid #a9a9aa", 3, "ngModelChange", "ngModel", "ngClass"], ["mode", "md", "value", "lower", 3, "click", "ngClass"], [1, "theme-1-segmentLabel"], ["mode", "md", "value", "upper", 3, "click", "ngClass"], ["text-wrap", "", 2, "background-color", "#E4E4E4", "color", "#4A4A4A", "padding", "5px 10px", "border-radius", "5px", "text-align", "center", "margin", "15px", "font-size", "12px", "width", "100%"], [1, "whole", "center", 3, "click"], [1, "legend-box", "center"], ["size", "4", "class", "center", 4, "ngFor", "ngForOf"], ["size", "12", "class", "center", 4, "ngIf"], [1, "bg-close", 2, "display", "none"], ["name", "close-outline", 1, "legend-close", 3, "click"], ["size", "4", 1, "center"], [1, "themeone-legend-seat", "center", 3, "ngStyle"], [1, "themeone-legend-txt"], ["size", "12", 1, "center"], ["class", "themeone-legend-txt", 4, "ngIf"], [1, "center", "err-msg"], [2, "margin-right", "15px"], [1, "ion-activatable", "ripple-parent", 3, "click"], ["ion-button", "", "class", "txt-main", 4, "ngIf"], ["name", "chevron-down-outline", "item-end", ""], ["ion-button", "", 1, "txt-main"], [1, "center-hr", 2, "justify-content", "left", "margin-bottom", "10px", "overflow-x", "auto", "white-space", "nowrap", "scrollbar-width", "none", "-ms-overflow-style", "none"], [1, "hide-scrollbar", 2, "display", "flex", "flex-wrap", "nowrap", "overflow-x", "auto", "width", "100%", "white-space", "nowrap", "scrollbar-width", "none", "-ms-overflow-style", "none"], ["style", "margin-left: 40px; min-width: 60px;", "class", "themeone-btn-price-filter center-hr", 3, "ngClass", "click", 4, "ngIf"], ["style", "margin-left: 40px;color: #000000; min-width: 60px;", "class", "themeone-btn-price-filter_2 center-hr", 3, "ngClass", "click", 4, "ngIf"], [4, "ngFor", "ngForOf"], [1, "themeone-btn-price-filter", "center-hr", 2, "margin-left", "40px", "min-width", "60px", 3, "click", "ngClass"], [1, "themeone-btn-price-filter_2", "center-hr", 2, "margin-left", "40px", "color", "#000000", "min-width", "60px", 3, "click", "ngClass"], ["class", "themeone-btn-price-filter center-hr", 3, "ngClass", "ngStyle", "click", 4, "ngIf"], ["class", "themeone-btn-price-filter_2 center-hr", 3, "ngClass", "ngStyle", "click", 4, "ngIf"], [1, "themeone-btn-price-filter", "center-hr", 3, "click", "ngClass", "ngStyle"], [1, "themeone-btn-price-filter_2", "center-hr", 3, "click", "ngClass", "ngStyle"], [3, "showSeatIcon", "currentBerthType", "selectedPosition", "selectedFilterPrice", "upperAvalibility", "seatData", "seatClicked", "legendClicked", 4, "ngIf"], [3, "seatClicked", "legendClicked", "showSeatIcon", "currentBerthType", "selectedPosition", "selectedFilterPrice", "upperAvalibility", "seatData"], [3, "showSeatIcon", "upperAvalibility", "seatData", "selectedFilterPrice", "selectedPosition", "currentBerthType", "seatClicked", "legendClicked", 4, "ngIf"], [3, "seatClicked", "legendClicked", "showSeatIcon", "upperAvalibility", "seatData", "selectedFilterPrice", "selectedPosition", "currentBerthType"], ["ion-button", "", 1, "themeone-bottom", "theme1", 3, "ngClass"], [2, "width", "100%", "padding", "10px 20px 20px 20px"], ["size", "5"], [1, "themeone-seats"], [1, "themeone-seat-lbl", 2, "color", "var(--placeholderColor)", "font-weight", "normal"], ["class", "themeone-seat-val", 4, "ngIf"], ["style", "color: var(--placeholderColor); font-weight: normal;", "class", "themeone-seat-val", 4, "ngIf"], ["class", "themeone-totalvalue", 4, "ngIf"], [3, "click"], [1, "themeone-viewbreakup"], ["size", "7", 1, "center-hr", 2, "justify-content", "end", 3, "click"], [1, "themeone-select-pickup-btn", 2, "border-radius", "5px", "--background", "var(--iconsAndButtonsColor)", "height", "38px", "width", "auto", "font-size", "14px", "font-weight", "600", "--padding-start", "10px", "--padding-end", "10px"], [1, "themeone-seat-val"], [1, "themeone-seat-val", 2, "color", "var(--placeholderColor)", "font-weight", "normal"], [1, "themeone-totalvalue"], [1, "discounted-fare-original"], [1, "discounted-fare-value", "themeone-totalvalue"], ["ion-button", "", 1, "themeone-bottom_2", "theme1", 3, "ngClass"], ["size", "6"], [1, "themeone-seat-lbl"], ["size", "6", 1, "center-hr", 3, "click"], [2, "border-radius", "5px", "--background", "var(--iconsAndButtonsColor)", "--background-activated", "var(--iconsAndButtonsColor)", "font-size", "12px", "font-weight", "600", "color", "var(--primaryText)"], [3, "stateChange", "hidden", "disableDrag", "state", "minimumHeight", "dockedHeight", "shouldBounce", "distanceTop"], [1, "drawer-content"], ["mode", "md", 1, "bg-cl", "tlbr-center"], ["slot", "start"], ["class", "hd-ln-1", 4, "ngIf"], [1, "hd-ln-2"], ["class", "center-hr", 4, "ngIf"], ["style", "margin-bottom: 10px;", "class", "center-hr", 4, "ngIf"], ["ion-button", "", 1, "bottom", "seat-select-footer", 3, "ngClass"], [1, "seats", "center-hr", 2, "margin-left", "10px", "justify-content", "start !important"], [1, "seat-lbl"], [1, "seat-val"], [1, "fare-vl"], [1, "price"], [1, "default-theme-viewBreakup", 3, "click"], [1, "pay1", "center", 2, "height", "54px", 3, "click"], [1, "hd-ln-1"], [1, "legend-seat", "center", 3, "ngStyle"], [1, "legend-txt"], ["class", "legend-txt", 4, "ngIf"], [1, "center-hr"], [1, "seg-btn"], ["mode", "md", 1, "tabs", 3, "ngModelChange", "ngModel"], ["mode", "md", "value", "lower", 1, "center", 2, "height", "30px", "padding-bottom", "0px !important", 3, "click"], ["mode", "md", "value", "upper", 1, "center", 2, "height", "30px", "padding-bottom", "0px !important", 3, "click"], [1, "center-hr", 2, "margin-bottom", "10px"], [1, "btn-price-filter", "center-hr", 3, "click", "ngClass"], ["class", "btn-price-filter center-hr", 3, "ngClass", "click", 4, "ngFor", "ngForOf"], ["mode", "md", 1, "bg-cl"], [2, "font-weight", "bold"], ["style", "color:var(--placeholderColor) !important; font-size: 13px;", 4, "ngIf"], [2, "--background", "#F1F7FA"], [2, "background", "#F1F7FA"], ["style", "margin:4px 8px 4px 8px;", 4, "ngIf"], ["class", "seabirdPayContainer", 4, "ngIf"], [2, "color", "var(--placeholderColor) !important", "font-size", "13px"], [1, "seaBird_card_1"], ["class", "center-hr", "style", "row-gap: 7px;", 4, "ngIf"], [1, "center-hr", 2, "row-gap", "7px"], [1, "seabird-btn-price-filter", "center-hr", 2, "font-weight", "bold", 3, "click", "ngClass"], ["class", "seabird-btn-price-filter center-hr", "style", "font-weight: bold;", 3, "ngClass", "click", 4, "ngFor", "ngForOf"], [1, "seaBird-seg-btn"], ["mode", "md", "value", "lower", 1, "center", 2, "padding-bottom", "0px !important", 3, "click"], ["mode", "md", "value", "upper", 1, "center", 2, "padding-bottom", "0px !important", 3, "click"], [3, "showSeatIcon", "upperAvalibility", "selectedFilterPrice", "selectedPosition", "currentBerthType", "seatData", "showSeatPrice", "showStearing", "seatClicked", "legendClicked", 4, "ngIf"], [3, "seatClicked", "legendClicked", "showSeatIcon", "upperAvalibility", "selectedFilterPrice", "selectedPosition", "currentBerthType", "seatData", "showSeatPrice", "showStearing"], [2, "margin", "4px 8px 4px 8px"], [1, "seabird_fare_row"], ["class", "seabird_seatNum", 4, "ngIf"], [1, "seabird_seatNum"], ["size", "6", 2, "text-align", "end"], ["class", "seabird_fare", 4, "ngIf"], [1, "seabird_fare"], [1, "seabirdPayContainer"], [1, "seabirdPay", "center", 3, "click"], [1, "ourbustheme"], ["class", "hd-ln-1", "style", "text-align: left;margin-left: 10px;font-size: 16px;", 4, "ngIf"], ["class", "ourbus-hd-ln", 4, "ngIf"], [1, "ourbustheme", 2, "--background", "#f7f9fb"], ["class", "ourbus-scroll-container", 4, "ngIf"], [3, "seatClicked", "showSeatIcon", "upperAvalibility", "seatData", "selectedFilterPrice", "selectedPosition", "currentBerthType"], ["style", "height: auto;display: block;", "ion-button", "", "class", "bottom  ", 3, "ngClass", 4, "ngIf"], [1, "drawer-content", "ourbustheme"], [1, "hd-ln-1", 2, "text-align", "left", "margin-left", "10px", "font-size", "16px"], ["name", "arrow-forward-outline", 2, "margin-inline", "8px"], [1, "ourbus-hd-ln"], ["src", "./assets/icon/ourbus_header_person_icon.svg", 1, "ourbus-inline-icon"], ["mode", "ios", 1, "tabs", 2, "--background", "#fff", 3, "ngModelChange", "ngModel"], ["value", "lower", 2, "--border-radius", "none", "padding", "10px 0px", 3, "click"], ["value", "upper", 2, "--border-radius", "none", "padding", "10px 0px", 3, "click"], [1, "ourbus-scroll-container"], [2, "color", "#2D2D2D", "text-align", "center", "font-size", "18px", "font-weight", "700"], [1, "ourbus-scroll-content", 2, "margin-left", "20px"], ["size", "3.5", "class", "ourbus-seat-col", 4, "ngFor", "ngForOf"], ["size", "12", "class", "ourbus-seat-col", 4, "ngIf"], ["size", "3.5", 1, "ourbus-seat-col"], [1, "ourbus-legend-seat", 3, "ngStyle"], [3, "src"], [1, "ourbus-legend-txt"], ["size", "12", 1, "ourbus-seat-col"], ["ion-button", "", 1, "bottom", 2, "height", "auto", "display", "block", 3, "ngClass"], [2, "padding", "5px 15px 15px 15px"], [2, "color", "#000000", "font-weight", "700", "font-size", "16px", "margin-left", "5px"], ["size", "8"], ["class", "seat_text", 4, "ngIf"], [2, "color", "#000000", "font-weight", "700", "font-size", "14px"], ["size", "4", 2, "text-align", "end"], [2, "color", "#747474"], ["expand", "block", 1, "ourbus_btn"], [2, "text-align", "center", "color", "#747474", "font-size", "12px"], [1, "seat_text"], [1, "shyaoli-seat-layout-header"], ["mode", "md", 1, "themeone-seat-layout-header", 2, "display", "flex", "height", "50px", "background", "var(--primary)"], [2, "color", "var(--placeholderColor)", 3, "click"], [1, "shyamoli-themeone-seat-layout-text_2", 2, "margin", "auto"], ["class", "shyamoli-seat-segment", "style", "padding: 10px 0px 0px 0px;", 4, "ngIf"], ["style", "position: sticky; top: 0; z-index: 1; background: white; justify-content: left; margin-bottom: 0px; overflow-x: auto; white-space: nowrap; scrollbar-width: none; -ms-overflow-style: none; padding: 10px 0;", "class", "center-hr", 4, "ngIf"], [1, "shyamoli-seat-layout-content"], ["ion-button", "", "class", "themeone-bottom theme1 shyamoli-bottom", 3, "ngClass", 4, "ngIf"], [1, "shyamoli-seat-segment", 2, "padding", "10px 0px 0px 0px"], ["mode", "md", 1, "theme-1-center_2", 2, "border-bottom", "1px solid #a9a9aa", 3, "ngModelChange", "ngModel"], ["mode", "md", "value", "lower", 1, "theme-1-center_2", 3, "click"], ["mode", "md", "value", "upper", 1, "theme-1-center_2", 3, "click"], [1, "center-hr", 2, "position", "sticky", "top", "0", "z-index", "1", "background", "white", "justify-content", "left", "margin-bottom", "0px", "overflow-x", "auto", "white-space", "nowrap", "scrollbar-width", "none", "-ms-overflow-style", "none", "padding", "10px 0"], [1, "themeone-btn-price-filter_2_shyamoli", "center-hr", 2, "margin-left", "40px", "color", "#000000", "min-width", "60px", 3, "click", "ngClass"], [1, "themeone-btn-price-filter_2_shyamoli", "center-hr", 3, "click", "ngClass", "ngStyle"], [2, "height", "88%", "overflow", "scroll"], [3, "seatClicked", "legendClicked", "showSeatIcon", "upperAvalibility", "seatData", "selectedFilterPrice", "selectedPosition", "currentBerthType", "showSeatPrice", "showStearing"], ["ion-button", "", 1, "themeone-bottom", "theme1", "shyamoli-bottom", 3, "ngClass"], [2, "width", "100%", "padding", "10px 20px 10px 20px"], ["size", "7"], [1, "shyamoli-viewbreakup"], ["size", "5", 1, "center-hr", 3, "click"], [1, "themeone-select-pickup-btn", 2, "border-radius", "10px", "font-size", "16px", "font-weight", "600", "font-family", "'Gilroy-Bold'", "width", "160px"]],
   template: function SeatLayoutPage_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](0, SeatLayoutPage_ng_container_0_Template, 19, 15, "ng-container", 0)(1, SeatLayoutPage_ng_container_1_Template, 35, 22, "ng-container", 0)(2, SeatLayoutPage_ng_container_2_Template, 20, 11, "ng-container", 0)(3, SeatLayoutPage_ng_container_3_Template, 18, 21, "ng-container", 0)(4, SeatLayoutPage_ng_container_4_Template, 19, 15, "ng-container", 0);
@@ -11959,7 +12098,7 @@ _SeatLayoutPage.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_6__[
     }
   },
   dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_22__.NgClass, _angular_common__WEBPACK_IMPORTED_MODULE_22__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_22__.NgIf, _angular_common__WEBPACK_IMPORTED_MODULE_22__.NgStyle, _angular_forms__WEBPACK_IMPORTED_MODULE_23__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_23__.NgModel, _ionic_angular__WEBPACK_IMPORTED_MODULE_16__.IonButton, _ionic_angular__WEBPACK_IMPORTED_MODULE_16__.IonButtons, _ionic_angular__WEBPACK_IMPORTED_MODULE_16__.IonCard, _ionic_angular__WEBPACK_IMPORTED_MODULE_16__.IonCol, _ionic_angular__WEBPACK_IMPORTED_MODULE_16__.IonContent, _ionic_angular__WEBPACK_IMPORTED_MODULE_16__.IonFooter, _ionic_angular__WEBPACK_IMPORTED_MODULE_16__.IonHeader, _ionic_angular__WEBPACK_IMPORTED_MODULE_16__.IonIcon, _ionic_angular__WEBPACK_IMPORTED_MODULE_16__.IonItem, _ionic_angular__WEBPACK_IMPORTED_MODULE_16__.IonLabel, _ionic_angular__WEBPACK_IMPORTED_MODULE_16__.IonRippleEffect, _ionic_angular__WEBPACK_IMPORTED_MODULE_16__.IonRow, _ionic_angular__WEBPACK_IMPORTED_MODULE_16__.IonSegment, _ionic_angular__WEBPACK_IMPORTED_MODULE_16__.IonSegmentButton, _ionic_angular__WEBPACK_IMPORTED_MODULE_16__.IonToolbar, _ionic_angular__WEBPACK_IMPORTED_MODULE_16__.SelectValueAccessor, _ionic_angular__WEBPACK_IMPORTED_MODULE_16__.IonBackButton, _grid_coach_using_table_grid_coach_using_table_component__WEBPACK_IMPORTED_MODULE_24__.GridCoachUsingTableComponent, modules_ion_bottom_drawer_ion_bottom_drawer__WEBPACK_IMPORTED_MODULE_25__.IonBottomDrawerComponent, _angular_common__WEBPACK_IMPORTED_MODULE_22__.DecimalPipe],
-  styles: [".tlbr-center {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  text-align: center;\n  margin-right: 15px;\n}\n\n/* Remove the faint horizontal separator line under the header toolbar ONLY for Shyamoli theme */\n.shyamolitheme,\n.shyamoli-theme {\n  /* Extra specificity for MD/iOS renderers */\n}\n.shyamolitheme ion-header ion-toolbar,\n.shyamolitheme ion-header .toolbar-container,\n.shyamolitheme ion-toolbar.bg-cl,\n.shyamolitheme .bg-cl ion-toolbar,\n.shyamoli-theme ion-header ion-toolbar,\n.shyamoli-theme ion-header .toolbar-container,\n.shyamoli-theme ion-toolbar.bg-cl,\n.shyamoli-theme .bg-cl ion-toolbar {\n  --border-color: transparent !important;\n  --border-width: 0 !important;\n  box-shadow: none !important;\n  border: none !important;\n}\n.shyamolitheme ion-header ion-toolbar::after,\n.shyamolitheme ion-header .toolbar-background,\n.shyamolitheme ion-header .toolbar-container::after,\n.shyamoli-theme ion-header ion-toolbar::after,\n.shyamoli-theme ion-header .toolbar-background,\n.shyamoli-theme ion-header .toolbar-container::after {\n  background: transparent !important;\n  box-shadow: none !important;\n  border: none !important;\n}\n\nion-content {\n  --ion-background-color: var(--viewBgColor);\n}\n\n.txt-main {\n  margin: 0 0 0 16px;\n  width: 100%;\n  font-size: 14px;\n  color: #7e7e8c;\n}\n\n.lower_header {\n  background-color: white !important;\n  margin: 0px 15px 0px 15px !important;\n  padding: 9px 0px 7px 16px !important;\n}\n\n.lower_seat {\n  display: inline-block;\n  font-weight: 600;\n  color: #4a4a4a;\n}\n\n.segmentbtn {\n  margin: auto !important;\n}\n\n.seat-slide {\n  margin: 25px auto;\n  height: auto;\n  border-radius: 4px;\n  background-color: #f7f9fb;\n}\n.seat-slide .seat-card-bg {\n  padding: 26px 0px;\n  margin: 15px 20px;\n  border-radius: 4px;\n  border: solid 1px #dddddd;\n  background-color: #ffffff;\n  width: auto;\n  height: auto;\n  min-width: 70%;\n}\n\n.seabird-seat-slide {\n  margin: 25px auto 0px auto;\n  height: auto;\n  border-radius: 4px;\n  background-color: #F1F7FA;\n}\n.seabird-seat-slide .seat-card-bg {\n  padding: 26px 30px;\n  margin: 15px 0px;\n  border-radius: 28px;\n  border: solid 1px #dddddd;\n  background-color: #ffffff;\n  width: auto;\n  height: auto;\n}\n\ntd {\n  padding: 0px 3px !important;\n}\n\n.ios app-amenities-modal,\n.md app-amenities-modal {\n  background-color: #34495e !important;\n}\n.ios app-amenities-modal .content,\n.md app-amenities-modal .content {\n  padding: 20px;\n}\n\n.scroll-content {\n  contain: initial;\n}\n\n.gap {\n  transition: all linear 0.3s;\n  height: 0;\n}\n\nimg.cur_point:hover {\n  opacity: 0.7;\n}\n\n.h80 {\n  height: 80px;\n}\n\n.seaBird_card_1 {\n  display: flex;\n  padding: 8px;\n  justify-content: flex-start;\n  border: 1px solid #626262;\n  margin: 16px 16px;\n  background: white;\n  box-shadow: none;\n}\n\n.seaBird_card_2 {\n  display: flex;\n  padding: 8px;\n  justify-content: center;\n  border: 1px solid #626262;\n  margin: 12px 16px;\n  background: white;\n  box-shadow: none;\n}\n\n.cardPosition {\n  display: flex;\n  padding: 8px;\n  justify-content: center;\n  border: 1px solid #626262;\n  margin: 12px 16px;\n  background: white;\n  box-shadow: none;\n  position: relative;\n  top: 30%;\n}\n\n.w30 {\n  width: 30px;\n  height: 1px;\n}\n\ntd button.item.item-block {\n  background-color: transparent;\n}\n\nspan.legend {\n  display: inline-block;\n  width: 14px;\n  top: 1px;\n  height: 14px;\n  position: relative;\n}\nspan.legend.grey-o {\n  background-color: #fff;\n  border: 1px solid #ccc;\n}\nspan.legend.green {\n  background-color: #52c328;\n}\nspan.legend.grey {\n  background-color: #ccc;\n}\nspan.legend.orange {\n  background-color: #fbcb21;\n}\nspan.legend.blue {\n  background-color: #77f;\n}\nspan.legend.pink {\n  background-color: #ff8a9f;\n}\n\nspan.cur_point.sleeper.horizontal {\n  width: 85px;\n  height: 42px;\n}\n\n.button_horizontal {\n  margin-right: 10px;\n  margin-left: 15px;\n}\n\n#seat-table button,\n.seat-layout-inner button {\n  padding: 0 !important;\n  margin: 5px 1px;\n  background: #fff;\n}\n#seat-table button .item-inner,\n.seat-layout-inner button .item-inner {\n  padding: 0 !important;\n  background-image: none !important;\n  border: 0 !important;\n}\n#seat-table .item-ios.activated,\n.seat-layout-inner .item-ios.activated {\n  border-radius: 4px;\n}\n\n#seat-table button.horizontal,\n.seat-layout-inner button.horizontal {\n  margin: 0 auto;\n}\n\n.seat-bg {\n  border-radius: 4px;\n  border: 2px solid #6c8cb1;\n  padding: 0 !important;\n  margin: 6px;\n}\n\nspan.cur_point.sleeper.horizontal span {\n  height: 80%;\n  width: 12%;\n}\n\nspan.cur_point.sleeper {\n  display: block;\n  width: 30px;\n  height: 65px;\n  border: 1px solid #ccc;\n  border-radius: 3px;\n  position: relative;\n  background-color: #fff;\n}\nspan.cur_point.sleeper span {\n  display: block;\n  width: 80%;\n  position: absolute;\n  border: 1px solid #ccc;\n  bottom: 5px;\n  left: 10%;\n  height: 9px;\n  border-radius: 2px;\n  border: 2px solid #6c8cb1;\n  background-color: #fff;\n}\nspan.cur_point.sleeper.gents {\n  background-color: #778bef;\n}\nspan.cur_point.sleeper.reserved {\n  background-color: #ddd;\n}\nspan.cur_point.sleeper.ladies {\n  background-color: #f58eb1;\n}\nspan.cur_point.sleeper.ladies-reserved {\n  background-color: #fbcb21;\n}\nspan.cur_point.sleeper.selected {\n  background-color: #52c328;\n}\nspan.cur_point.sleeper + span {\n  color: #000;\n}\nspan.cur_point.sleeper.selected + span {\n  color: #fff;\n}\n\n.ourbustheme span.cur_point.sleeper {\n  display: block;\n  width: 30px;\n  height: 88px !important;\n}\n\nspan.cur_point.seat {\n  display: block;\n  width: 30px;\n  height: 27px;\n  position: relative;\n  margin: 0px 5px 0px -1px;\n}\nspan.cur_point.seat + span {\n  color: #000;\n}\nspan.cur_point.seat span {\n  background-color: #fff;\n}\nspan.cur_point.seat span:nth-child(1) {\n  width: 82%;\n  display: block;\n  height: 100%;\n  border: 1px solid #bbb;\n  position: absolute;\n  left: 16%;\n  border-radius: 2px;\n}\nspan.cur_point.seat span:nth-child(2) {\n  display: block;\n  width: 6px;\n  height: 18px;\n  border: 1px solid #bbb;\n  border-radius: 20%;\n  position: absolute;\n  background-color: #fff;\n  right: 0px;\n  top: 7px;\n}\nspan.cur_point.seat span:nth-child(3) {\n  display: block;\n  width: 6px;\n  height: 17px;\n  border: 1px solid #bbb;\n  border-radius: 20%;\n  position: absolute;\n  left: 3px;\n  top: 7px;\n  background-color: #fff;\n}\nspan.cur_point.seat span:nth-child(4) {\n  display: block;\n  height: 7px;\n  width: 92%;\n  border: 1px solid #bbb;\n  border-radius: 20%;\n  position: absolute;\n  left: 9%;\n  background-color: #fff;\n  bottom: -4px;\n}\nspan.cur_point.seat.gents span {\n  background-color: #778bef;\n  border-color: #475b9f;\n}\nspan.cur_point.seat.reserved span {\n  background-color: #ddd;\n  border-color: #aaa;\n}\nspan.cur_point.seat.ladies span {\n  background-color: #f58eb1;\n  border-color: #b55e91;\n}\nspan.cur_point.seat.ladies-reserved span {\n  background-color: #fbcb21;\n  border-color: #bb9b01;\n}\nspan.cur_point.seat.selected span {\n  background-color: #52c328;\n  border-color: #329308;\n}\nspan.cur_point.seat.selected + span {\n  color: #fff;\n}\n\nion-slides {\n  height: auto;\n}\n\ntable img {\n  margin: 1px;\n}\ntable td,\ntable th {\n  position: relative;\n}\ntable td .seat-number,\ntable th .seat-number {\n  position: absolute;\n  top: 50%;\n  width: 100%;\n  text-align: center;\n  margin-top: -8px;\n  left: 0;\n}\ntable td .seat-number.berth,\ntable th .seat-number.berth {\n  margin-top: -8;\n}\n\n.seat-slides {\n  overflow-y: scroll;\n  height: 100vh;\n  overflow-x: hidden;\n  width: 94vw;\n  left: 3vw;\n  margin: 0 auto;\n  position: fixed;\n  top: 160px;\n}\n.seat-slides .gap {\n  height: 165px;\n}\n.seat-slides .gap.h80 {\n  height: 235px;\n}\n.seat-slides.no-seg {\n  top: 115px;\n}\n.seat-slides.no-seg .gap {\n  height: 115px;\n}\n.seat-slides.no-seg .gap.h80 {\n  height: 185px;\n}\n.seat-slides .steering-image {\n  text-align: right;\n  height: 40px;\n  margin: 0 auto;\n  padding: 0 5px;\n  max-width: 100%;\n}\n.seat-slides .steering-image img {\n  height: 90%;\n  width: auto;\n}\n.seat-slides ion-slide {\n  padding-top: 15px;\n  padding-bottom: 20px;\n}\n.seat-slides table {\n  margin: 0 auto;\n}\n.seat-slides table img {\n  width: 45px;\n}\n\n.content-ios .swiper-container {\n  overflow: visible;\n}\n.content-ios ion-slides {\n  height: auto;\n}\n.content-ios .seg-tabs {\n  padding: 7px;\n  background-color: #fff;\n}\n.content-ios .no-seg .seg-tabs {\n  padding: 0;\n}\n.content-ios .seat-slides {\n  top: 160px;\n}\n.content-ios .seat-slides .gap {\n  height: 163px;\n}\n.content-ios .seat-slides .gap.h80 {\n  height: 235px;\n}\n.content-ios .seat-slides.no-seg {\n  top: 115px;\n}\n.content-ios .seat-slides.no-seg .gap {\n  height: 118px;\n}\n.content-ios .seat-slides.no-seg .gap.h80 {\n  height: 180px;\n}\n.content-ios .seats-info.no-seg {\n  height: 52px;\n  border-bottom: 0.4px solid #ccc;\n}\n\n.content-md .seg-tabs {\n  padding: 5px 0;\n  background-color: #fff;\n}\n.content-md .no-seg .seg-tabs {\n  padding: 0;\n}\n.content-md .seats-info.no-seg {\n  height: 52px;\n  border-bottom: 0.4px solid #ccc;\n}\n.content-md .seat-slides {\n  top: 160px;\n}\n.content-md .seat-slides .gap {\n  height: 165px;\n}\n.content-md .seat-slides .gap.h80 {\n  height: 235px;\n}\n.content-md .seat-slides.no-seg {\n  top: 74px;\n}\n.content-md .seat-slides.no-seg .gap {\n  height: 150px;\n}\n.content-md .seat-slides.no-seg .gap.h80 {\n  height: 198px;\n}\n\n.swiper-slide {\n  align-items: flex-start;\n}\n.swiper-slide table {\n  margin: 0 auto;\n}\n.swiper-slide table img {\n  width: 38px;\n}\n\n.seats-info {\n  background-color: #f5f5f5;\n  position: fixed;\n  width: 100%;\n  height: 95px;\n  border-bottom: 0.4px solid #ccc;\n  z-index: 10;\n}\n.seats-info.no-seg {\n  height: 55px;\n}\n.seats-info .seat-info {\n  padding: 5px;\n}\n.seats-info img {\n  width: 15px;\n  height: auto;\n  margin: 0 3px 0 0;\n}\n.seats-info ion-col {\n  padding: 1px;\n}\n\n.bottom {\n  position: fixed;\n  display: flex;\n  width: 100vw;\n  height: 54px;\n  z-index: 10;\n  bottom: 0;\n  background: #ffffff;\n  font-size: 13px;\n  transition: all linear 0.24s;\n  flex-direction: row;\n  box-shadow: 5px 10px 10px 10px #888888;\n}\n.bottom .label {\n  display: block;\n  margin-bottom: 3px;\n}\n.bottom .seats {\n  width: 50%;\n}\n.bottom .seats .seat-lbl {\n  font-size: 13px;\n  color: #4a4a4a;\n  font-weight: bold;\n}\n.bottom .seats .seat-val {\n  margin: 0 0 0 5px;\n  font-size: 13px;\n  font-weight: bolder;\n  color: #4a4a4a;\n}\n.bottom .pay {\n  width: 25%;\n  height: 100%;\n  border: 1px solid var(--iconsAndButtonsColor);\n  background-color: var(--iconsAndButtonsColor);\n  font-size: 13px;\n  font-weight: bolder;\n  color: var(--primaryText);\n}\n.bottom .pay1 {\n  width: 25%;\n  height: 100%;\n  border: 1px solid var(--iconsAndButtonsColor);\n  background-color: var(--iconsAndButtonsColor);\n  font-size: 13px;\n  font-weight: bolder;\n  color: var(--viewBgColor);\n}\n.bottom .price {\n  font-size: 16px;\n  font-weight: bolder;\n  color: var(--iconsAndButtonsColor);\n}\n.bottom .fare-vl {\n  width: 25%;\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  margin-top: 1%;\n}\n.bottom .nt-txt {\n  font-size: 8px;\n}\n.bottom .seat-numbers {\n  height: 100%;\n  width: 50%;\n  display: block;\n}\n.bottom .amount {\n  height: 100%;\n  width: 50%;\n}\n.bottom .continue {\n  width: 15vw;\n  height: 15vw;\n  max-width: 45px;\n  max-height: 45px;\n  position: absolute;\n  bottom: 104%;\n  right: 12px;\n  border-radius: 50%;\n  transition: all linear 0.4s;\n  transition-delay: 0.2s;\n}\n.bottom .continue ion-icon {\n  color: #fff;\n  font-size: 4rem;\n  margin-left: 4px;\n}\n.bottom .continue.down {\n  width: 1vw;\n  height: 1vw;\n  bottom: -104%;\n}\n.bottom .continue.up {\n  width: 45px;\n  height: 45px;\n  bottom: 4%;\n}\n.bottom div {\n  padding: 2px 0;\n}\n.bottom .success {\n  color: #b8e986;\n}\n\n.seabird-seat-select {\n  color: black;\n  font-weight: bold;\n}\n\n.seabirdPay {\n  height: 42px;\n  width: 94%;\n  padding-bottom: 0px;\n  margin-left: 12px;\n  border-radius: 22px;\n  border: 1px solid var(--primaryText);\n  background-color: var(--primaryText);\n  font-size: 13px;\n  font-weight: bolder;\n  color: var(--iconsAndButtonsColor);\n  position: relative;\n  bottom: 2%;\n  text-transform: uppercase;\n}\n\n.bottom.down {\n  bottom: -100px;\n}\n\n.bottom.up {\n  bottom: 0;\n  z-index: 20;\n}\n\n.stages {\n  margin-top: 15px;\n}\n.stages .boarding-stage {\n  border: 0.4px solid #ddd;\n  font-size: 1.3rem;\n  box-shadow: 1px 1px 2px rgba(240, 86, 48, 0.31);\n}\n.stages .boarding-stage .value {\n  padding: 11px 0;\n  font-size: 15px;\n}\n.stages .value {\n  display: block;\n}\n.stages .error {\n  border-color: #f00 !important;\n}\n.stages .label {\n  width: 80px;\n}\n\n.no-service {\n  text-align: center;\n  display: flex;\n  align-items: center;\n  height: 100%;\n  margin-top: 0;\n}\n.no-service p {\n  text-align: center;\n  flex: 1;\n}\n\n.hd-ln-1 {\n  font-size: 14px;\n  font-weight: bold;\n  margin: 0 25px 0 0;\n}\n\n.hd-ln-2 {\n  font-size: 10px;\n  font-weight: normal;\n  line-height: 2;\n  text-align: center;\n  margin: 0 25px 0 0;\n}\n\n.seg-btn {\n  width: 196px;\n  margin: 16px 0 0;\n  border-radius: 4px;\n}\n.seg-btn ion-segment {\n  border: 1px solid #eaeaea;\n  border-radius: 4px;\n}\n.seg-btn ion-segment-button {\n  font-size: 12px;\n  font-weight: bold;\n  color: #9b9b9b;\n  min-height: 0px !important;\n  text-transform: capitalize;\n}\n.seg-btn ion-segment-button.segment-button-checked {\n  color: var(--primaryText);\n  font-weight: bolder;\n}\n\n.seaBird-seg-btn {\n  width: 350px;\n  height: 38px;\n  border-radius: 4px;\n}\n.seaBird-seg-btn ion-segment {\n  height: 38px;\n  border-radius: 4px;\n}\n.seaBird-seg-btn ion-segment-button {\n  font-size: 14px;\n  font-weight: bold;\n  color: var(--ion-text-color);\n  min-height: 0px !important;\n  text-transform: capitalize;\n}\n.seaBird-seg-btn ion-segment-button.segment-button-checked {\n  border-bottom: 2px solid var(--iconsAndButtonsColor);\n  font-weight: bolder;\n}\n\n.err-msg {\n  color: #ed3237;\n  font-weight: bolder;\n  margin-top: 70%;\n}\n\nion-bottom-drawer {\n  transition: all 0.25s ease-in-out 0s;\n  border-radius: 10px;\n  touch-action: none;\n  -webkit-user-select: none;\n          user-select: none;\n  -webkit-user-drag: none;\n  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);\n  transform: translateY(15px);\n}\n\n.btn-price-filter {\n  height: 24px;\n  width: auto;\n  min-width: 60px;\n  border-radius: 4px;\n  border: solid 1px #979797;\n  background-color: #ffffff;\n  font-size: 12px;\n  text-align: center;\n  margin: 18px 5px 0;\n  color: #4a4a4a;\n  padding: 5px 5px;\n}\n\n.btn-price-filter.select {\n  background-color: #4a4a4a !important;\n  font-weight: bolder !important;\n  color: #ffffff !important;\n}\n\n.seabird-btn-price-filter {\n  height: 24px;\n  width: auto;\n  min-width: 60px;\n  border-radius: 4px;\n  border: solid 1px #979797;\n  background: #DCEEFF;\n  font-size: 12px;\n  text-align: center;\n  margin: 0px 5px;\n  color: #4a4a4a;\n  padding: 5px 5px;\n}\n\n.seabird-btn-price-filter.select {\n  background: #F8D2D6 !important;\n  font-weight: bolder !important;\n  color: #000000 !important;\n}\n\n.info-btn-align {\n  position: absolute;\n  right: 5px;\n}\n\n.legend-box {\n  border-radius: 4px;\n  box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.14);\n  background-color: #ffffff !important;\n  opacity: 1 !important;\n}\n\n.whole {\n  position: fixed;\n  z-index: 50;\n  width: 100%;\n  padding: 25px;\n  height: 100%;\n  background: rgba(255, 255, 255, 0.6);\n}\n\n.info-btn-align-2 {\n  position: absolute;\n  right: 2%;\n  top: 4%;\n}\n\n.legend-close {\n  margin: 15px;\n  font-size: 30px;\n  margin: 3px 2px 2px;\n  color: white;\n  font-weight: bolder;\n}\n\n.bg-close {\n  display: block;\n  background: rgba(100, 100, 100, 0.5);\n  border-radius: 100px;\n  margin: 10px;\n}\n\n.legend-seat {\n  width: 32px;\n  height: 32px;\n  border-radius: 4px;\n  border: solid 1px #7e7e8c;\n  font-size: 10px;\n  font-weight: bold;\n  color: #4a4a4a;\n  margin: 5px;\n}\n\n.legend-txt {\n  font-size: 14px;\n  color: #4a4a4a;\n  margin: 5px;\n  text-align: center;\n  width: auto;\n}\n\n.opacity-filter {\n  opacity: 0.25;\n}\n\n.ion-toolbar {\n  background: #FFFFFF !important;\n}\n\n.setseatType {\n  padding: 6px 10px !important;\n  max-width: 175px;\n  color: #00498C;\n  /* font-family: Inter; */\n  font-size: 12px;\n  /* font-style: normal; */\n  font-weight: 500;\n  text-transform: capitalize;\n  text-align: center;\n}\n\n.setseatTypeExit {\n  padding: 6px 10px !important;\n  max-width: 175px;\n  color: #343434;\n  font-size: 12px;\n  font-weight: 500;\n  text-transform: capitalize;\n  text-align: center;\n}\n\n.themeone-seat-layout-text {\n  font-size: 18px;\n  font-style: normal;\n  font-weight: 700;\n  line-height: 26px;\n  color: #191966;\n}\n\n.themeone-seat-layout-text_2 {\n  font-size: 18px;\n  font-style: normal;\n  font-weight: 700;\n  line-height: 26px;\n  color: #000;\n}\n\n.shyamoli-themeone-seat-layout-text_2 {\n  font-size: 18px;\n  font-style: normal;\n  font-weight: 700;\n  line-height: 26px;\n  color: var(--placeholderColor);\n}\n\n.themeone-seat-segment {\n  width: -webkit-fill-available;\n}\n\n.themeone-btn-price-filter {\n  height: 24px;\n  width: auto;\n  min-width: 60px;\n  border-radius: 10px;\n  border: solid 1px #DFDFDF;\n  background-color: #ffffff;\n  font-size: 12px;\n  text-align: center;\n  margin: 18px 5px 0;\n  color: #191966;\n  padding: 5px 5px;\n  font-family: Roboto;\n  font-size: 12px;\n  font-style: normal;\n  font-weight: 600;\n  line-height: 22px; /* 183.333% */\n}\n\n.themeone-btn-price-filter.select {\n  background-color: #FFBD16 !important;\n  font-weight: bolder !important;\n  color: #333333 !important;\n}\n\n.themeone-btn-price-filter_2 {\n  height: 24px;\n  width: auto;\n  min-width: 60px;\n  border-radius: 10px;\n  border: solid 1px #DFDFDF;\n  background-color: #ffffff;\n  font-size: 12px;\n  text-align: center;\n  margin: 18px 5px 0;\n  color: #191966;\n  padding: 5px 5px;\n  font-family: Roboto;\n  font-size: 12px;\n  font-style: normal;\n  font-weight: 600;\n  line-height: 22px; /* 183.333% */\n}\n\n.themeone-btn-price-filter_2.select {\n  background-color: var(--materialUiColor) !important;\n  font-weight: bolder !important;\n  color: white !important;\n}\n\n.themeone-bottom {\n  position: fixed;\n  display: flex;\n  width: 100vw;\n  z-index: 10;\n  bottom: 0;\n  background: #191966;\n  font-size: 13px;\n  transition: all linear 0.24s;\n  flex-direction: row;\n  border-top-left-radius: 20px;\n  border-top-right-radius: 20px;\n}\n\n.shyamoli-bottom {\n  background: var(--iconsAndButtonsColor) !important; /* Override for Shyamoli theme full section */\n}\n\n.shyamoli-bottom .themeone-select-pickup-btn {\n  /* White pill-style Continue button on orange bar */\n  --background-activated: #FFFFFF !important;\n  color: #0e0e0e !important; /* brand orange text */\n  border: none; /* no extra border */\n  height: 30px; /* consistent tap area */\n  font-size: 16px; /* readable */\n  font-family: \"Gilroy-Bold\";\n}\n\n.themeone-bottom_2 {\n  position: fixed;\n  display: flex;\n  width: 100vw;\n  height: 95px;\n  z-index: 10;\n  bottom: 0;\n  background: var(--bottomBarColor);\n  font-size: 13px;\n  transition: all linear 0.24s;\n  flex-direction: row;\n  border-top-left-radius: 20px;\n  border-top-right-radius: 20px;\n}\n\n.themeone-seats {\n  width: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: flex-start;\n  margin-bottom: 2px;\n}\n.themeone-seats .themeone-seat-lbl {\n  font-size: 12px;\n  color: #000000;\n  font-weight: bold;\n}\n.themeone-seats .themeone-seat-val {\n  margin: 0 0 0 5px;\n  font-size: 12px;\n  font-weight: bolder;\n  color: #000000;\n}\n\n.themeone-totalvalue {\n  font-size: 16px;\n  color: #fff;\n  font-family: \"NotoSans\";\n  font-weight: bold;\n}\n\n.themeone-select-pickup-btn {\n  --background: #fff;\n  color: var(--primary) !important;\n  font-family: \"NotoSans\";\n  font-weight: bold;\n  font-size: 12px;\n  height: 30px;\n  width: 90px;\n}\n\n.themeone-viewbreakup {\n  color: #ffbd16;\n  font-size: 12px;\n  font-family: \"NotoSans\";\n  font-weight: bold;\n}\n\n.shyamoli-viewbreakup {\n  color: #000000; /* Text color black */\n  font-size: 12px;\n  font-weight: 600;\n  cursor: pointer;\n  background-color: var(--iconsAndButtonsColor); /* Orange background */\n  padding: 2px 6px;\n  border-radius: 4px;\n  margin-left: -4px;\n}\n\n.shyamoli-viewbreakup:hover {\n  opacity: 0.8;\n}\n\n.default-theme-viewBreakup {\n  color: var(--iconsAndButtonsColor);\n  font-size: 12px;\n  font-family: \"NotoSans\";\n  font-weight: bolder;\n}\n\n.default-theme-viewBreakup {\n  color: var(--iconsAndButtonsColor);\n  font-size: 12px;\n  font-family: \"NotoSans\";\n  font-weight: bolder;\n}\n\n.theme-1-center .segment-button-checked {\n  --indicator-color: #191966 !important;\n  --indicator-color-checked: #191966 !important;\n  color: #191966 !important;\n}\n\n.theme-1-center_2 .segment-button-checked {\n  --indicator-color: var(--bottomBarColor) !important;\n  --indicator-color-checked: var(--bottomBarColor) !important;\n  color: var(--bottomBarColor) !important;\n}\n\n.theme-1-segmentLabel {\n  font-size: 14px;\n  font-family: \"NotoSans\";\n  font-weight: bold;\n  text-transform: capitalize;\n}\n\n.themeone-seat-slide {\n  margin: 25px auto;\n  height: auto;\n  border-radius: 4px;\n  background-color: #ffffff;\n}\n.themeone-seat-slide .seat-card-bg {\n  padding: 57px 0 16px;\n  border-radius: 4px;\n  border: solid 1px #dddddd;\n  background-color: #ffffff;\n  width: auto;\n  height: auto;\n  min-width: 70%;\n  padding-left: 16px;\n}\n\n.themeone-legend-seat {\n  width: 32px;\n  height: 32px;\n  border-radius: 0px;\n  border: solid 1px #7e7e8c;\n  font-size: 10px;\n  font-weight: bold;\n  color: #4a4a4a;\n  margin: 5px;\n}\n\n.themeone-legend-txt {\n  font-size: 14px;\n  color: #4a4a4a;\n  margin: 5px;\n  text-align: center;\n  width: 200px;\n}\n\n.seabird_fare {\n  color: #00904B !important;\n  font-size: 12px;\n  font-weight: 700;\n}\n\n.seabird_fare_row {\n  border: 1px solid #626262;\n  border-radius: 10px;\n  background: white;\n  padding: 10px 5px;\n  margin-bottom: 12px;\n}\n\n.seabirdPayContainer {\n  padding-bottom: 20px;\n}\n\n.seabird_seatNum {\n  font-size: 12px;\n  font-weight: 700;\n}\n\n.ourbus-scroll-container {\n  width: 100%;\n  overflow-x: auto;\n  display: block;\n  margin-top: 12px;\n}\n\n.ourbus-scroll-content {\n  display: flex;\n  flex-wrap: nowrap;\n  width: max-content;\n  margin-top: 15px;\n}\n\n.ourbustheme ion-row {\n  display: flex;\n  flex-wrap: nowrap;\n}\n\n.ourbus-seat-col {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  text-align: center;\n  margin-right: 10px;\n}\n\n.ourbus-legend-seat {\n  width: 25px;\n  height: 25px;\n  border-radius: 5px;\n  margin-bottom: 5px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border: 1px solid black;\n}\n\n.ourbus-legend-txt {\n  font-size: 12px;\n}\n\n.ourbus_btn {\n  height: 50px;\n  box-shadow: none;\n  --border-radius: 8px;\n  font-size: 18px;\n  font-weight: 700;\n  --background:var(--iconsAndButtonsColor);\n  --color:var(--primaryText);\n  --background-activated: var(--iconsAndButtonsColor) !important;\n}\n\n.ourbus-hd-ln {\n  display: flex;\n  align-items: center;\n  font-size: 12px;\n  color: #747474;\n  margin-top: 5px;\n  margin-left: 10px;\n}\n\n.ourbus-inline-icon {\n  width: 15px;\n  height: 15px;\n  margin: 0 5px;\n  vertical-align: middle;\n}\n\n.singleview_layout #mySlider {\n  width: 94% !important;\n}\n.singleview_layout #lower {\n  width: 57% !important;\n  margin: 25px 0px;\n}\n.singleview_layout #upper {\n  width: 57% !important;\n  margin: 25px 0px;\n}\n\n.lower_icon {\n  width: 32px;\n  height: 28px;\n  top: 23px;\n  filter: invert(46%) sepia(6%) saturate(12%) hue-rotate(324deg) brightness(98%) contrast(84%);\n}\n\n.upper_icon {\n  width: 32px;\n  height: 28px;\n  top: 23px;\n  filter: invert(46%) sepia(6%) saturate(12%) hue-rotate(324deg) brightness(98%) contrast(84%);\n  visibility: hidden;\n}\n\n.our-bus-svg-text {\n  position: absolute;\n  top: 60%;\n  left: 60%;\n  transform: translate(-50%, -50%);\n  width: 90%;\n  text-align: center;\n  white-space: normal;\n  word-wrap: break-word;\n  font-size: 10px;\n  color: #000;\n}\n\n.our-bus-svg-text-slepper {\n  position: absolute;\n  top: 60%;\n  left: 55%;\n  transform: translate(-50%, -50%);\n  width: 90%;\n  text-align: center;\n  white-space: normal;\n  word-wrap: break-word;\n  font-size: 10px;\n  color: #000;\n}\n\n.ourbustheme .horizontal {\n  transform: rotate(270deg);\n  margin-top: 0px;\n  margin-left: -20px;\n}\n.ourbustheme .horizontal .our-bus-svg-text {\n  transform: rotate(45deg);\n  margin-top: 0px;\n  margin-left: -12px;\n}\n\n.drawer-header {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 8px 0;\n}\n\n.pull-icon {\n  font-size: 24px;\n  color: #666; /* Adjust color as needed */\n}\n\n.seat_text {\n  text-transform: uppercase;\n  color: #747474;\n}\n\nion-segment-button {\n  --indicator-color: var(--iconsAndButtonsColor) !important;\n  --indicator-color-checked: transparent !important;\n}\n\n.seat_icons {\n  height: 30px;\n  padding: 4px 2px 0px 4px;\n  width: 32px;\n}\n\n.hide-scrollbar {\n  /* Hide scrollbar for IE, Edge and Firefox */\n  -ms-overflow-style: none; /* IE and Edge */\n  scrollbar-width: none; /* Firefox */\n  justify-content: flex-start !important;\n  padding-right: 30px; /* Extra margin on right for scroll area */\n}\n\n.hide-scrollbar::-webkit-scrollbar {\n  display: none;\n}\n\n.shyaoli-seat-layout-header {\n  box-shadow: none !important;\n  padding-top: var(--ion-safe-area-top, 0px);\n}\n.shyaoli-seat-layout-header .themeone-seat-layout-header .themeone-seat-layout-text_2 {\n  font-size: 18px;\n  font-style: normal;\n  font-weight: 700;\n  line-height: 26px;\n  color: #000;\n}\n.shyaoli-seat-layout-header .shyamoli-seat-segment .themeone-seat-segment {\n  width: -webkit-fill-available;\n}\n.shyaoli-seat-layout-header .shyamoli-seat-segment .theme-1-center_2 .segment-button-checked {\n  --indicator-color: var(--iconsAndButtonsColor) !important;\n  color: #333333 !important;\n  --indicator-color-checked: var(--iconsAndButtonsColor) !important;\n}\n.shyaoli-seat-layout-header .shyamoli-seat-segment .theme-1-center_2 .theme-1-segmentLabel {\n  font-size: 14px;\n  font-family: \"NotoSans\";\n  font-weight: bold;\n  text-transform: capitalize;\n}\n\n.shyamoli-seat-layout-content .themeone-btn-price-filter_2 {\n  height: 24px;\n  width: auto;\n  min-width: 60px;\n  border-radius: 10px;\n  border: solid 1px #DFDFDF;\n  background-color: #ffffff;\n  font-size: 12px;\n  text-align: center;\n  margin: 18px 5px 0;\n  color: #191966;\n  padding: 5px 5px;\n  font-family: Roboto;\n  font-size: 12px;\n  font-style: normal;\n  font-weight: 600;\n  line-height: 22px; /* 183.333% */\n}\n.shyamoli-seat-layout-content .themeone-btn-price-filter_2.select {\n  background-color: #000000 !important;\n  font-weight: bolder !important;\n  color: white !important;\n}\n\n.seat-select-footer {\n  align-items: center !important;\n  height: auto !important;\n}\n\n.themeone-btn-price-filter_2_shyamoli {\n  height: 24px;\n  width: auto;\n  min-width: 60px;\n  border-radius: 10px;\n  border: solid 1px #DFDFDF;\n  background-color: #ffffff;\n  font-size: 12px;\n  text-align: center;\n  margin: 18px 5px 0;\n  color: #191966;\n  padding: 5px 5px;\n  font-family: Roboto;\n  font-size: 12px;\n  font-style: normal;\n  font-weight: 600;\n  line-height: 22px; /* 183.333% */\n}\n\n.themeone-btn-price-filter_2_shyamoli.select {\n  background-color: #000000 !important;\n  font-weight: bolder !important;\n  color: white !important;\n}"],
+  styles: [".tlbr-center {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  text-align: center;\n  margin-right: 15px;\n}\n\n/* Remove the faint horizontal separator line under the header toolbar ONLY for Shyamoli theme */\n.shyamolitheme,\n.shyamoli-theme {\n  /* Extra specificity for MD/iOS renderers */\n}\n.shyamolitheme ion-header ion-toolbar,\n.shyamolitheme ion-header .toolbar-container,\n.shyamolitheme ion-toolbar.bg-cl,\n.shyamolitheme .bg-cl ion-toolbar,\n.shyamoli-theme ion-header ion-toolbar,\n.shyamoli-theme ion-header .toolbar-container,\n.shyamoli-theme ion-toolbar.bg-cl,\n.shyamoli-theme .bg-cl ion-toolbar {\n  --border-color: transparent !important;\n  --border-width: 0 !important;\n  box-shadow: none !important;\n  border: none !important;\n}\n.shyamolitheme ion-header ion-toolbar::after,\n.shyamolitheme ion-header .toolbar-background,\n.shyamolitheme ion-header .toolbar-container::after,\n.shyamoli-theme ion-header ion-toolbar::after,\n.shyamoli-theme ion-header .toolbar-background,\n.shyamoli-theme ion-header .toolbar-container::after {\n  background: transparent !important;\n  box-shadow: none !important;\n  border: none !important;\n}\n\nion-content {\n  --ion-background-color: var(--viewBgColor);\n}\n\n.txt-main {\n  margin: 0 0 0 16px;\n  width: 100%;\n  font-size: 14px;\n  color: #7e7e8c;\n}\n\n.lower_header {\n  background-color: white !important;\n  margin: 0px 15px 0px 15px !important;\n  padding: 9px 0px 7px 16px !important;\n}\n\n.lower_seat {\n  display: inline-block;\n  font-weight: 600;\n  color: #4a4a4a;\n}\n\n.segmentbtn {\n  margin: auto !important;\n}\n\n.seat-slide {\n  margin: 25px auto;\n  height: auto;\n  border-radius: 4px;\n  background-color: #f7f9fb;\n}\n.seat-slide .seat-card-bg {\n  padding: 26px 0px;\n  margin: 15px 20px;\n  border-radius: 4px;\n  border: solid 1px #dddddd;\n  background-color: #ffffff;\n  width: auto;\n  height: auto;\n  min-width: 70%;\n}\n\n.seabird-seat-slide {\n  margin: 25px auto 0px auto;\n  height: auto;\n  border-radius: 4px;\n  background-color: #F1F7FA;\n}\n.seabird-seat-slide .seat-card-bg {\n  padding: 26px 30px;\n  margin: 15px 0px;\n  border-radius: 28px;\n  border: solid 1px #dddddd;\n  background-color: #ffffff;\n  width: auto;\n  height: auto;\n}\n\ntd {\n  padding: 0px 3px !important;\n}\n\n.ios app-amenities-modal,\n.md app-amenities-modal {\n  background-color: #34495e !important;\n}\n.ios app-amenities-modal .content,\n.md app-amenities-modal .content {\n  padding: 20px;\n}\n\n.scroll-content {\n  contain: initial;\n}\n\n.gap {\n  transition: all linear 0.3s;\n  height: 0;\n}\n\nimg.cur_point:hover {\n  opacity: 0.7;\n}\n\n.h80 {\n  height: 80px;\n}\n\n.seaBird_card_1 {\n  display: flex;\n  padding: 8px;\n  justify-content: flex-start;\n  border: 1px solid #626262;\n  margin: 16px 16px;\n  background: white;\n  box-shadow: none;\n}\n\n.seaBird_card_2 {\n  display: flex;\n  padding: 8px;\n  justify-content: center;\n  border: 1px solid #626262;\n  margin: 12px 16px;\n  background: white;\n  box-shadow: none;\n}\n\n.cardPosition {\n  display: flex;\n  padding: 8px;\n  justify-content: center;\n  border: 1px solid #626262;\n  margin: 12px 16px;\n  background: white;\n  box-shadow: none;\n  position: relative;\n  top: 30%;\n}\n\n.w30 {\n  width: 30px;\n  height: 1px;\n}\n\ntd button.item.item-block {\n  background-color: transparent;\n}\n\nspan.legend {\n  display: inline-block;\n  width: 14px;\n  top: 1px;\n  height: 14px;\n  position: relative;\n}\nspan.legend.grey-o {\n  background-color: #fff;\n  border: 1px solid #ccc;\n}\nspan.legend.green {\n  background-color: #52c328;\n}\nspan.legend.grey {\n  background-color: #ccc;\n}\nspan.legend.orange {\n  background-color: #fbcb21;\n}\nspan.legend.blue {\n  background-color: #77f;\n}\nspan.legend.pink {\n  background-color: #ff8a9f;\n}\n\nspan.cur_point.sleeper.horizontal {\n  width: 85px;\n  height: 42px;\n}\n\n.button_horizontal {\n  margin-right: 10px;\n  margin-left: 15px;\n}\n\n#seat-table button,\n.seat-layout-inner button {\n  padding: 0 !important;\n  margin: 5px 1px;\n  background: #fff;\n}\n#seat-table button .item-inner,\n.seat-layout-inner button .item-inner {\n  padding: 0 !important;\n  background-image: none !important;\n  border: 0 !important;\n}\n#seat-table .item-ios.activated,\n.seat-layout-inner .item-ios.activated {\n  border-radius: 4px;\n}\n\n#seat-table button.horizontal,\n.seat-layout-inner button.horizontal {\n  margin: 0 auto;\n}\n\n.seat-bg {\n  border-radius: 4px;\n  border: 2px solid #6c8cb1;\n  padding: 0 !important;\n  margin: 6px;\n}\n\nspan.cur_point.sleeper.horizontal span {\n  height: 80%;\n  width: 12%;\n}\n\nspan.cur_point.sleeper {\n  display: block;\n  width: 30px;\n  height: 65px;\n  border: 1px solid #ccc;\n  border-radius: 3px;\n  position: relative;\n  background-color: #fff;\n}\nspan.cur_point.sleeper span {\n  display: block;\n  width: 80%;\n  position: absolute;\n  border: 1px solid #ccc;\n  bottom: 5px;\n  left: 10%;\n  height: 9px;\n  border-radius: 2px;\n  border: 2px solid #6c8cb1;\n  background-color: #fff;\n}\nspan.cur_point.sleeper.gents {\n  background-color: #778bef;\n}\nspan.cur_point.sleeper.reserved {\n  background-color: #ddd;\n}\nspan.cur_point.sleeper.ladies {\n  background-color: #f58eb1;\n}\nspan.cur_point.sleeper.ladies-reserved {\n  background-color: #fbcb21;\n}\nspan.cur_point.sleeper.selected {\n  background-color: #52c328;\n}\nspan.cur_point.sleeper + span {\n  color: #000;\n}\nspan.cur_point.sleeper.selected + span {\n  color: #fff;\n}\n\n.ourbustheme span.cur_point.sleeper {\n  display: block;\n  width: 30px;\n  height: 88px !important;\n}\n\nspan.cur_point.seat {\n  display: block;\n  width: 30px;\n  height: 27px;\n  position: relative;\n  margin: 0px 5px 0px -1px;\n}\nspan.cur_point.seat + span {\n  color: #000;\n}\nspan.cur_point.seat span {\n  background-color: #fff;\n}\nspan.cur_point.seat span:nth-child(1) {\n  width: 82%;\n  display: block;\n  height: 100%;\n  border: 1px solid #bbb;\n  position: absolute;\n  left: 16%;\n  border-radius: 2px;\n}\nspan.cur_point.seat span:nth-child(2) {\n  display: block;\n  width: 6px;\n  height: 18px;\n  border: 1px solid #bbb;\n  border-radius: 20%;\n  position: absolute;\n  background-color: #fff;\n  right: 0px;\n  top: 7px;\n}\nspan.cur_point.seat span:nth-child(3) {\n  display: block;\n  width: 6px;\n  height: 17px;\n  border: 1px solid #bbb;\n  border-radius: 20%;\n  position: absolute;\n  left: 3px;\n  top: 7px;\n  background-color: #fff;\n}\nspan.cur_point.seat span:nth-child(4) {\n  display: block;\n  height: 7px;\n  width: 92%;\n  border: 1px solid #bbb;\n  border-radius: 20%;\n  position: absolute;\n  left: 9%;\n  background-color: #fff;\n  bottom: -4px;\n}\nspan.cur_point.seat.gents span {\n  background-color: #778bef;\n  border-color: #475b9f;\n}\nspan.cur_point.seat.reserved span {\n  background-color: #ddd;\n  border-color: #aaa;\n}\nspan.cur_point.seat.ladies span {\n  background-color: #f58eb1;\n  border-color: #b55e91;\n}\nspan.cur_point.seat.ladies-reserved span {\n  background-color: #fbcb21;\n  border-color: #bb9b01;\n}\nspan.cur_point.seat.selected span {\n  background-color: #52c328;\n  border-color: #329308;\n}\nspan.cur_point.seat.selected + span {\n  color: #fff;\n}\n\nion-slides {\n  height: auto;\n}\n\ntable img {\n  margin: 1px;\n}\ntable td,\ntable th {\n  position: relative;\n}\ntable td .seat-number,\ntable th .seat-number {\n  position: absolute;\n  top: 50%;\n  width: 100%;\n  text-align: center;\n  margin-top: -8px;\n  left: 0;\n}\ntable td .seat-number.berth,\ntable th .seat-number.berth {\n  margin-top: -8;\n}\n\n.seat-slides {\n  overflow-y: scroll;\n  height: 100vh;\n  overflow-x: hidden;\n  width: 94vw;\n  left: 3vw;\n  margin: 0 auto;\n  position: fixed;\n  top: 160px;\n}\n.seat-slides .gap {\n  height: 165px;\n}\n.seat-slides .gap.h80 {\n  height: 235px;\n}\n.seat-slides.no-seg {\n  top: 115px;\n}\n.seat-slides.no-seg .gap {\n  height: 115px;\n}\n.seat-slides.no-seg .gap.h80 {\n  height: 185px;\n}\n.seat-slides .steering-image {\n  text-align: right;\n  height: 40px;\n  margin: 0 auto;\n  padding: 0 5px;\n  max-width: 100%;\n}\n.seat-slides .steering-image img {\n  height: 90%;\n  width: auto;\n}\n.seat-slides ion-slide {\n  padding-top: 15px;\n  padding-bottom: 20px;\n}\n.seat-slides table {\n  margin: 0 auto;\n}\n.seat-slides table img {\n  width: 45px;\n}\n\n.content-ios .swiper-container {\n  overflow: visible;\n}\n.content-ios ion-slides {\n  height: auto;\n}\n.content-ios .seg-tabs {\n  padding: 7px;\n  background-color: #fff;\n}\n.content-ios .no-seg .seg-tabs {\n  padding: 0;\n}\n.content-ios .seat-slides {\n  top: 160px;\n}\n.content-ios .seat-slides .gap {\n  height: 163px;\n}\n.content-ios .seat-slides .gap.h80 {\n  height: 235px;\n}\n.content-ios .seat-slides.no-seg {\n  top: 115px;\n}\n.content-ios .seat-slides.no-seg .gap {\n  height: 118px;\n}\n.content-ios .seat-slides.no-seg .gap.h80 {\n  height: 180px;\n}\n.content-ios .seats-info.no-seg {\n  height: 52px;\n  border-bottom: 0.4px solid #ccc;\n}\n\n.content-md .seg-tabs {\n  padding: 5px 0;\n  background-color: #fff;\n}\n.content-md .no-seg .seg-tabs {\n  padding: 0;\n}\n.content-md .seats-info.no-seg {\n  height: 52px;\n  border-bottom: 0.4px solid #ccc;\n}\n.content-md .seat-slides {\n  top: 160px;\n}\n.content-md .seat-slides .gap {\n  height: 165px;\n}\n.content-md .seat-slides .gap.h80 {\n  height: 235px;\n}\n.content-md .seat-slides.no-seg {\n  top: 74px;\n}\n.content-md .seat-slides.no-seg .gap {\n  height: 150px;\n}\n.content-md .seat-slides.no-seg .gap.h80 {\n  height: 198px;\n}\n\n.swiper-slide {\n  align-items: flex-start;\n}\n.swiper-slide table {\n  margin: 0 auto;\n}\n.swiper-slide table img {\n  width: 38px;\n}\n\n.seats-info {\n  background-color: #f5f5f5;\n  position: fixed;\n  width: 100%;\n  height: 95px;\n  border-bottom: 0.4px solid #ccc;\n  z-index: 10;\n}\n.seats-info.no-seg {\n  height: 55px;\n}\n.seats-info .seat-info {\n  padding: 5px;\n}\n.seats-info img {\n  width: 15px;\n  height: auto;\n  margin: 0 3px 0 0;\n}\n.seats-info ion-col {\n  padding: 1px;\n}\n\n.bottom {\n  position: fixed;\n  display: flex;\n  width: 100vw;\n  height: 54px;\n  z-index: 10;\n  bottom: 0;\n  background: #ffffff;\n  font-size: 13px;\n  transition: all linear 0.24s;\n  flex-direction: row;\n  box-shadow: 5px 10px 10px 10px #888888;\n}\n.bottom .label {\n  display: block;\n  margin-bottom: 3px;\n}\n.bottom .seats {\n  width: 50%;\n}\n.bottom .seats .seat-lbl {\n  font-size: 13px;\n  color: #4a4a4a;\n  font-weight: bold;\n}\n.bottom .seats .seat-val {\n  margin: 0 0 0 5px;\n  font-size: 13px;\n  font-weight: bolder;\n  color: #4a4a4a;\n}\n.bottom .pay {\n  width: 25%;\n  height: 100%;\n  border: 1px solid var(--iconsAndButtonsColor);\n  background-color: var(--iconsAndButtonsColor);\n  font-size: 13px;\n  font-weight: bolder;\n  color: var(--primaryText);\n}\n.bottom .pay1 {\n  width: 25%;\n  height: 100%;\n  border: 1px solid var(--iconsAndButtonsColor);\n  background-color: var(--iconsAndButtonsColor);\n  font-size: 13px;\n  font-weight: bolder;\n  color: var(--viewBgColor);\n}\n.bottom .price {\n  font-size: 16px;\n  font-weight: bolder;\n  color: var(--iconsAndButtonsColor);\n}\n.bottom .fare-vl {\n  width: 25%;\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  margin-top: 1%;\n}\n.bottom .nt-txt {\n  font-size: 8px;\n}\n.bottom .seat-numbers {\n  height: 100%;\n  width: 50%;\n  display: block;\n}\n.bottom .amount {\n  height: 100%;\n  width: 50%;\n}\n.bottom .continue {\n  width: 15vw;\n  height: 15vw;\n  max-width: 45px;\n  max-height: 45px;\n  position: absolute;\n  bottom: 104%;\n  right: 12px;\n  border-radius: 50%;\n  transition: all linear 0.4s;\n  transition-delay: 0.2s;\n}\n.bottom .continue ion-icon {\n  color: #fff;\n  font-size: 4rem;\n  margin-left: 4px;\n}\n.bottom .continue.down {\n  width: 1vw;\n  height: 1vw;\n  bottom: -104%;\n}\n.bottom .continue.up {\n  width: 45px;\n  height: 45px;\n  bottom: 4%;\n}\n.bottom div {\n  padding: 2px 0;\n}\n.bottom .success {\n  color: #b8e986;\n}\n\n.seabird-seat-select {\n  color: black;\n  font-weight: bold;\n}\n\n.seabirdPay {\n  height: 42px;\n  width: 94%;\n  padding-bottom: 0px;\n  margin-left: 12px;\n  border-radius: 22px;\n  border: 1px solid var(--primaryText);\n  background-color: var(--primaryText);\n  font-size: 13px;\n  font-weight: bolder;\n  color: var(--iconsAndButtonsColor);\n  position: relative;\n  bottom: 2%;\n  text-transform: uppercase;\n}\n\n.bottom.down {\n  bottom: -100px;\n}\n\n.bottom.up {\n  bottom: 0;\n  z-index: 20;\n}\n\n.stages {\n  margin-top: 15px;\n}\n.stages .boarding-stage {\n  border: 0.4px solid #ddd;\n  font-size: 1.3rem;\n  box-shadow: 1px 1px 2px rgba(240, 86, 48, 0.31);\n}\n.stages .boarding-stage .value {\n  padding: 11px 0;\n  font-size: 15px;\n}\n.stages .value {\n  display: block;\n}\n.stages .error {\n  border-color: #f00 !important;\n}\n.stages .label {\n  width: 80px;\n}\n\n.no-service {\n  text-align: center;\n  display: flex;\n  align-items: center;\n  height: 100%;\n  margin-top: 0;\n}\n.no-service p {\n  text-align: center;\n  flex: 1;\n}\n\n.hd-ln-1 {\n  font-size: 14px;\n  font-weight: bold;\n  margin: 0 25px 0 0;\n}\n\n.hd-ln-2 {\n  font-size: 10px;\n  font-weight: normal;\n  line-height: 2;\n  text-align: center;\n  margin: 0 25px 0 0;\n}\n\n.seg-btn {\n  width: 196px;\n  margin: 16px 0 0;\n  border-radius: 4px;\n}\n.seg-btn ion-segment {\n  border: 1px solid #eaeaea;\n  border-radius: 4px;\n}\n.seg-btn ion-segment-button {\n  font-size: 12px;\n  font-weight: bold;\n  color: #9b9b9b;\n  min-height: 0px !important;\n  text-transform: capitalize;\n}\n.seg-btn ion-segment-button.segment-button-checked {\n  color: var(--primaryText);\n  font-weight: bolder;\n}\n\n.seaBird-seg-btn {\n  width: 350px;\n  height: 38px;\n  border-radius: 4px;\n}\n.seaBird-seg-btn ion-segment {\n  height: 38px;\n  border-radius: 4px;\n}\n.seaBird-seg-btn ion-segment-button {\n  font-size: 14px;\n  font-weight: bold;\n  color: var(--ion-text-color);\n  min-height: 0px !important;\n  text-transform: capitalize;\n}\n.seaBird-seg-btn ion-segment-button.segment-button-checked {\n  border-bottom: 2px solid var(--iconsAndButtonsColor);\n  font-weight: bolder;\n}\n\n.err-msg {\n  color: #ed3237;\n  font-weight: bolder;\n  margin-top: 70%;\n}\n\nion-bottom-drawer {\n  transition: all 0.25s ease-in-out 0s;\n  border-radius: 10px;\n  touch-action: none;\n  -webkit-user-select: none;\n          user-select: none;\n  -webkit-user-drag: none;\n  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);\n  transform: translateY(15px);\n}\n\n.btn-price-filter {\n  height: 24px;\n  width: auto;\n  min-width: 60px;\n  border-radius: 4px;\n  border: solid 1px #979797;\n  background-color: #ffffff;\n  font-size: 12px;\n  text-align: center;\n  margin: 18px 5px 0;\n  color: #4a4a4a;\n  padding: 5px 5px;\n}\n\n.btn-price-filter.select {\n  background-color: #4a4a4a !important;\n  font-weight: bolder !important;\n  color: #ffffff !important;\n}\n\n.seabird-btn-price-filter {\n  height: 24px;\n  width: auto;\n  min-width: 60px;\n  border-radius: 4px;\n  border: solid 1px #979797;\n  background: #DCEEFF;\n  font-size: 12px;\n  text-align: center;\n  margin: 0px 5px;\n  color: #4a4a4a;\n  padding: 5px 5px;\n}\n\n.seabird-btn-price-filter.select {\n  background: #F8D2D6 !important;\n  font-weight: bolder !important;\n  color: #000000 !important;\n}\n\n.info-btn-align {\n  position: absolute;\n  right: 5px;\n}\n\n.legend-box {\n  border-radius: 4px;\n  box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.14);\n  background-color: #ffffff !important;\n  opacity: 1 !important;\n}\n\n.whole {\n  position: fixed;\n  z-index: 50;\n  width: 100%;\n  padding: 25px;\n  height: 100%;\n  background: rgba(255, 255, 255, 0.6);\n}\n\n.info-btn-align-2 {\n  position: absolute;\n  right: 2%;\n  top: 4%;\n}\n\n.legend-close {\n  margin: 15px;\n  font-size: 30px;\n  margin: 3px 2px 2px;\n  color: white;\n  font-weight: bolder;\n}\n\n.bg-close {\n  display: block;\n  background: rgba(100, 100, 100, 0.5);\n  border-radius: 100px;\n  margin: 10px;\n}\n\n.legend-seat {\n  width: 32px;\n  height: 32px;\n  border-radius: 4px;\n  border: solid 1px #7e7e8c;\n  font-size: 10px;\n  font-weight: bold;\n  color: #4a4a4a;\n  margin: 5px;\n}\n\n.legend-txt {\n  font-size: 14px;\n  color: #4a4a4a;\n  margin: 5px;\n  text-align: center;\n  width: auto;\n}\n\n.opacity-filter {\n  opacity: 0.25;\n}\n\n.ion-toolbar {\n  background: #FFFFFF !important;\n}\n\n.setseatType {\n  padding: 6px 10px !important;\n  max-width: 175px;\n  color: #00498C;\n  /* font-family: Inter; */\n  font-size: 12px;\n  /* font-style: normal; */\n  font-weight: 500;\n  text-transform: capitalize;\n  text-align: center;\n}\n\n.setseatTypeExit {\n  padding: 6px 10px !important;\n  max-width: 175px;\n  color: #343434;\n  font-size: 12px;\n  font-weight: 500;\n  text-transform: capitalize;\n  text-align: center;\n}\n\n.themeone-seat-layout-text {\n  font-size: 18px;\n  font-style: normal;\n  font-weight: 700;\n  line-height: 26px;\n  color: #191966;\n}\n\n.themeone-seat-layout-text_2 {\n  font-size: 18px;\n  font-style: normal;\n  font-weight: 700;\n  line-height: 26px;\n  color: #000;\n}\n\n.shyamoli-themeone-seat-layout-text_2 {\n  font-size: 18px;\n  font-style: normal;\n  font-weight: 700;\n  line-height: 26px;\n  color: var(--placeholderColor);\n}\n\n.themeone-seat-segment {\n  width: -webkit-fill-available;\n}\n\n.themeone-btn-price-filter {\n  height: 24px;\n  width: auto;\n  min-width: 60px;\n  border-radius: 10px;\n  border: solid 1px #DFDFDF;\n  background-color: #ffffff;\n  font-size: 12px;\n  text-align: center;\n  margin: 18px 5px 0;\n  color: #191966;\n  padding: 5px 5px;\n  font-family: Roboto;\n  font-size: 12px;\n  font-style: normal;\n  font-weight: 600;\n  line-height: 22px; /* 183.333% */\n}\n\n.themeone-btn-price-filter.select {\n  background-color: #FFBD16 !important;\n  font-weight: bolder !important;\n  color: #333333 !important;\n}\n\n.themeone-btn-price-filter_2 {\n  height: 24px;\n  width: auto;\n  min-width: 60px;\n  border-radius: 10px;\n  border: solid 1px #DFDFDF;\n  background-color: #ffffff;\n  font-size: 12px;\n  text-align: center;\n  margin: 18px 5px 0;\n  color: #191966;\n  padding: 5px 5px;\n  font-family: Roboto;\n  font-size: 12px;\n  font-style: normal;\n  font-weight: 600;\n  line-height: 22px; /* 183.333% */\n}\n\n.themeone-btn-price-filter_2.select {\n  background-color: var(--materialUiColor) !important;\n  font-weight: bolder !important;\n  color: white !important;\n}\n\n.themeone-bottom {\n  position: fixed;\n  display: flex;\n  width: 100vw;\n  z-index: 10;\n  bottom: 0;\n  background: #191966;\n  font-size: 13px;\n  transition: all linear 0.24s;\n  flex-direction: row;\n  border-top-left-radius: 20px;\n  border-top-right-radius: 20px;\n}\n\n.shyamoli-bottom {\n  background: var(--iconsAndButtonsColor) !important; /* Override for Shyamoli theme full section */\n}\n\n.shyamoli-bottom .themeone-select-pickup-btn {\n  /* White pill-style Continue button on orange bar */\n  --background-activated: #FFFFFF !important;\n  color: #0e0e0e !important; /* brand orange text */\n  border: none; /* no extra border */\n  height: 30px; /* consistent tap area */\n  font-size: 16px; /* readable */\n  font-family: \"Gilroy-Bold\";\n}\n\n.themeone-bottom_2 {\n  position: fixed;\n  display: flex;\n  width: 100vw;\n  height: 95px;\n  z-index: 10;\n  bottom: 0;\n  background: var(--bottomBarColor);\n  font-size: 13px;\n  transition: all linear 0.24s;\n  flex-direction: row;\n  border-top-left-radius: 20px;\n  border-top-right-radius: 20px;\n}\n\n.themeone-seats {\n  width: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: flex-start;\n  margin-bottom: 2px;\n}\n.themeone-seats .themeone-seat-lbl {\n  font-size: 12px;\n  color: #000000;\n  font-weight: bold;\n}\n.themeone-seats .themeone-seat-val {\n  margin: 0 0 0 5px;\n  font-size: 12px;\n  font-weight: bolder;\n  color: #000000;\n}\n\n.themeone-totalvalue {\n  font-size: 16px;\n  color: #fff;\n  font-family: \"NotoSans\";\n  font-weight: bold;\n}\n\n.themeone-select-pickup-btn {\n  --background: #fff;\n  color: var(--primary) !important;\n  font-family: \"NotoSans\";\n  font-weight: bold;\n  font-size: 12px;\n  height: 30px;\n  width: 90px;\n}\n\n.themeone-viewbreakup {\n  color: #ffbd16;\n  font-size: 12px;\n  font-family: \"NotoSans\";\n  font-weight: bold;\n}\n\n.shyamoli-viewbreakup {\n  color: #000000; /* Text color black */\n  font-size: 12px;\n  font-weight: 600;\n  cursor: pointer;\n  background-color: var(--iconsAndButtonsColor); /* Orange background */\n  padding: 2px 6px;\n  border-radius: 4px;\n  margin-left: -4px;\n}\n\n.shyamoli-viewbreakup:hover {\n  opacity: 0.8;\n}\n\n.default-theme-viewBreakup {\n  color: var(--iconsAndButtonsColor);\n  font-size: 12px;\n  font-family: \"NotoSans\";\n  font-weight: bolder;\n}\n\n.default-theme-viewBreakup {\n  color: var(--iconsAndButtonsColor);\n  font-size: 12px;\n  font-family: \"NotoSans\";\n  font-weight: bolder;\n}\n\n.theme-1-center .segment-button-checked {\n  --indicator-color: #191966 !important;\n  --indicator-color-checked: #191966 !important;\n  color: #191966 !important;\n}\n\n.theme-1-center_2 .segment-button-checked {\n  --indicator-color: var(--bottomBarColor) !important;\n  --indicator-color-checked: var(--bottomBarColor) !important;\n  color: var(--bottomBarColor) !important;\n}\n\n.theme-1-segmentLabel {\n  font-size: 14px;\n  font-family: \"NotoSans\";\n  font-weight: bold;\n  text-transform: capitalize;\n}\n\n.themeone-seat-slide {\n  margin: 25px auto;\n  height: auto;\n  border-radius: 4px;\n  background-color: #ffffff;\n}\n.themeone-seat-slide .seat-card-bg {\n  padding: 57px 0 16px;\n  border-radius: 4px;\n  border: solid 1px #dddddd;\n  background-color: #ffffff;\n  width: auto;\n  height: auto;\n  min-width: 70%;\n  padding-left: 16px;\n}\n\n.themeone-legend-seat {\n  width: 32px;\n  height: 32px;\n  border-radius: 0px;\n  border: solid 1px #7e7e8c;\n  font-size: 10px;\n  font-weight: bold;\n  color: #4a4a4a;\n  margin: 5px;\n}\n\n.themeone-legend-txt {\n  font-size: 14px;\n  color: #4a4a4a;\n  margin: 5px;\n  text-align: center;\n  width: 200px;\n}\n\n.seabird_fare {\n  color: #00904B !important;\n  font-size: 12px;\n  font-weight: 700;\n}\n\n.seabird_fare_row {\n  border: 1px solid #626262;\n  border-radius: 10px;\n  background: white;\n  padding: 10px 5px;\n  margin-bottom: 12px;\n}\n\n.seabirdPayContainer {\n  padding-bottom: 20px;\n}\n\n.seabird_seatNum {\n  font-size: 12px;\n  font-weight: 700;\n}\n\n.ourbus-scroll-container {\n  width: 100%;\n  overflow-x: auto;\n  display: block;\n  margin-top: 12px;\n}\n\n.ourbus-scroll-content {\n  display: flex;\n  flex-wrap: nowrap;\n  width: max-content;\n  margin-top: 15px;\n}\n\n.ourbustheme ion-row {\n  display: flex;\n  flex-wrap: nowrap;\n}\n\n.ourbus-seat-col {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  text-align: center;\n  margin-right: 10px;\n}\n\n.ourbus-legend-seat {\n  width: 25px;\n  height: 25px;\n  border-radius: 5px;\n  margin-bottom: 5px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border: 1px solid black;\n}\n\n.ourbus-legend-txt {\n  font-size: 12px;\n}\n\n.ourbus_btn {\n  height: 50px;\n  box-shadow: none;\n  --border-radius: 8px;\n  font-size: 18px;\n  font-weight: 700;\n  --background:var(--iconsAndButtonsColor);\n  --color:var(--primaryText);\n  --background-activated: var(--iconsAndButtonsColor) !important;\n}\n\n.ourbus-hd-ln {\n  display: flex;\n  align-items: center;\n  font-size: 12px;\n  color: #747474;\n  margin-top: 5px;\n  margin-left: 10px;\n}\n\n.ourbus-inline-icon {\n  width: 15px;\n  height: 15px;\n  margin: 0 5px;\n  vertical-align: middle;\n}\n\n.singleview_layout #mySlider {\n  width: 94% !important;\n}\n.singleview_layout #lower {\n  width: 57% !important;\n  margin: 25px 0px;\n}\n.singleview_layout #upper {\n  width: 57% !important;\n  margin: 25px 0px;\n}\n\n.lower_icon {\n  width: 32px;\n  height: 28px;\n  top: 23px;\n  filter: invert(46%) sepia(6%) saturate(12%) hue-rotate(324deg) brightness(98%) contrast(84%);\n}\n\n.upper_icon {\n  width: 32px;\n  height: 28px;\n  top: 23px;\n  filter: invert(46%) sepia(6%) saturate(12%) hue-rotate(324deg) brightness(98%) contrast(84%);\n  visibility: hidden;\n}\n\n.our-bus-svg-text {\n  position: absolute;\n  top: 60%;\n  left: 60%;\n  transform: translate(-50%, -50%);\n  width: 90%;\n  text-align: center;\n  white-space: normal;\n  word-wrap: break-word;\n  font-size: 10px;\n  color: #000;\n}\n\n.our-bus-svg-text-slepper {\n  position: absolute;\n  top: 60%;\n  left: 55%;\n  transform: translate(-50%, -50%);\n  width: 90%;\n  text-align: center;\n  white-space: normal;\n  word-wrap: break-word;\n  font-size: 10px;\n  color: #000;\n}\n\n.ourbustheme .horizontal {\n  transform: rotate(270deg);\n  margin-top: 0px;\n  margin-left: -20px;\n}\n.ourbustheme .horizontal .our-bus-svg-text {\n  transform: rotate(45deg);\n  margin-top: 0px;\n  margin-left: -12px;\n}\n\n.drawer-header {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 8px 0;\n}\n\n.pull-icon {\n  font-size: 24px;\n  color: #666; /* Adjust color as needed */\n}\n\n.seat_text {\n  text-transform: uppercase;\n  color: #747474;\n}\n\nion-segment-button {\n  --indicator-color: var(--iconsAndButtonsColor) !important;\n  --indicator-color-checked: transparent !important;\n}\n\n.seat_icons {\n  height: 30px;\n  padding: 4px 2px 0px 4px;\n  width: 32px;\n}\n\n.hide-scrollbar {\n  /* Hide scrollbar for IE, Edge and Firefox */\n  -ms-overflow-style: none; /* IE and Edge */\n  scrollbar-width: none; /* Firefox */\n  justify-content: flex-start !important;\n  padding-right: 30px; /* Extra margin on right for scroll area */\n}\n\n.hide-scrollbar::-webkit-scrollbar {\n  display: none;\n}\n\n.shyaoli-seat-layout-header {\n  box-shadow: none !important;\n  padding-top: var(--ion-safe-area-top, 0px);\n}\n.shyaoli-seat-layout-header .themeone-seat-layout-header .themeone-seat-layout-text_2 {\n  font-size: 18px;\n  font-style: normal;\n  font-weight: 700;\n  line-height: 26px;\n  color: #000;\n}\n.shyaoli-seat-layout-header .shyamoli-seat-segment .themeone-seat-segment {\n  width: -webkit-fill-available;\n}\n.shyaoli-seat-layout-header .shyamoli-seat-segment .theme-1-center_2 .segment-button-checked {\n  --indicator-color: var(--iconsAndButtonsColor) !important;\n  color: #333333 !important;\n  --indicator-color-checked: var(--iconsAndButtonsColor) !important;\n}\n.shyaoli-seat-layout-header .shyamoli-seat-segment .theme-1-center_2 .theme-1-segmentLabel {\n  font-size: 14px;\n  font-family: \"NotoSans\";\n  font-weight: bold;\n  text-transform: capitalize;\n}\n\n.shyamoli-seat-layout-content .themeone-btn-price-filter_2 {\n  height: 24px;\n  width: auto;\n  min-width: 60px;\n  border-radius: 10px;\n  border: solid 1px #DFDFDF;\n  background-color: #ffffff;\n  font-size: 12px;\n  text-align: center;\n  margin: 18px 5px 0;\n  color: #191966;\n  padding: 5px 5px;\n  font-family: Roboto;\n  font-size: 12px;\n  font-style: normal;\n  font-weight: 600;\n  line-height: 22px; /* 183.333% */\n}\n.shyamoli-seat-layout-content .themeone-btn-price-filter_2.select {\n  background-color: #000000 !important;\n  font-weight: bolder !important;\n  color: white !important;\n}\n\n.seat-select-footer {\n  align-items: center !important;\n  height: auto !important;\n}\n\n.themeone-btn-price-filter_2_shyamoli {\n  height: 24px;\n  width: auto;\n  min-width: 60px;\n  border-radius: 10px;\n  border: solid 1px #DFDFDF;\n  background-color: #ffffff;\n  font-size: 12px;\n  text-align: center;\n  margin: 18px 5px 0;\n  color: #191966;\n  padding: 5px 5px;\n  font-family: Roboto;\n  font-size: 12px;\n  font-style: normal;\n  font-weight: 600;\n  line-height: 22px; /* 183.333% */\n}\n\n.themeone-btn-price-filter_2_shyamoli.select {\n  background-color: #000000 !important;\n  font-weight: bolder !important;\n  color: white !important;\n}\n\n.discounted-fare-original {\n  display: block;\n  text-decoration: line-through;\n  font-size: 14px;\n  margin-left: 2px;\n  color: #7e7e8c;\n}\n\n.discounted-fare-value {\n  display: block;\n  margin-left: 2px;\n}"],
   encapsulation: 2
 });
 

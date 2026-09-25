@@ -16046,7 +16046,7 @@ class AppData {
     this.isANDROID = false; // For making android build change <base href="./"> to <base href="/"> otherwise keep it <base href="/"> in index.html page
     this.isWEBAPP = true; // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
     //Mobile web or IOS version can change from here
-    this.mobileWebVersion = "21.09.26"; // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
+    this.mobileWebVersion = "25.09.26"; // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
     this.iosVersion = "19.9";
     this.androidVersion = "26.2";
     this.IsVideoSplash = false; // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
@@ -16061,9 +16061,9 @@ class AppData {
     //cbus theme paybitla
     // this.BASE_URL = "https://kvt-qa2.ticketsimply.co.in/";
     // this.BASE_URL = "https://lxmi.ticketsimply.co.in/";
-    // this.BASE_URL = "https://btb-qa1.ticketsimply.co.in/";
-    // this.BASE_URL = "https://mst-mob.ticketsimply.co.in/"
     this.BASE_URL = "https://jpsb-qa1.ticketsimply.co.in/";
+    // this.BASE_URL = "https://mst-mob.ticketsimply.co.in/"
+    //  this.BASE_URL = "https://cbus.charteredbus.in/"
     // this.BASE_URL = "https://www.tsrtconline.site/";
     // this.BASE_URL = "https://sppl-mob.ticketsimply.co.in/"; // cbus theme
     // this.BASE_URL = "https://rylr-mob.ticketsimply.co.in/"; // cbus theme
@@ -17857,6 +17857,7 @@ class GlobalDataService {
       boardingStage: null,
       droppingStage: null,
       totalBookingAmount: 0,
+      totalBookingAmountAfterDiscount: 0,
       inclTransactionChargesAmount: null,
       inclGSTAmount: null,
       netBookingAmount: null,
